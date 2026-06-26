@@ -1,8 +1,6 @@
 {
   "build": {
-    "builder": "NIXPACKS"
-  },
-  "deploy": {
-    "startCommand": "bash -c 'cd backend && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT'"
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "backend/Dockerfile"
   }
 }
