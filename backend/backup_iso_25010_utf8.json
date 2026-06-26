@@ -1,0 +1,3749 @@
+[
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Operadores de Datos",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$AZR9UCijoGGir9KmfAC8c3$e23MSbe15tbfoFQ/2I7CmLpVoILfOzyeJLgUry8YWs4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "operador",
+    "first_name": "",
+    "last_name": "",
+    "email": "operador@test.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-18T20:58:00.257Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ueNQqzZhiNSStCtpYEr7eh$mSVOHPtjTAdJmQzscHULU37adRQHQISwtBsrVfMJaPY=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@test.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-18T20:58:00.498Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$lzWLGCqyYe1ISIb1ZSXFkm$IfuyCwQSAh7jUyDziEqidStHCFDJRI/carKmGudf+Hw=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "nelson",
+    "first_name": "",
+    "last_name": "",
+    "email": "nelson7@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-25T01:01:50.510Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 1,
+  "fields": {
+    "nombre": "Daniel",
+    "correo": "daniel@gmail.com",
+    "password": "pbkdf2_sha256$1200000$bBklxIO47yKuWGnsq6Wekq$ERo0Lndh9JMTZwlBzHJ/2KG7MIh/0NafCtocUG+avwo=",
+    "carnet": "0000000",
+    "rol": "Administrador",
+    "is_active": true
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 2,
+  "fields": {
+    "nombre": "Operador",
+    "correo": "operador@test.com",
+    "password": "pbkdf2_sha256$1200000$DXQFSYCJOiUbQXJYd56eKZ$ig2PJmOw6df637fBpolLgUSOJqaXGcfm6QkoW/r17RA=",
+    "carnet": "1234567",
+    "rol": "Operador",
+    "is_active": true
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 5,
+  "fields": {
+    "nombre": "Jose Armando Viscarra Aguila",
+    "correo": "223094420@estudiantes.fivc.edu.bo",
+    "password": "pbkdf2_sha256$1200000$UiSDNWtulLsHMXyRbViQUt$vDf60yZT1q1h9RNHYNnvNjcjtmz/bhYq8k9jP6OVmPQ=",
+    "carnet": "12418657",
+    "rol": "Estudiante",
+    "is_active": true
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 6,
+  "fields": {
+    "nombre": "Jose Armando",
+    "correo": "operador@gmail.com",
+    "password": "pbkdf2_sha256$1200000$mt10WCtwGXBXNKf2aY8nXp$1ncVhSlPb8MHkkdB5prTaa1VZVmt3eYGt7XvtrRhwNM=",
+    "carnet": "12418658",
+    "rol": "Operador",
+    "is_active": true
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 7,
+  "fields": {
+    "nombre": "cristian",
+    "correo": "223093459@estudiantes.fivc.edu.bo",
+    "password": "pbkdf2_sha256$1200000$E0ChNRaHHU6GLuJBxZJTh5$bTmDFMDUryyJEwhWdCrDybgJ2qGEdl7JNjBDRi82WUQ=",
+    "carnet": "12418656",
+    "rol": "Estudiante",
+    "is_active": true
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 8,
+  "fields": {
+    "nombre": "cristofer",
+    "correo": "223093475@estudiantes.fivc.edu.bo",
+    "password": "pbkdf2_sha256$1200000$CFY2vw8wLoJ7qhSKgSMwTv$vTJhuja9XuxHj3G+C9CPm3fJ7In1ggHZ1+otCw2ozkg=",
+    "carnet": "13955184",
+    "rol": "Estudiante",
+    "is_active": true
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 9,
+  "fields": {
+    "nombre": "Cristofer",
+    "correo": "cris22@gmail.com",
+    "password": "pbkdf2_sha256$1200000$2LHuj4bEwGs8Ql96jqyW3f$G12kTLhk9IdWArPwfTWRYeo9Sm2nuMBlMV+jorc6lfg=",
+    "carnet": "67853712",
+    "rol": "Operador",
+    "is_active": true
+  }
+},
+{
+  "model": "core.estudiante",
+  "pk": 2,
+  "fields": {
+    "usuario": 5,
+    "registro": "223094420",
+    "carrera": 1,
+    "avance_academico": "6%",
+    "malla_intuitiva": false
+  }
+},
+{
+  "model": "core.estudiante",
+  "pk": 3,
+  "fields": {
+    "usuario": 7,
+    "registro": "223093459",
+    "carrera": 2,
+    "avance_academico": "4%",
+    "malla_intuitiva": false
+  }
+},
+{
+  "model": "core.estudiante",
+  "pk": 4,
+  "fields": {
+    "usuario": 8,
+    "registro": "223093475",
+    "carrera": 3,
+    "avance_academico": "0%",
+    "malla_intuitiva": false
+  }
+},
+{
+  "model": "core.simulacion",
+  "pk": 2,
+  "fields": {
+    "estudiante": 2,
+    "nombre_escenario": "Plan B",
+    "fecha_creacion": "2026-06-19T19:23:44.087Z"
+  }
+},
+{
+  "model": "core.detallesimulacion",
+  "pk": 14,
+  "fields": {
+    "simulacion": 2,
+    "grupo_materia": 1,
+    "alerta_color": "Ninguna"
+  }
+},
+{
+  "model": "core.detallesimulacion",
+  "pk": 15,
+  "fields": {
+    "simulacion": 2,
+    "grupo_materia": 2,
+    "alerta_color": "Ninguna"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 1,
+  "fields": {
+    "estudiante": 2,
+    "materia": 2,
+    "gestion": "1-2026",
+    "nota": "100.00",
+    "estado": "Aprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 3,
+  "fields": {
+    "estudiante": 2,
+    "materia": 3,
+    "gestion": "1-2026",
+    "nota": "51.00",
+    "estado": "Aprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 4,
+  "fields": {
+    "estudiante": 2,
+    "materia": 1,
+    "gestion": "1-2026",
+    "nota": "30.00",
+    "estado": "Reprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 5,
+  "fields": {
+    "estudiante": 2,
+    "materia": 4,
+    "gestion": "1-2026",
+    "nota": "10.00",
+    "estado": "Reprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 6,
+  "fields": {
+    "estudiante": 2,
+    "materia": 11,
+    "gestion": "1-2026",
+    "nota": "90.00",
+    "estado": "Aprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 7,
+  "fields": {
+    "estudiante": 2,
+    "materia": 7,
+    "gestion": "1-2026",
+    "nota": "30.00",
+    "estado": "Reprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 8,
+  "fields": {
+    "estudiante": 2,
+    "materia": 13,
+    "gestion": "1-2026",
+    "nota": "40.00",
+    "estado": "Reprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 9,
+  "fields": {
+    "estudiante": 3,
+    "materia": 14,
+    "gestion": "1-2026",
+    "nota": "75.00",
+    "estado": "Aprobada"
+  }
+},
+{
+  "model": "core.historialacademico",
+  "pk": 10,
+  "fields": {
+    "estudiante": 3,
+    "materia": 55,
+    "gestion": "1-2026",
+    "nota": "66.00",
+    "estado": "Aprobada"
+  }
+},
+{
+  "model": "core.noticia",
+  "pk": 2,
+  "fields": {
+    "titulo": "Noticia de prueba",
+    "extracto": "Esto es una noticia de prueba",
+    "contenido": "Esto es el contenido de prueba: 12345678910",
+    "categoria": "AcadÚmico",
+    "color_categoria": "blue",
+    "imagen_url": "https://tse4.mm.bing.net/th/id/OIP.XjT-8X2ciIADNNO8Lcyt2QHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "fecha_publicacion": "2026-06-24T01:36:24.043Z"
+  }
+},
+{
+  "model": "administrador.carrera",
+  "pk": 1,
+  "fields": {
+    "nombre_carrera": "IngenierÝa de Sistemas",
+    "sigla_carrera": "187-04"
+  }
+},
+{
+  "model": "administrador.carrera",
+  "pk": 2,
+  "fields": {
+    "nombre_carrera": "Contaduria P·blica",
+    "sigla_carrera": "105-05"
+  }
+},
+{
+  "model": "administrador.carrera",
+  "pk": 3,
+  "fields": {
+    "nombre_carrera": "IngenierÝa Agropecuaria",
+    "sigla_carrera": "401-03"
+  }
+},
+{
+  "model": "administrador.carrera",
+  "pk": 4,
+  "fields": {
+    "nombre_carrera": "Industrializaci¾n de Alimentos",
+    "sigla_carrera": "168-0"
+  }
+},
+{
+  "model": "administrador.docente",
+  "pk": 1,
+  "fields": {
+    "codigo_docente": "DOC-001",
+    "nombre_docente": "Lic. Ramiro Lim¥n Escobar"
+  }
+},
+{
+  "model": "administrador.docente",
+  "pk": 2,
+  "fields": {
+    "codigo_docente": "DOC-002",
+    "nombre_docente": "Lic. Pedro Prado Villaroel"
+  }
+},
+{
+  "model": "administrador.docente",
+  "pk": 3,
+  "fields": {
+    "codigo_docente": "DOC-003",
+    "nombre_docente": "Lic. Alain Pati▒o Cruz"
+  }
+},
+{
+  "model": "administrador.docente",
+  "pk": 4,
+  "fields": {
+    "codigo_docente": "DOC-004",
+    "nombre_docente": "Lic. Hilda Vargas Farell"
+  }
+},
+{
+  "model": "administrador.docente",
+  "pk": 5,
+  "fields": {
+    "codigo_docente": "DOC-005",
+    "nombre_docente": "Lic. Jammel Burgoa"
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 2,
+  "fields": {
+    "nombre_aula": "1",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 3,
+  "fields": {
+    "nombre_aula": "2",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 4,
+  "fields": {
+    "nombre_aula": "3",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 5,
+  "fields": {
+    "nombre_aula": "4",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 6,
+  "fields": {
+    "nombre_aula": "5",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 7,
+  "fields": {
+    "nombre_aula": "6",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 8,
+  "fields": {
+    "nombre_aula": "7",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 9,
+  "fields": {
+    "nombre_aula": "8",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 10,
+  "fields": {
+    "nombre_aula": "9",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 11,
+  "fields": {
+    "nombre_aula": "10",
+    "capacidad_maxima": 50
+  }
+},
+{
+  "model": "administrador.aula",
+  "pk": 12,
+  "fields": {
+    "nombre_aula": "11",
+    "capacidad_maxima": 40
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 1,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Calculo I",
+    "sigla_materia": "MAT-101",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Modalidades de ingresos a las unidades provinciales"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 2,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "FÝsica I",
+    "sigla_materia": "FIS-100",
+    "credito_materia": 6,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Modalidades de ingresos a las unidades provinciales"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 3,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Introducci¾n A La Informßtica",
+    "sigla_materia": "INF-110",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Modalidades de ingresos a las unidades provinciales"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 4,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Estructuras Discretas",
+    "sigla_materia": "INF-119",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Modalidades de ingresos a las unidades provinciales"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 5,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Calculo II",
+    "sigla_materia": "MAT-102",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-101"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 6,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "FÝsica II",
+    "sigla_materia": "FIS-102",
+    "credito_materia": 6,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "FIS-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 7,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Programaci¾n I",
+    "sigla_materia": "INF-120",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-110"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 8,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Ecuaciones Diferenciales",
+    "sigla_materia": "MAT-207",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-102"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 9,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Programaci¾n II",
+    "sigla_materia": "INF-210",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-103, INF-120"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 10,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Estructura De Datos I",
+    "sigla_materia": "INF-220",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-101, INF-210"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 11,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Ingles TÚcnico I",
+    "sigla_materia": "LIN-100",
+    "credito_materia": 4,
+    "periodo_materia": "1",
+    "ht": 3,
+    "hp": 3,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Modalidades de ingresos a las unidades provinciales"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 12,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Ingles TÚcnico II",
+    "sigla_materia": "LIN-101",
+    "credito_materia": 4,
+    "periodo_materia": "2",
+    "ht": 3,
+    "hp": 3,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "LIN-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 13,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Algebra Lineal",
+    "sigla_materia": "MAT-103",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-119"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 14,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Administraci¾n General",
+    "sigla_materia": "ADM-100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MODALIDADES DE INGRESO A LAS UNIDADES PROVINCIALES"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 15,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "FÝsica III",
+    "sigla_materia": "FIS-200",
+    "credito_materia": 6,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "FIS-102"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 16,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Arquitectura De Computadoras",
+    "sigla_materia": "INF-211",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-120, FIS-102"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 17,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Contabilidad",
+    "sigla_materia": "ADM-200",
+    "credito_materia": 4,
+    "periodo_materia": "4",
+    "ht": 3,
+    "hp": 3,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ADM-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 18,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Programaci¾n Ensamblador",
+    "sigla_materia": "INF-221",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-211"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 19,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Probabilidades Y EstadÝstica I",
+    "sigla_materia": "MAT-202",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-102"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 20,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "MÚtodos NumÚricos",
+    "sigla_materia": "MAT-205",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-207"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 21,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Organizaci¾n Y MÚtodos",
+    "sigla_materia": "ADM-330",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ADM-200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 22,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "EconomÝa Para La Gesti¾n",
+    "sigla_materia": "ECO-300",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 23,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Estructura De Datos II",
+    "sigla_materia": "INF-310",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-220"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 24,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Bases De Datos I",
+    "sigla_materia": "INF-312",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-220"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 25,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Probabilidades Y EstadÝstica II",
+    "sigla_materia": "MAT-302",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-202"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 26,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Electiva I: Costos Y Presupuesto",
+    "sigla_materia": "ELC-002",
+    "credito_materia": 3,
+    "periodo_materia": "5",
+    "ht": 2,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 27,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Finanzas Para Las Empresas",
+    "sigla_materia": "ADM-320",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ADM-330"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 28,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Bases De Datos II",
+    "sigla_materia": "INF-322",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-312"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 29,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Sistemas Operativos I",
+    "sigla_materia": "INF-323",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-310"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 30,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Sistemas De Informaci¾n I",
+    "sigla_materia": "INF-342",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-312"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 31,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Investigaci¾n Operativa I",
+    "sigla_materia": "MAT-329",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-302"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 32,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Electiva II: Producci¾n Y Marketing",
+    "sigla_materia": "ELC-003",
+    "credito_materia": 3,
+    "periodo_materia": "6",
+    "ht": 2,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 33,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Sistemas Para El Sop. A La Toma De Decisiones",
+    "sigla_materia": "INF-432",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-342, INF-322"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 34,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Sistemas Operativos II",
+    "sigla_materia": "INF-413",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-323"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 35,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Sistemas De Informaci¾n II",
+    "sigla_materia": "INF-412",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-342, INF-322"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 36,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Investigaci¾n Operativa II",
+    "sigla_materia": "MAT-419",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-329"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 37,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Redes I",
+    "sigla_materia": "INF-433",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "INF-323"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 38,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Electiva III: Benchmarking",
+    "sigla_materia": "ELC-006",
+    "credito_materia": 3,
+    "periodo_materia": "7",
+    "ht": 2,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 39,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Redes II",
+    "sigla_materia": "INF-423",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 40,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "IngenierÝa De Software I",
+    "sigla_materia": "INF-422",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 41,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Sistema De Informaci¾n Geogrßfica",
+    "sigla_materia": "INF-442",
+    "credito_materia": 4,
+    "periodo_materia": "8",
+    "ht": 3,
+    "hp": 3,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 42,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Prep. Y Evaluaci¾n De Proyectos",
+    "sigla_materia": "ECO-449",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 43,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Auditoria Informßtica",
+    "sigla_materia": "INF-462",
+    "credito_materia": 4,
+    "periodo_materia": "8",
+    "ht": 3,
+    "hp": 3,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 44,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Electiva IV: Intr. A La MacroeconomÝa",
+    "sigla_materia": "ELC-007",
+    "credito_materia": 3,
+    "periodo_materia": "8",
+    "ht": 2,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 45,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Taller De Grado I",
+    "sigla_materia": "INF-511",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Todas las materias del 8vo semestre |[SPAN:4]|"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 46,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "IngenierÝa De Software II",
+    "sigla_materia": "INF-512",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Todas las del 8vo. semestre |[SPAN:2]|"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 47,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "TecnologÝa Web",
+    "sigla_materia": "INF-513",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 48,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Arquitectura De Software",
+    "sigla_materia": "INF-552",
+    "credito_materia": 4,
+    "periodo_materia": "9",
+    "ht": 3,
+    "hp": 3,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 49,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Taller De Grado II",
+    "sigla_materia": "INF-521",
+    "credito_materia": 5,
+    "periodo_materia": "10",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "Todas las materias del 9no semestre"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 50,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad I",
+    "sigla_materia": "CPA-100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 51,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad Tributaria",
+    "sigla_materia": "CPA-110",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 52,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Introducci¾n A La EconomÝa",
+    "sigla_materia": "ECO-100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 53,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Calculo I",
+    "sigla_materia": "MAT-100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 54,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Informßtica Aplicada I",
+    "sigla_materia": "COM-150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 55,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad II",
+    "sigla_materia": "CPA-150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 56,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "TeorÝa De Los Precios I",
+    "sigla_materia": "ECO-150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ECO-100, MAT-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 57,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "MetodologÝa De La Investigaci¾n",
+    "sigla_materia": "INV-150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ECO-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 58,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Calculo II",
+    "sigla_materia": "MAT-150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 59,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Informßtica Aplicada II",
+    "sigla_materia": "COM-200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 60,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad III",
+    "sigla_materia": "CPA-200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 61,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "TeorÝa De Valores",
+    "sigla_materia": "CSC-200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ECO-150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 62,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "TeorÝa De Los Precios II",
+    "sigla_materia": "ECO-200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-150, ECO-150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 63,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "EstadÝstica I",
+    "sigla_materia": "MAT-200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 64,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad IV Sociedades",
+    "sigla_materia": "CPA-250",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 65,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Costos I",
+    "sigla_materia": "CPA-260",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 66,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "MacroeconomÝa",
+    "sigla_materia": "ECO-250",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ECO-200, MAT-200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 67,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Matemßtica Financiera I",
+    "sigla_materia": "MAT-250",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 68,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "EstadÝstica II",
+    "sigla_materia": "MAT-260",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 69,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Derecho Comercial Y Laboral",
+    "sigla_materia": "CJS-300",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 70,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad Agropecuaria",
+    "sigla_materia": "CPA-300",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-260"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 71,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Costos II",
+    "sigla_materia": "CPA-310",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-260"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 72,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad Especiales I",
+    "sigla_materia": "CPA-320",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-250"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 73,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Matemßtica Financiera II",
+    "sigla_materia": "MAT-300",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT-250"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 74,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Administraci¾n Publica",
+    "sigla_materia": "ADM-350",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ADM-100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 75,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Presupuesto Y Control",
+    "sigla_materia": "CPA-350",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-320"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 76,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Laboratorio Profesional I",
+    "sigla_materia": "CPA-360",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-250"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 77,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Anßlisis E Interpret. De Estados Financ.",
+    "sigla_materia": "CPA-370",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-250"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 78,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad Especiales II",
+    "sigla_materia": "CPA-380",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-310"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 79,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Auditoria I",
+    "sigla_materia": "CPA-400",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-360"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 80,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Contabilidad Gubernamental",
+    "sigla_materia": "CPA-410",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-350"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 81,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Finanzas I",
+    "sigla_materia": "FIN-400",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-370"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 82,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Investigaci¾n Operativa",
+    "sigla_materia": "MAT-400",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 83,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Sistema De Informaci¾n",
+    "sigla_materia": "SIF-400",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 84,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Auditoria Gubernamental",
+    "sigla_materia": "CPA-450",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-400, CPA-410"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 85,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Auditoria II",
+    "sigla_materia": "CPA-460",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-400"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 86,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Laboratorio Profesional II",
+    "sigla_materia": "CPA-470",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-360"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 87,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Preparaci¾n Y Evaluaci¾n De Proyecto",
+    "sigla_materia": "ECO-400",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ECO-250"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 88,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Finanzas II",
+    "sigla_materia": "FIN-450",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "FIN-400"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 89,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Auditoria Impositiva",
+    "sigla_materia": "CPA-500",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-460"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 90,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "AuditorÝa Y Control De Sistema",
+    "sigla_materia": "CPA-510",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "SIF-400, CPA-460"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 91,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Auditoria Forense",
+    "sigla_materia": "CPA-520",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-460"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 92,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Auditoria Operativa",
+    "sigla_materia": "CPA-530",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-460"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 93,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Auditoria Ecol¾gica Y Ambiental",
+    "sigla_materia": "CPA-540",
+    "credito_materia": 5,
+    "periodo_materia": "9",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CPA-460"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 94,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Tesis De Grado",
+    "sigla_materia": "CPA-550",
+    "credito_materia": 8,
+    "periodo_materia": "10",
+    "ht": 4,
+    "hp": 8,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "TODAS LAS MATERIAS HASTA EL SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 95,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Proyecto De Grado",
+    "sigla_materia": "CPA-551",
+    "credito_materia": 8,
+    "periodo_materia": "10",
+    "ht": 4,
+    "hp": 8,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "TODAS LAS MATERIAS HASTA EL SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 96,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Examen De Grado",
+    "sigla_materia": "CPA-552",
+    "credito_materia": 8,
+    "periodo_materia": "10",
+    "ht": 4,
+    "hp": 8,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "TODAS LAS MATERIAS HASTA EL SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 97,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Internado Rotatorio",
+    "sigla_materia": "CPA-553",
+    "credito_materia": 8,
+    "periodo_materia": "10",
+    "ht": 4,
+    "hp": 8,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "TODAS LAS MATERIAS HASTA EL SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 98,
+  "fields": {
+    "carrera": 2,
+    "nombre_materia": "Trabajo Dirigido",
+    "sigla_materia": "CPA-554",
+    "credito_materia": 8,
+    "periodo_materia": "10",
+    "ht": 4,
+    "hp": 8,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "TODAS LAS MATERIAS HASTA EL SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 99,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Graduaci¾n Directa",
+    "sigla_materia": "GDI-001",
+    "credito_materia": 0,
+    "periodo_materia": "9",
+    "ht": 0,
+    "hp": 0,
+    "es_electiva": false,
+    "tipo_materia": "Modalidad Grado",
+    "requisito_texto": "TODAS LAS MATERIAS HASTA EL NOVENO SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 100,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Modalidad De Graduaci¾n",
+    "sigla_materia": "GRL-001",
+    "credito_materia": 0,
+    "periodo_materia": "9",
+    "ht": 0,
+    "hp": 0,
+    "es_electiva": false,
+    "tipo_materia": "Modalidad Grado",
+    "requisito_texto": "TODAS LAS DEL NOVENO SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 101,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Matemßticas",
+    "sigla_materia": "BIN-101",
+    "credito_materia": 6,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MODALIDADES DE INGRESO A LAS UNIDADES PROVINCIALES"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 102,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "QuÝmica General",
+    "sigla_materia": "BIN-102",
+    "credito_materia": 6,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 103,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "TÚcnicas De Estudio Y Redacci¾n",
+    "sigla_materia": "COM-103",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 104,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Botßnica General Y Sistemßtica",
+    "sigla_materia": "BIN-104",
+    "credito_materia": 6,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 105,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "BiologÝa",
+    "sigla_materia": "BIN-105",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 106,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "EcologÝa Y AgroclimatologÝa",
+    "sigla_materia": "COM-106",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 107,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Ext. Agropecuaria Y SociologÝa",
+    "sigla_materia": "COM-107",
+    "credito_materia": 4,
+    "periodo_materia": "2",
+    "ht": 2,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-103"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 108,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Olericultura Y Floricultura",
+    "sigla_materia": "APL-108",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-104"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 109,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "AnatomÝa Y FisiologÝa Animal",
+    "sigla_materia": "BES-109",
+    "credito_materia": 6,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-105"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 110,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Forrajes Y Manejo De Praderas",
+    "sigla_materia": "APL-110",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-106"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 111,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Mecanizaci¾n AgrÝcola",
+    "sigla_materia": "APL-111",
+    "credito_materia": 6,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-106"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 112,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "EdafologÝa Y Cons. Suelos",
+    "sigla_materia": "APL-112",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-106"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 113,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "FarmacologÝa I",
+    "sigla_materia": "APL-201",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-102"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 114,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "MicrobiologÝa",
+    "sigla_materia": "BES-202",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-105"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 115,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Sanidad Animal",
+    "sigla_materia": "APL-203",
+    "credito_materia": 6,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-105"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 116,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "EntomologÝa",
+    "sigla_materia": "BES-204",
+    "credito_materia": 6,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-106"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 117,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Produc. De Especies Menores",
+    "sigla_materia": "APL-205",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-105"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 118,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "GenÚtica",
+    "sigla_materia": "BES-206",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-101"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 119,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Fruticultura",
+    "sigla_materia": "APL-207",
+    "credito_materia": 6,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-112"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 120,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Producci¾n Cerdos",
+    "sigla_materia": "APL-208",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BES-109"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 121,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Producci¾n De Aves",
+    "sigla_materia": "APL-209",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-105"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 122,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Riegos Y Drenajes",
+    "sigla_materia": "APL-210",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-111; APL-112"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 123,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "FitopatologÝa",
+    "sigla_materia": "BES-211",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-104; APL-112"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 124,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Transformacion Y Conservacion De Alimentos Lßcteos",
+    "sigla_materia": "COM-212",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BES-202"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 125,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Transformaci¾n Y Conservaci¾n De Frutas Y Hortalizas",
+    "sigla_materia": "COM-213",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BES-202"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 126,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Vitivinicultura",
+    "sigla_materia": "COM-214",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BES-206"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 127,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Producci¾n Bovinos De Carne",
+    "sigla_materia": "APL-301",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-203, BES-206"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 128,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Producci¾n Bovinos De Leche",
+    "sigla_materia": "APL-302",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-203, BES-206"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 129,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Cultivos AgrÝcolas Extensivos",
+    "sigla_materia": "APL-303",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-106, BES-204"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 130,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Administraci¾n Y Contab. Agrop.",
+    "sigla_materia": "APL-304",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-101"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 131,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Manejo Integrado De Enferm. Y Plagas",
+    "sigla_materia": "APL-305",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BES-202, BES-204"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 132,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Practicas Pecuarias Y Agricolas",
+    "sigla_materia": "APL-400",
+    "credito_materia": 18,
+    "periodo_materia": "5",
+    "ht": 0,
+    "hp": 36,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "TODAS LAS MATERIAS DEL QUINTO SEMESTRE"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 133,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Transf. Y Cons. De Alim. Cßrnicos",
+    "sigla_materia": "COM-306",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-212"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 134,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Transf. Y Cons. De Alim. De Origen Veg.",
+    "sigla_materia": "COM-307",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-213"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 135,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "EnologÝa",
+    "sigla_materia": "COM-308",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-214"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 136,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Modalidad De Graduaci¾n",
+    "sigla_materia": "GRT-001",
+    "credito_materia": 2,
+    "periodo_materia": "5",
+    "ht": 0,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Modalidad Tecnico",
+    "requisito_texto": "TODAS LAS DEL QUINTO"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 137,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Calculo I",
+    "sigla_materia": "BIN-309",
+    "credito_materia": 6,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-101"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 138,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Mejoramiento GenÚtico Animal",
+    "sigla_materia": "APL-310",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-105, BES-206"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 139,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "FisiologÝa Animal",
+    "sigla_materia": "BES-311",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BES-109"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 140,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "FÝsica",
+    "sigla_materia": "BIN-312",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-101"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 141,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "FisiologÝa Vegetal",
+    "sigla_materia": "BES-313",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-104, BIN-105"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 142,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Producci¾n De Especies Animales No Tradicionales",
+    "sigla_materia": "COM-314",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-306"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 143,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Producci¾n Orgßnica Animal",
+    "sigla_materia": "COM-315",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-307"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 144,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Alimentos Y Alimentaci¾n Animal",
+    "sigla_materia": "APL-401",
+    "credito_materia": 6,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-102, APL-110"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 145,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "FarmacologÝa II",
+    "sigla_materia": "APL-402",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-201"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 146,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Enfermedades Infecciosas Y Parasitarias De Animales",
+    "sigla_materia": "APL-403",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-201, APL-203"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 147,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Hidrßulica",
+    "sigla_materia": "BES-404",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-101, APL-210"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 148,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Produccion Organica Vegetal",
+    "sigla_materia": "APL-405",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-305"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 149,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Inspecci¾n De Alim. Y Salud Publica",
+    "sigla_materia": "COM-406",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-315"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 150,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Plantas Ornament. Y Paisajismo",
+    "sigla_materia": "COM-407",
+    "credito_materia": 5,
+    "periodo_materia": "7",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-314"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 151,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "EstadÝstica Y Dise±os Experiment.",
+    "sigla_materia": "BES-408",
+    "credito_materia": 4,
+    "periodo_materia": "8",
+    "ht": 2,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIN-309"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 152,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Prod. De Ovinos, Caprinos Y Eq.",
+    "sigla_materia": "APL-409",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-310, BES-311"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 153,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Mercadeo Y Comercializ. Agrop.",
+    "sigla_materia": "COM-410",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-304"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 154,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Elab. De Proyectos Agrop.",
+    "sigla_materia": "APL-411",
+    "credito_materia": 6,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 4,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "APL-304"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 155,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Manejo Y Proteccion De Cuencas",
+    "sigla_materia": "APL-412",
+    "credito_materia": 5,
+    "periodo_materia": "8",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-106, APL-112"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 156,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Lab. ClÝnico Y TÚcnicas Quir·rgica",
+    "sigla_materia": "COM-413",
+    "credito_materia": 4,
+    "periodo_materia": "8",
+    "ht": 2,
+    "hp": 4,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-406"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 157,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Plantas Medicinales",
+    "sigla_materia": "COM-414",
+    "credito_materia": 4,
+    "periodo_materia": "8",
+    "ht": 2,
+    "hp": 4,
+    "es_electiva": true,
+    "tipo_materia": "Normal",
+    "requisito_texto": "COM-407"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 158,
+  "fields": {
+    "carrera": 3,
+    "nombre_materia": "Practicas Pecuarias Y AgrÝcolas",
+    "sigla_materia": "APL-501",
+    "credito_materia": 20,
+    "periodo_materia": "9",
+    "ht": 0,
+    "hp": 40,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 159,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Introducci¾n A La Indust. De Alimentos",
+    "sigla_materia": "IDA 100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MODALIDADES DE INGRESO A LAS UNIDADES PROVINCIALES"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 160,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "FÝsica I",
+    "sigla_materia": "FIS100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 161,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Cßlculo I",
+    "sigla_materia": "MAT100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 162,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "QuÝmica General",
+    "sigla_materia": "QMC100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 163,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "BiologÝa Celular",
+    "sigla_materia": "BIO100",
+    "credito_materia": 5,
+    "periodo_materia": "1",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": ""
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 164,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "FÝsica II",
+    "sigla_materia": "FIS150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "FIS100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 165,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "QuÝmica Orgßnica",
+    "sigla_materia": "QMC150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "QMC100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 166,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Introducci¾n A La Informßtica",
+    "sigla_materia": "MAT151",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 167,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Cßlculo II",
+    "sigla_materia": "MAT150",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 168,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "QuÝmica AnalÝtica Aplicada",
+    "sigla_materia": "QMC151",
+    "credito_materia": 5,
+    "periodo_materia": "2",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "QMC100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 169,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "FisicoquÝmica De Alimentos",
+    "sigla_materia": "FIS200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "FIS150-QMC151"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 170,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "BioquÝmica De Alimentos",
+    "sigla_materia": "QMC200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "QMC150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 171,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Fenomenos De Transporte",
+    "sigla_materia": "IDA210",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "FIS150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 172,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "MicrobiologÝa Y Anßlisis De Alimentos",
+    "sigla_materia": "IDA200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "BIO100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 173,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "EstadÝstica Aplicada",
+    "sigla_materia": "EST200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT150"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 174,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Administraci¾n E Innovaci¾n De Negocios",
+    "sigla_materia": "ADM200",
+    "credito_materia": 5,
+    "periodo_materia": "3",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA100"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 175,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Balance De Masa Y Energia Alim.",
+    "sigla_materia": "IDA250",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "FIS200-IDA210"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 176,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "MetodologÝa De La Inv. Y Dise±o Experimental",
+    "sigla_materia": "MET250",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "EST200-MAT151"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 177,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Toxic. E Inocuidad Alimentaria",
+    "sigla_materia": "IDA252",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA200-QMC200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 178,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Principios De Nutrici¾n",
+    "sigla_materia": "IDA254",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 179,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Gesti¾n Y Control De Calidad",
+    "sigla_materia": "IDA255",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "EST200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 180,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Contabilidad Y Costos Industriales",
+    "sigla_materia": "CCI256",
+    "credito_materia": 5,
+    "periodo_materia": "4",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "ADM200"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 181,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Procesamiento Industrial De Alimentos",
+    "sigla_materia": "IDA350",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA250-MET250"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 182,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Anßlisis Sensorial",
+    "sigla_materia": "IDA351",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA252-IDA254"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 183,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Conservaci¾n De Alimentos",
+    "sigla_materia": "IDA352",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA255"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 184,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Envase Y Embalaje",
+    "sigla_materia": "IDA353",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA255"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 185,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Marketing",
+    "sigla_materia": "MKT300",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "CCI256"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 186,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Tec. De Carnes Y Derivados",
+    "sigla_materia": "IDA354",
+    "credito_materia": 5,
+    "periodo_materia": "5",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA250-IDA252"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 187,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Tec. De Los Cereales Y Derivados",
+    "sigla_materia": "IDA401",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA352"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 188,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Tec. De Frutas Y Hortalizas",
+    "sigla_materia": "IDA402",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA350"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 189,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Tec. De Lacteos Y Derivados",
+    "sigla_materia": "IDA403",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA351-IDA352"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 190,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Desarrollo De Productos",
+    "sigla_materia": "IDA404",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "MAT300-IDA353"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 191,
+  "fields": {
+    "carrera": 4,
+    "nombre_materia": "Prßctica Industrial Supervisada",
+    "sigla_materia": "PIS406",
+    "credito_materia": 5,
+    "periodo_materia": "6",
+    "ht": 4,
+    "hp": 2,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": "IDA350-IDA351-IDA352-IDA353-IDA354"
+  }
+},
+{
+  "model": "administrador.materia",
+  "pk": 192,
+  "fields": {
+    "carrera": 1,
+    "nombre_materia": "Administraci¾n",
+    "sigla_materia": "ADM-100",
+    "credito_materia": 0,
+    "periodo_materia": "3",
+    "ht": 0,
+    "hp": 0,
+    "es_electiva": false,
+    "tipo_materia": "Normal",
+    "requisito_texto": null
+  }
+},
+{
+  "model": "administrador.prerrequisito",
+  "pk": 2,
+  "fields": {
+    "materia": 22,
+    "materia_requerida": 17
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 1,
+  "fields": {
+    "materia": 2,
+    "docente": 3,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 50
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 2,
+  "fields": {
+    "materia": 11,
+    "docente": 4,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 40
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 3,
+  "fields": {
+    "materia": 4,
+    "docente": 2,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 40
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 4,
+  "fields": {
+    "materia": 3,
+    "docente": 3,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 40
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 5,
+  "fields": {
+    "materia": 192,
+    "docente": 5,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 40
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 6,
+  "fields": {
+    "materia": 9,
+    "docente": 3,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 40
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 7,
+  "fields": {
+    "materia": 16,
+    "docente": 2,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 40
+  }
+},
+{
+  "model": "administrador.grupomateria",
+  "pk": 8,
+  "fields": {
+    "materia": 7,
+    "docente": 2,
+    "nombre_grupo": "AV",
+    "gestion": "1-2026",
+    "cupo_limite": 40
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 1,
+  "fields": {
+    "grupo_materia": 1,
+    "aula": 3,
+    "dia_semana": "Lunes",
+    "hora_inicio": "07:45:00",
+    "hora_fin": "10:00:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 2,
+  "fields": {
+    "grupo_materia": 2,
+    "aula": 3,
+    "dia_semana": "Lunes",
+    "hora_inicio": "10:00:00",
+    "hora_fin": "12:15:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 3,
+  "fields": {
+    "grupo_materia": 3,
+    "aula": 3,
+    "dia_semana": "Martes",
+    "hora_inicio": "07:45:00",
+    "hora_fin": "10:00:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 4,
+  "fields": {
+    "grupo_materia": 4,
+    "aula": 3,
+    "dia_semana": "Martes",
+    "hora_inicio": "10:00:00",
+    "hora_fin": "12:15:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 5,
+  "fields": {
+    "grupo_materia": 5,
+    "aula": 4,
+    "dia_semana": "Lunes",
+    "hora_inicio": "07:45:00",
+    "hora_fin": "10:00:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 6,
+  "fields": {
+    "grupo_materia": 5,
+    "aula": 4,
+    "dia_semana": "Lunes",
+    "hora_inicio": "10:00:00",
+    "hora_fin": "12:15:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 7,
+  "fields": {
+    "grupo_materia": 6,
+    "aula": 4,
+    "dia_semana": "Martes",
+    "hora_inicio": "07:45:00",
+    "hora_fin": "10:00:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 8,
+  "fields": {
+    "grupo_materia": 7,
+    "aula": 4,
+    "dia_semana": "Martes",
+    "hora_inicio": "10:00:00",
+    "hora_fin": "12:15:00"
+  }
+},
+{
+  "model": "administrador.horario",
+  "pk": 9,
+  "fields": {
+    "grupo_materia": 8,
+    "aula": 2,
+    "dia_semana": "Lunes",
+    "hora_inicio": "07:45:00",
+    "hora_fin": "10:00:00"
+  }
+}
+]

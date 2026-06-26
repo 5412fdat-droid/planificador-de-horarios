@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-50: #fef2f2;
+  --color-blue-100: #fee2e2;
+  --color-blue-200: #fecaca;
+  --color-blue-300: #fca5a5;
+  --color-blue-400: #f87171;
+  --color-blue-500: #ef4444;
+  --color-blue-600: #8B0000;
+  --color-blue-700: #6A0000;
+  --color-blue-800: #4A0000;
+  --color-blue-900: #2b0000;
+  --color-blue-950: #1a0000;
+
+  --color-slate-800: #444444;
+  --color-slate-900: #333333;
+
+  --color-uagrm-dark: #8B0000;
+  --color-uagrm-light: #fee2e2;
+  --color-uagrm-hover: #6A0000;
+  --color-uagrm-text: #333333;
+
+  --color-admin-dark: #2B3C66;
+  --color-admin-light: #C4D0E8;
+  --color-admin-hover: #A7B8D6;
+  --color-admin-text: #1A2540;
+}
+
+
+@keyframes ghost {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.1; }
+}
+
+@media print {
+  @page {
+    margin: 1.5cm;
+    size: auto;
+  }
+  body, html, #root {
+    background-color: white !important;
+    height: auto !important;
+    overflow: visible !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .print-hide, aside, header, nav, footer, button {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    width: 100% !important;
+  }
+  * {
+    overflow: visible !important;
+    box-shadow: none !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .overflow-hidden, .overflow-auto, .overflow-x-auto, .overflow-y-auto {
+    overflow: visible !important;
+  }
+  .h-screen {
+    height: auto !important;
+  }
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: auto;
+  }
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+  td, th {
+    border: 1px solid black !important;
+  }
+}
+
+.animate-ghost {
+  animation: ghost 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}

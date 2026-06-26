@@ -1,0 +1,3939 @@
+UNIVERSIDAD AUTÓNOMA GABRIEL RENÉ MORENO
+“
+U.A.G.R.M.
+”
+FACULTAD INTEGRAL DE LOS VALLES CRUCEÑOS
+center
+420728
+0
+0
+INGENIERIA DE SISTEMAS
+OPTIMIZACIÓN DE LA PLANIFICACIÓN ACADÉMICA MEDIANTE EL DESARROLLO DE UN SOFTWARE
+PLANIFICADOR
+DE HORARIOS CON ENFOQUE ERP Y METODOLOGÍA ÁGIL XP
+AUTORES
+:
+Daniel Ondarza Flores
+Cristofer Rojas Molina
+José Armando Viscarra Aguilar
+DOCENTE GUIA
+:
+Ing. Gabriela Quiroga Heredia
+VALLEGRANDE
+–
+SANTA CRUZ – BOLIVIA
+FECHA
+Dedicatoria
+Agradecimiento
+RESUMEN
+INDICE GENERAL
+TOC \o "1-3" \h \z \u
+1.
+CAPITULO I ANTECEDENTES GENERALES
+PAGEREF _Toc232777642 \h
+1
+1.1.
+Introducción
+PAGEREF _Toc232777643 \h
+1
+1.2.
+Antecedentes del problema
+PAGEREF _Toc232777644 \h
+2
+1.2.1.
+Evolución de la Gestión Académica en Latinoamérica
+PAGEREF _Toc232777645 \h
+2
+1.2.2.
+Referentes Tecnológicos en el Cono Sur: El Caso de Chile
+PAGEREF _Toc232777646 \h
+2
+1.2.3.
+Desarrollo de Sistemas ERP y Retención Estudiantil en México
+PAGEREF _Toc232777647 \h
+3
+1.2.4.
+Algoritmos de Optimización y Gestión de Espacios en Colombia
+PAGEREF _Toc232777648 \h
+3
+1.2.5.
+La Simulación como Entorno de Experimentación Segura
+PAGEREF _Toc232777649 \h
+3
+1.2.6.
+Matriz FODA de la institución
+PAGEREF _Toc232777650 \h
+4
+1.3.
+Planteamiento del Problema
+PAGEREF _Toc232777651 \h
+4
+1.3.1.
+Objeto de Estudio
+PAGEREF _Toc232777652 \h
+4
+1.4.
+Objetivos
+PAGEREF _Toc232777653 \h
+5
+1.4.1.
+Objetivo General
+PAGEREF _Toc232777654 \h
+5
+1.4.2.
+Objetivo Especifico
+PAGEREF _Toc232777655 \h
+5
+1.5.
+Idea Científica a Defender
+PAGEREF _Toc232777656 \h
+5
+1.6.
+Justificación
+PAGEREF _Toc232777657 \h
+6
+1.6.1.
+Justificación Metodológica
+PAGEREF _Toc232777658 \h
+6
+1.6.2.
+Justificación Práctica
+PAGEREF _Toc232777659 \h
+6
+1.6.3.
+Justificación Institucional
+PAGEREF _Toc232777660 \h
+7
+1.6.4.
+Justificación Personal
+PAGEREF _Toc232777661 \h
+7
+1.7.
+Delimitación de la Investigación
+PAGEREF _Toc232777662 \h
+8
+1.7.1.
+Delimitación Espacial
+PAGEREF _Toc232777663 \h
+8
+1.7.2.
+Delimitación Temporal
+PAGEREF _Toc232777664 \h
+8
+1.7.3.
+Delimitación Sustantiva
+PAGEREF _Toc232777665 \h
+8
+1.8.
+Metodologías
+PAGEREF _Toc232777666 \h
+9
+1.8.1.
+Metodología de Análisis de Requisitos
+PAGEREF _Toc232777667 \h
+9
+1.8.2.
+Metodología de Desarrollo de Software y Marco de Trabajo
+PAGEREF _Toc232777668 \h
+10
+1.8.3.
+Lenguaje Unificado de Modelado (U.M.L.)
+PAGEREF _Toc232777669 \h
+11
+1.9.
+Herramientas Tecnológicas
+PAGEREF _Toc232777670 \h
+11
+
+Backend (Lógica del Servidor):
+PAGEREF _Toc232777671 \h
+11
+
+Frontend (Interfaz de Usuario):
+PAGEREF _Toc232777672 \h
+11
+
+Base de Datos:
+PAGEREF _Toc232777673 \h
+11
+
+Entorno de Desarrollo y Control de Versiones:
+PAGEREF _Toc232777674 \h
+11
+
+Herramienta CASE (Modelado y Diseño):
+PAGEREF _Toc232777675 \h
+12
+
+Herramienta de Recolección de Datos:
+PAGEREF _Toc232777676 \h
+12
+1.10.
+Normas
+PAGEREF _Toc232777677 \h
+12
+1.10.1.
+ISO/IEC 25010
+PAGEREF _Toc232777678 \h
+12
+1.10.2.
+Normas APA (7ma Edición):
+PAGEREF _Toc232777679 \h
+12
+2.
+CAPITULO II MARCO TEORICO
+PAGEREF _Toc232777680 \h
+13
+2.1.
+Empresa
+PAGEREF _Toc232777681 \h
+13
+2.1.1.
+Historia
+PAGEREF _Toc232777682 \h
+13
+2.1.2.
+Misión
+PAGEREF _Toc232777683 \h
+14
+2.1.3.
+Visión
+PAGEREF _Toc232777684 \h
+14
+2.1.4.
+Organigrama
+PAGEREF _Toc232777685 \h
+15
+2.1.5.
+Localización
+PAGEREF _Toc232777686 \h
+16
+2.1.6.
+Servicios
+PAGEREF _Toc232777687 \h
+16
+2.2.
+Ingeniería de Proyecto
+PAGEREF _Toc232777688 \h
+18
+2.2.1.
+Administración del proyecto
+PAGEREF _Toc232777689 \h
+18
+2.2.2.
+Métricas del Proyecto
+PAGEREF _Toc232777690 \h
+18
+2.2.3.
+Administración de Riesgo del proyecto
+PAGEREF _Toc232777691 \h
+19
+2.3.
+Metodologías del Proyecto
+PAGEREF _Toc232777692 \h
+20
+2.3.1.
+Metodología del marco de trabajo (SCRUM)
+PAGEREF _Toc232777693 \h
+20
+2.3.2.
+Metodología de desarrollo de software (XP)
+PAGEREF _Toc232777694 \h
+25
+2.3.3.
+Otras metodologías utilizadas (Metodologías usadas para el levantamiento de información)
+PAGEREF _Toc232777695 \h
+29
+2.4.
+Plataformas
+PAGEREF _Toc232777696 \h
+29
+2.4.1.
+Aplicación web
+PAGEREF _Toc232777697 \h
+29
+2.5.
+Arquitectura del Software
+PAGEREF _Toc232777698 \h
+32
+2.5.1.
+MVC o en capas
+PAGEREF _Toc232777699 \h
+32
+2.5.2.
+Formato de Intercambio de Datos JSON
+PAGEREF _Toc232777700 \h
+35
+2.6.
+Herramientas de Implementación
+PAGEREF _Toc232777701 \h
+35
+2.6.1.
+Lenguajes de Software
+PAGEREF _Toc232777702 \h
+35
+2.6.2.
+Frameworks (Frontend-backend)
+PAGEREF _Toc232777703 \h
+41
+2.6.3.
+Entorno de Ejecución
+PAGEREF _Toc232777704 \h
+43
+2.6.4.
+Gestor de base de datos
+PAGEREF _Toc232777705 \h
+44
+2.6.5.
+IDE
+PAGEREF _Toc232777706 \h
+46
+2.6.6.
+Herramienta CASE (Modelado y Diseño): Lucidchart
+PAGEREF _Toc232777707 \h
+48
+2.6.7.
+Herramienta de Recolección de Datos: Google Forms
+PAGEREF _Toc232777708 \h
+50
+3.
+CAPITULO III INGENIERIA DEL PROYECTO
+PAGEREF _Toc232777709 \h
+52
+3.1.
+Planificación temporal
+PAGEREF _Toc232777710 \h
+52
+3.1.1.
+Ficha del proyecto
+PAGEREF _Toc232777711 \h
+53
+3.1.2.
+Cronograma general del proyecto
+PAGEREF _Toc232777712 \h
+55
+3.1.3.
+Descripción del Sprint
+PAGEREF _Toc232777713 \h
+58
+3.2.
+Organización personal
+PAGEREF _Toc232777714 \h
+58
+3.3.
+Estimación del proyecto
+PAGEREF _Toc232777715 \h
+61
+3.3.1.
+Cálculo de duración
+PAGEREF _Toc232777716 \h
+61
+3.3.2.
+Costo de personal del proyecto
+PAGEREF _Toc232777717 \h
+61
+3.3.3.
+Costo del software
+PAGEREF _Toc232777718 \h
+61
+3.4.
+Análisis y gestión de riesgos
+PAGEREF _Toc232777719 \h
+62
+3.4.1.
+Riesgo personal
+PAGEREF _Toc232777720 \h
+62
+3.4.2.
+Riesgo metodológico
+PAGEREF _Toc232777721 \h
+63
+3.4.3.
+Riesgo del negocio
+PAGEREF _Toc232777722 \h
+64
+3.5.
+Gestión de calidad
+PAGEREF _Toc232777723 \h
+65
+3.5.1.
+Normas y Estándares
+PAGEREF _Toc232777724 \h
+65
+3.5.2.
+Factores que determinan calidad
+PAGEREF _Toc232777725 \h
+68
+4.
+CAPITULO IV INGENIERIA DE SOFWARE(XP)
+PAGEREF _Toc232777726 \h
+72
+4.1.
+FASE DE PLANIFICACIÓN
+PAGEREF _Toc232777727 \h
+72
+4.1.1.
+Descripción del Modelo de Negocio
+PAGEREF _Toc232777728 \h
+72
+4.1.2.
+Requisitos Funcionales
+PAGEREF _Toc232777729 \h
+77
+4.1.3.
+Requisitos no Funcionales
+PAGEREF _Toc232777730 \h
+78
+4.1.4.
+Tabla de las Historias de Usuario
+PAGEREF _Toc232777731 \h
+81
+4.1.5.
+Historias de Usuarios
+PAGEREF _Toc232777732 \h
+84
+4.1.6.
+Cronograma por Iteración
+PAGEREF _Toc232777733 \h
+91
+4.1.7.
+Criterios de Aceptación
+PAGEREF _Toc232777734 \h
+92
+4.1.8.
+Tarjetas de Tarea
+PAGEREF _Toc232777735 \h
+93
+4.2.
+FASE DE DISEÑO
+PAGEREF _Toc232777736 \h
+101
+4.2.1.
+Modelo Conceptual
+PAGEREF _Toc232777737 \h
+101
+4.2.2.
+Modelo Lógico
+PAGEREF _Toc232777738 \h
+103
+4.2.3.
+Modelo Físico
+PAGEREF _Toc232777739 \h
+103
+4.2.4.
+Diagrama de Navegabilidad
+PAGEREF _Toc232777740 \h
+104
+4.2.5.
+Diagrama de Despliegue
+PAGEREF _Toc232777741 \h
+105
+4.2.6.
+Diagrama de Actividades
+PAGEREF _Toc232777742 \h
+105
+4.2.7.
+Tarjetas CRC(Clase, Responsabilidad y Colaboración)
+PAGEREF _Toc232777743 \h
+108
+4.2.8.
+Interfaz de Usuario
+PAGEREF _Toc232777744 \h
+117
+4.3.
+FASE CODIFICACIO
+N
+(ITERACIONES)
+PAGEREF _Toc232777745 \h
+117
+INDICE DE TABLAS
+TOC \h \z \c "Tabla"
+Tabla 1: Matriz FODA de la empresa
+PAGEREF _Toc232709445 \h
+4
+Tabla 2: Planificación temporal
+PAGEREF _Toc232709446 \h
+52
+Tabla 3:Ficha de elaboración del proyecto
+PAGEREF _Toc232709447 \h
+53
+Tabla 4: Cronograma General
+PAGEREF _Toc232709448 \h
+55
+Tabla 5:Descripción de todos los sprint
+PAGEREF _Toc232709449 \h
+58
+Tabla 6: Los riesgos que se pueden presentar en la elaboración del software, y su acción preventiva
+PAGEREF _Toc232709450 \h
+62
+Tabla 7:riesgo que se pueden presentar en la aplicación de la metodología de desarrollo y el marco de trabajo
+PAGEREF _Toc232709451 \h
+63
+Tabla 8:riesgo del negocio y su acción preventiva
+PAGEREF _Toc232709452 \h
+64
+Tabla 9:Factor de calidad de la norma ISO
+PAGEREF _Toc232709453 \h
+68
+Tabla 10:Fiabilidad del software
+PAGEREF _Toc232709454 \h
+69
+Tabla 11:Eficiencia de rendimiento
+PAGEREF _Toc232709455 \h
+69
+Tabla 12:seguridad que se aplicara en el software
+PAGEREF _Toc232709456 \h
+70
+Tabla 13:usabilidad del software
+PAGEREF _Toc232709457 \h
+70
+Tabla 14: Requisitos funcionales del software
+PAGEREF _Toc232709458 \h
+77
+Tabla 15: Requisitos no funcionales del software
+PAGEREF _Toc232709459 \h
+79
+Tabla 16: historias de los Usuarios
+PAGEREF _Toc232709460 \h
+81
+Tabla 17: Historia de Usuario HU-01:
+PAGEREF _Toc232709461 \h
+84
+Tabla 18: Historia de Usuario HU-02:
+PAGEREF _Toc232709462 \h
+85
+Tabla 19: Historia de Usuario HU-03:
+PAGEREF _Toc232709463 \h
+85
+Tabla 20: Historia de Usuario HU-04:
+PAGEREF _Toc232709464 \h
+86
+Tabla 21: Historia de Usuario HU-05:
+PAGEREF _Toc232709465 \h
+87
+Tabla 22: Historia de Usuario HU-06:
+PAGEREF _Toc232709466 \h
+87
+Tabla 23: Historia de Usuario HU-07:
+PAGEREF _Toc232709467 \h
+88
+Tabla 24: Historia de Usuario HU-08:
+PAGEREF _Toc232709468 \h
+89
+Tabla 25: Historia de los Usuarios HU-09:
+PAGEREF _Toc232709469 \h
+89
+Tabla 26: Historia de Usuario HU-10:
+PAGEREF _Toc232709470 \h
+90
+Tabla 27: Cronograma de iteraciones
+PAGEREF _Toc232709471 \h
+91
+Tabla 28: Criterios de aceptación del software
+PAGEREF _Toc232709472 \h
+92
+Tabla 29: Interfaz del Login Administrativo
+PAGEREF _Toc232709473 \h
+93
+Tabla 30: Lógica del Login Administrativo
+PAGEREF _Toc232709474 \h
+94
+Tabla 31: Interfaz del Login de Estudiantes
+PAGEREF _Toc232709475 \h
+95
+Tabla 32: Control de Sesión del Estudiante
+PAGEREF _Toc232709476 \h
+95
+Tabla 33: Implementación de Tablas Maestras
+PAGEREF _Toc232709477 \h
+96
+Tabla 34: Algoritmo de Carga Horaria y Aulas
+PAGEREF _Toc232709478 \h
+97
+Tabla 35: Interfaz del Buscador de Materias
+PAGEREF _Toc232709479 \h
+98
+Tabla 36: Interfaz de la Grilla de Planificador
+PAGEREF _Toc232709480 \h
+99
+Tabla 37: Algoritmo de Detección de Choques
+PAGEREF _Toc232709481 \h
+99
+Tabla 38: Controlador de Alertas por Colores
+PAGEREF _Toc232709482 \h
+100
+Tabla 39: Control de Calidad bajo Norma ISO 25010
+PAGEREF _Toc232709483 \h
+101
+Tabla 40: Clase Usuario
+PAGEREF _Toc232709484 \h
+109
+Tabla 41:
+Clase Estudiante
+PAGEREF _Toc232709485 \h
+109
+Tabla 42: Clase Carrera
+PAGEREF _Toc232709486 \h
+110
+Tabla 43: Clase Materia
+PAGEREF _Toc232709487 \h
+111
+Tabla 44:
+Clase Docente
+PAGEREF _Toc232709488 \h
+111
+Tabla 45: Clase Aula
+PAGEREF _Toc232709489 \h
+112
+Tabla 46: Clase GrupoMateria
+PAGEREF _Toc232709490 \h
+113
+Tabla 47: Clase Horario
+PAGEREF _Toc232709491 \h
+113
+Tabla 48: Clase Prerrequisito
+PAGEREF _Toc232709492 \h
+114
+Tabla 49: Clase SimulacionHorario
+PAGEREF _Toc232709493 \h
+115
+Tabla 50: Clase ConflictoHorario
+PAGEREF _Toc232709494 \h
+116
+Tabla 51: Clase AlertaVisual
+PAGEREF _Toc232709495 \h
+116
+INDICE DE FIGURAS
+TOC \h \z \c "Figura"
+Figura 1: Organigrama de la Facultad Integral de los Valles Cruceños
+PAGEREF _Toc232709525 \h
+15
+INDICE DE ANEXOS
+CAPITULO I ANTECEDENTES GENERALES
+Introducción
+En el entorno académico actual, la eficiencia en la gestión de la información es un factor determinante para el éxito estudiantil. El presente trabajo de investigación surge ante la necesidad de transformar un proceso crítico en la Facultad Integral de los Valles Cruceños (F.I.V.C.): la planificación de horarios. Esta tarea, que tradicionalmente ha sido reactiva y manual, se aborda aquí mediante el diseño de un sistema de información de tipo ERP orientado a la simulación estratégica, permitiendo que el estudiante tome el control de su avance académico antes de la inscripción oficial.
+La relevancia de este documento radica en la solución de una problemática histórica: la incertidumbre y los "choques" de materias que surgen por la falta de herramientas de previsión. A través de la implementación de tecnologías modernas como el
+framework
+Django y bases de datos PostgreSQL, el proyecto demuestra cómo la automatización y los algoritmos de detección en tiempo real pueden mitigar el estrés académico y optimizar los recursos institucionales.
+Para garantizar un producto de nivel profesional, el desarrollo se sustenta en la metodología ágil Extreme
+Programming
+(XP) y el marco de trabajo Scrum, asegurando una construcción iterativa y de alta calidad técnica. Asimismo, la investigación se respalda en estándares internacionales como la ISO 25010, lo que confiere al sistema un rigor científico y de seguridad informática alineado con las exigencias de la ingeniería moderna.
+Se invita al lector a recorrer los siguientes capítulos, donde se detalla sistemáticamente el camino desde la identificación de las reglas de negocio hasta la puesta en producción del software. A través de esta lectura, se podrá apreciar cómo la integración estratégica de
+herramientas tecnológicas y una planificación metodológica rigurosa no solo resuelven un conflicto logístico, sino que sientan las bases para la modernización digital en la región de los valles cruceños.
+Antecedentes del
+p
+roblema
+Evolución de la Gestión Académica en Latinoamérica
+A nivel regional, la educación superior en Latinoamérica ha atravesado una transformación digital acelerada, impulsada por la necesidad de optimizar procesos administrativos críticos. Según la
+CITATION UNE21 \l 16394
+(UNESCO IESALC, 2021)
+,
+la
+implementación de sistemas de información en las instituciones de la región no es solo una mejora técnica, sino una respuesta estratégica a la creciente complejidad de las mallas curriculares y la saturación de los recursos físicos. En este contexto, la programación de horarios se identifica como un nodo crítico de la gestión universitaria, donde la ausencia de herramientas predictivas suele derivar en ineficiencias logísticas que entorpecen el avance del estamento estudiantil.
+Referentes Tecnológicos en el Cono Sur: El Caso de Chile
+La
+CITATION Uni19 \l 16394
+(Universidad de Chile, 2019)
+ha sido pionera con el desarrollo del "Planificador de Horarios Académicos". Este software permite a los alumnos interactuar con la oferta académica de forma proactiva, permitiendo la creación de múltiples "escenarios" de inscripción antes del periodo formal. Investigaciones realizadas por esta institución sugieren que la incertidumbre en la toma de materias es un factor detonante de niveles elevados de estrés y ansiedad
+.
+El uso de simuladores en este país ha demostrado que, al permitir que el estudiante visualice sus posibles "choques" de materias con antelación, se reduce significativamente la tasa de errores en el sistema oficial de matrícula.
+Desarrollo de Sistemas ERP y Retención Estudiantil en México
+En México, la
+Universidad Nacional Autónoma de México (UNAM)
+y el Tecnológico de Monterrey han integrado módulos de simulación dentro de sus arquitecturas ERP. Investigaciones lideradas por
+CITATION Gar21 \n  \l 16394
+(García y Martínez, 2021)
+sostienen que la disponibilidad de simuladores de carga horaria influye positivamente en la retención estudiantil, especialmente en carreras de ingeniería donde las mallas curriculares presentan una alta densidad y materias con prerrequisitos estrictos. Al proporcionar una herramienta que permita prever el impacto de las materias de "arrastre", los estudiantes logran una organización del tiempo más equilibrada, mejorando su rendimiento académico global.
+Algoritmos de Optimización y Gestión de Espacios en Colombia
+Por su parte, la
+Universidad de los Andes en Colombia
+ha documentado el uso de algoritmos de optimización para la asignación de horarios y aulas. Según
+CITATION Rod22 \l 16394
+(Rodriguez, 2022)
+, la problemática de la planificación no es únicamente del estudiante, sino institucional; un sistema que permita simular la intención de inscripción ayuda a la administración a prever la demanda real de cupos y espacios físicos.
+La Simulación como Entorno de Experimentación Segura
+La literatura especializada en pedagogía universitaria resalta que el proceso de inscripción, cuando carece de herramientas de apoyo, se convierte en un evento de alta presi
+ón. Martínez
+afirma que los simuladores educativos actúan como entornos de experimentación controlados. Estos sistemas permiten que el usuario pueda "prever escenarios, optimizar estructuras y mejorar la toma de decisiones estratégicas mediante la experimentación antes de enfrentar riesgos reales"
+CITATION ADR26 \l 16394
+(ADR Formación, 2026)
+.
+Esta capacidad de experimentación es vital
+para el estudiante de la F.I.V.C., quien debe navegar entre ofertas de cuatro carreras diferentes y códigos de materias compartidos.
+Matriz FODA de la institución
+Tabla
+SEQ Tabla \* ARABIC
+1
+: Matriz FODA de la empresa
+Fortalezas.
+Consolidación de información bajo una estructura de jerarquía de datos y Códigos Mayores por carrera.
+Definición estratégica de turnos (mañana, tarde y noche) para optimizar el uso de aulas.
+Oportunidades.
+Disponibilidad de herramientas de código abierto como Django para la automatización de procesos académicos.
+Tendencia hacia la transformación digital educativa para mejorar la experiencia del usuario final
+.
+Debilidades
+Dependencia de métodos de control visual manuales propensos a errores de detección de choques.
+Inexistencia de un entorno de simulación previo para el estudiante antes de la inscripción oficial.
+Amenazas
+Incremento del estrés académico y deserción por dificultades en el proceso de inscripción
+.
+Riesgo de retrasos en el avance académico debido a colisiones horarias no previstas en materias de arrastre
+.
+Fuente: Elaboración propia
+Planteamiento del Problema
+¿De qué manera la implementación de un simulador de horarios permitirá optimizar la planificación de materias y reducir los conflictos de inscripción en la Facultad Integral de los Valles Cruceños?
+Objeto de Estudio
+Software simulador de horarios académicos con detector de colisiones y gestión de escenarios de inscripción.
+Objetivos
+Objetivo General
+Implementar un sistema de información para la simulación de horarios académicos mediante la metodología ágil XP, con el fin de optimizar la planificación estratégica de materias y reducir la incidencia de conflictos de inscripción de los estudiantes en la Facultad Integral de los Valles Cruceños.
+Objetivo Especifico
+Describir las historias de usuario para planificar las iteraciones y entregas progresivas del simulador de horarios web.
+Diseñar la base de datos y las interfaces de usuario para crear un entorno visual que facilite a los estudiantes
+la
+planificación de sus materias
+.
+Codificar en pareja los módulos del sistema y el algoritmo de detección de choques para garantizar que la aplicación web valide los horarios en tiempo real y sin errores.
+Ejecutar pruebas de aceptación continuas con los estudiantes y administrativos para validar la funcionalidad del sistema y asegurar que el software responda a los escenarios reales de inscripción.
+Idea Científica a Defender
+La implementación de un sistema de información de tipo ERP para la simulación de horarios académicos, diseñado bajo los lineamientos de la metodología ágil XP, proporcionará a los estudiantes de la Facultad Integral de los Valles Cruceños una herramienta estratégica de
+planificación que permitirá reducir los errores por colisiones horarias y optimizar la toma de decisiones previa al proceso de inscripción oficial.
+Justificación
+Justificación Metodológica
+La presente investigación se justifica metodológicamente mediante la aplicación de la Programación Extrema (XP). El uso de esta metodología ágil permite un desarrollo iterativo e incremental, facilitando la adaptación a los requisitos dinámicos de la planificación académica de la facultad. La implementación de prácticas como la programación en
+equipos
+y las pruebas continuas asegura un código de alta calidad y una respuesta rápida ante las necesidades reales de los estudiantes y administrativos, demostrando la eficiencia de los modelos ágiles en equipos de desarrollo pequeños.
+Justificación Práctica
+El presente proyecto se justifica de manera práctica al resolver directamente la ineficiencia en la planificación académica de la F.I.V.C., transformando un proceso tradicionalmente manual y propenso a errores en un sistema lógico y automatizado. Mediante el uso de un entorno de simulación en tiempo real, el software dota al estudiante de una herramienta capaz de identificar "choques invisibles" de horarios antes del periodo de inscripción oficial, facilitando la gestión de materias de "arrastre" y la visualización de múltiples escenarios de carga horaria. Esta transición tecnológica no solo optimiza el tiempo del usuario, sino que también mejora la productividad institucional al reducir la incertidumbre sobre la oferta académica y asegurar un avance curricular más fluido, sustituyendo el uso de métodos empíricos y hojas de cálculo por una plataforma validada bajo estándares de calidad de software.
+Justificación Institucional
+La implementación de este sistema de información representa un aporte fundamental para la Facultad Integral de los Valles Cruceños (F.I.V.C.), ya que moderniza la gestión académica mediante la automatización de procesos que históricamente han sido manuales. El beneficio principal para la institución radica en la centralización y validación de la oferta académica de sus cuatro carreras en una plataforma única, lo que elimina la dependencia de controles visuales en hojas de cálculo propensos a errores. Al optimizar estos servicios educativos, el proyecto fortalece la imagen institucional de la facultad, demostrando un compromiso real con la innovación tecnológica y la transformación digital. Además, el software dota a la administración de una herramienta de previsión que asegura la integridad de los datos y mejora la calidad de la atención al estamento estudiantil, alineándose con los estándares de excelencia de la Universidad Autónoma Gabriel René Moreno.
+Justificación Personal
+A nivel personal y profesional, el desarrollo de este software permite a los integrantes del equipo consolidar los conocimientos adquiridos en la carrera de Ingeniería de Sistemas. La implementación de un
+stack
+tecnológico moderno (Python, Django, PostgreSQL) y la aplicación de estándares internacionales (ISO) fortalecen las competencias técnicas en el desarrollo de software de nivel empresarial y la gestión de proyectos de sistemas de información.
+Delimitación de la Investigación
+Delimitación Espacial
+La presente investigación y el posterior despliegue del software se circunscriben geográficamente a la Facultad Integral de los Valles Cruceños (F.I.V.C.), perteneciente a la Universidad Autónoma Gabriel René Moreno,
+Delimitación Temporal
+El desarrollo del proyecto comprende el periodo académico correspondiente al primer semestre del año 2026. El cronograma de ejecución se extiende desde la fase de recolección de requisitos
+desde el 13 de
+abril
+hasta la entrega final, pruebas de aceptación y puesta en producción programadas para
+el 26
+de junio
+de 2026.
+Delimitación Sustantiva
+La delimitación sustantiva establece los módulos y funciones que integran el sistema de información. El alcance técnico del simulador de horarios se define mediante los siguientes pilares funcionales:
+Gestión de Datos Maestros:
+Implementación de una base de datos centralizada para la administración de mallas curriculares, periodos académicos, aulas y oferta docente.
+Buscador de Materias:
+Desarrollo de un motor de búsqueda con capacidad de filtrado por nombre, sigla, semestre y carrera, optimizando la localización de asignaturas.
+Motor de Simulación y Validación:
+Creación de una interfaz interactiva que permite la selección dinámica de materias y la detección automática de colisiones o "choques" de horarios en tiempo real.
+Gestión de Escenarios de Inscripción:
+Funcionalidad para la creación, almacenamiento y edición de múltiples planes de inscripción (Plan A, B y C) asociados a perfiles de usuario.
+Módulo de Reportes y Exportación:
+Generación de documentos en formato PDF e imagen que resumen el horario planificado, incluyendo detalles de docentes, grupos y aulas asignadas.
+Seguridad y Perfiles de Acceso:
+Sistema de autenticación y autorización para diferenciar las funciones de administradores, operadores de datos y estudiantes, bajo estándares de protección de la información.
+Metodolog
+í
+as
+Para garantizar el cumplimiento de los objetivos y la calidad técnica del simulador de horarios, se ha definido un marco metodológico integral que combina técnicas de investigación de campo con metodologías ágiles de ingeniería de software.
+Metodología de Análisis de Requisitos
+Observación Directa:
+Esta técnica constituye el núcleo del proyecto. Dado que el equipo de desarrollo está conformado por estudiantes activos de la facultad, la observación es constante y vivencial. Se ha identificado de primera mano la complejidad actual en la distribución de aulas y tiempos. Esta perspectiva "desde dentro" permitirá que el diseño del sistema no sea meramente teórico, sino una
+respuesta directa a las dinámicas reales del entorno académico, garantizando una solución práctica y funcional.
+Entrevista Estructurada: Se llevaron a cabo sesiones de entrevista con las autoridades y el personal administrativo de la facultad, específicamente con el Vicedecano, Dr. Bismark, y el Lic. José Luis. El objetivo central fue documentar la modalidad de trabajo, las reglas de negocio que rigen la creación de horarios y entender las restricciones institucionales que el sistema debe automatizar.
+(Ver Anexo 1).
+Cuestionario (Encuesta): Se utilizó un formulario digital (Google
+Forms
+) dirigido al estamento estudiantil. Este instrumento se aplicó con el fin de recolectar datos cuantitativos sobre la experiencia de los estudiantes durante la inscripción y medir el impacto o los problemas que generan los "choques" de materias.
+(Ver Anexo 2).
+Metodología de Desarrollo de Software y Marco de Trabajo
+En el proceso de construcción del sistema se utiliza la metodología de Programación Extrema (
+XP
+), la cual se centra en la excelencia técnica y la adaptabilidad ante requisitos cambiantes. Como complemento para la gestión y organización del proyecto, se emplea el marco de trabajo
+SCRUM
+.
+Esta combinación permite que el equipo de desarrollo trabaje mediante
+Sprints
+(ciclos cortos de trabajo) definidos por
+SCRUM
+, mientras aplica prácticas de ingeniería propias de
+XP
+, como la programación en parejas y las pruebas continuas. Esta estructura asegura que el desarrollo del simulador sea incremental, permitiendo entregas frecuentes de módulos
+funcionales y una comunicación constante entre los desarrolladores y los interesados de la facultad.
+Lenguaje Unificado de Modelado (U.M.L.)
+Para la documentación técnica y la representación de los artefactos del sistema, se utiliza el Lenguaje Unificado de Modelado (U.M.L.). Este estándar permite visualizar la arquitectura y el comportamiento del software a través de los siguientes modelos:
+Diagramas de Casos de Uso:
+Para representar las funciones del sistema desde la perspectiva de los actores (Administradores, Operadores y Estudiantes).
+Diagramas de Secuencia:
+Para detallar la lógica de interacción y el paso de mensajes en procesos críticos, como la validación automática de choques de horario.
+Diagramas de Clases:
+Para definir la estructura de las entidades (Materias, Grupos, Aulas) y sus relaciones en la base de datos
+PostgreSQL
+.
+Herramientas Tecnológicas
+Backend
+(Lógica del Servidor):
+Se utilizará un marco de trabajo basado en el lenguaje Python mediante el
+framework
+Django.
+Frontend
+(Interfaz de Usuario):
+Se emplearán lenguajes estándar de la web como JavaScript y
+Tailwind
+CSS
+, apoyados por el
+framework
+Bootstrap.
+Base de Datos:
+Se utilizará PostgreSQL, garantizando una estructura relacional sólida y escalable para el almacenamiento de la oferta académica de la F.I.V.C.
+Entorno de
+Desarrollo y Control de
+Versiones:
+Se emplea Visual Studio
+Code
+como IDE principal para la codificación del proyecto.
+Herramienta CASE (Modelado y Diseño):
+Se utilizó
+Lucidchart
+como herramienta CASE basada en la nube para la elaboración de la arquitectura del sistema y el modelado
+visual. Esta plataforma permitió diseñar de manera colaborativa los diagramas del Lenguaje Unificado de Modelado (UML), como los diagramas de Casos de Uso, diagramas de Secuencia y el esquema relacional de la base de datos, facilitando la comprensión lógica del simulador antes de la
+fase de codificación.
+Herramienta de Recolección de Datos:
+Se empleó Google
+Forms
+(Formularios de Google) para el diseño, distribución y tabulación automatizada de la encuesta estructurada dirigida al estamento estudiantil. Esta herramienta tecnológica permitió recopilar datos cuantitativos de manera masiva y ágil, generando gráficos estadísticos en tiempo real que facilitaron el análisis de los requisitos y la validación de la problemática actual de los horarios.
+Normas
+ISO/IEC 25010
+Se aplica esta norma para evaluar la calidad del producto de software. El enfoque se centra en la
+adecuación funcional,
+garantizando que el simulador cumpla con las tareas específicas de detección de colisiones, y en la
+usabilidad
+, para asegurar que la interfaz en Django sea intuitiva para el estudiante.
+Normas APA (7ma Edición):
+Para la redacción del documento de tesis, se siguen estrictamente las directrices de la
+American
+Psychological
+Association
+en su séptima edición.
+CAPITULO II MARCO TEORICO
+Empresa
+Historia
+La Facultad Integral de los Valles Cruceños (FIVC) tiene sus orígenes en el Tecnológico Universitario Vallegrande, creado el 24 de octubre de 1989 mediante la Resolución ICU N" 054/1989. Este acontecimiento marcó el inicio de la presencia de la Universidad Autónoma Gabriel René Moreno (UAGRM) en la región de los Valles Cruceños, resultado de las gestiones de las autoridades provinciales y de los residentes vallegrandinos ante la Universidad
+CITATION Vic \l 16394
+(Vicedecanato, s.f.)
+.
+El 27 de abril de 1990, bajo la Resolución ICU
+N°
+005/1990, se autorizó el inicio de actividades académicas en el Tecnológico Universitario Vallegrande, consolidando su funcionamiento dentro de la estructura de la UAGRM. Con el paso del tiempo y en respuesta a la evolución del contexto educativo y productivo de la región, el tecnológico pasó a denominarse Unidad Académica Vallegrande tras la realización del Magno Congreso Docente Estudiantil del año 2007 y la aprobación del nuevo Estatuto Orgánico de la UAGRM.
+El proceso de transformación continuó con la exigencia de docentes, estudiantes y autoridades provinciales para que la Unidad Académica Vallegrande se convirtiera en una Facultad Integral. Como resultado de estas gestiones, el 28 de mayo de 2010, el ilustre Consejo Universitario (ICU) sesionó en Vallegrande y aprobó la creación de la Facultad Integral de los Valles Cruceños, consolidada formalmente el 6 de julio de 2010 mediante la Resolución ICU
+N°
+051/2010.
+La descentralización de la UAGRM hacia las provincias ha sido una estrategia clave para democratizar el acceso a la educación superior y fortalecer la integración de la universidad con su entorno sociocultural y productivo. La Facultad Integral de los Valles Cruceños ha sido un pilar fundamental en la formación de profesionales en áreas estratégicas como
+Contaduría
+Pública e Ingeniería en Sistemas, además de potenciar el sector agropecuario mediante la implementación de nuevas técnicas productivas
+CITATION Vic \l 16394
+(Vicedecanato, s.f.)
+.
+La presencia de la UAGRM en Vallegrande ha generado un impacto significativo en el desarrollo regional, promoviendo la capacitación de mano de obra calificada y fomentando la productividad agroindustrial. La creación de la Facultad Integral de los Valles Cruceños representa un hito en la consolidación de la educación superior en la región, garantizando oportunidades de formación profesional alineadas con las necesidades del contexto local y nacional.
+Misión
+Formar profesionales competentes idóneos, con ética, alta responsabilidad social, conciencia
+crítica
+y creatividad, capaces de responder a las necesidades de desarrollo regional y nacional e incorporar las innovaciones científicas tecnológicas del país y el mundo en el proceso académico
+CITATION Vic \l 16394
+(Vicedecanato, s.f.)
+.
+Visión
+Ser facultad (Institución de estudios superiores) de referencia en la región, de prestigio nacional e internacional, con ofertas académicas en distintas áreas del conocimiento que impulsen el desarrollo de la zona y el país, valoradas por su calidad y potencia social
+CITATION Vic \l 16394
+(Vicedecanato, s.f.)
+.
+Organigram
+a
+Figura
+SEQ Figura \* ARABIC
+1
+: Organigrama de la Facultad Integral de los Valles Cruceños
+Fuente: Elaboración propia
+-300941
+413092
+INSTITUCIONAL
+0
+0
+INSTITUCIONAL
+216877
+243449
+0
+0
+1540414
+276860
+0
+0
+1534328
+10795
+0
+0
+-373188
+268569
+DOCENTE
+0
+0
+DOCENTE
+-356738
+284480
+ACÉFAVO
+0
+0
+ACÉFAVO
+1532387
+7859
+0
+0
+Localización
+La Facultad Integral de los Valles Cruceños (FIVC) tiene su sede principal en la ciudad de Vallegrande, capital de la provincia homónima, en el departamento de Santa Cruz, Bolivia.
+​Sus instalaciones académicas, administrativas y laboratorios se encuentran ubicados estratégicamente sobre la Avenida Ejército, dentro del área urbana del municipio. Esta ubicación central y de fácil acceso permite a la institución constituirse como el núcleo académico de la región, facilitando la convergencia de estudiantes provenientes de las distintas provincias y comunidades que conforman los valles cruceños y zonas aledañas.
+Servicios
+La Facultad Integral de los Valles Cruceños (FIVC) fundamenta su accionar en los pilares esenciales de la educación superior pública, brindando a la comunidad estudiantil y a la sociedad en general los siguientes servicios
+.
+​
+Formación Académica de Pregrado:
+Provisión de educación superior a nivel de licenciatura, formando profesionales altamente competitivos en áreas estratégicas (Ingeniería en Sistemas, Contaduría Pública e Ingeniería Agropecuaria) que responden directamente a las necesidades del entorno socioeconómico.
+​
+Educación de Posgrado y Formación Continua:
+A través de su Unidad de Posgrado, la facultad ofrece programas de especialización, diplomados y maestrías, garantizando la actualización profesional y académica constante de los graduados de la región.
+​
+Extensión Universitaria e Interacción Social:
+La institución vincula activamente el conocimiento académico con la comunidad mediante programas de apoyo, asesoramiento técnico, prácticas preprofesionales y transferencia de tecnología dirigidos a los sectores productivos, institucionales y empresariales locales.
+​
+Investigación Científica y Tecnológica:
+Fomento, desarrollo y ejecución de proyectos de investigación orientados a generar innovación y proponer soluciones prácticas y viables a las problemáticas de la región de los valles.
+Servicios de Apoyo Académico:
+Disposición de laboratorios especializados, bibliotecas y espacios tecnológicos para facilitar el proceso de enseñanza-aprendizaje y el desarrollo práctico de la comunidad estudiantil.
+Servicio de Comedor Universitario:
+La Facultad Integral de los Valles Cruceños brinda el servicio de comedor universitario a través de programas de apoyo estudiantil orientados principalmente a estudiantes de escasos recursos económicos. Este servicio se organiza mediante dos tipos de becas:
+la
+beca comedor
+y la
+beca alimentación
+, ambas de carácter gratuito.
+Estas becas permiten a los estudiantes acceder a una alimentación diaria adecuada, contribuyendo a su bienestar integral y favoreciendo su rendimiento académico, al asegurar condiciones básicas que les permitan concentrarse en sus actividades de formación profesional.
+Servicio de Albergue Universitario:
+La institución dispone de un servicio de albergue universitario gratuito,
+destinado principalmente a estudiantes que provienen de comunidades rurales o lugares alejados de la ciudad de Vallegrande. Este servicio beneficia especialmente a aquellos estudiantes que no cuentan con los recursos necesarios para costear alojamiento.
+El albergue proporciona condiciones básicas de hospedaje que facilitan la permanencia en el sistema universitario, reduciendo las dificultades de traslado y promoviendo la igualdad de oportunidades en el acceso a la educación superior.
+Ingeniería de Proyecto
+Administración del proyecto
+La administración se centra en la gestión eficiente de los recursos y el tiempo mediante el uso de metodologías ágiles. Se aplica específicamente el marco de XP (Extreme
+Programming
+) para priorizar las funciones más importantes, como la detección de choques de horarios. El desarrollo se organiza en ciclos cortos de trabajo, lo que permite que el software construido en Django se adapte rápidamente a cualquier cambio en la oferta académica de las cuatro carreras de la facultad.
+Métricas del Proyecto
+Para medir el avance y la calidad del sistema de manera objetiva, se utilizan las siguientes métricas:
+Métricas de Productividad:
+Se evalúa la velocidad con la que se completan los módulos de simulación y gestión de materias en cada etapa del cronograma.
+Métricas de Calidad (ISO/IEC 25010):
+Se mide la Adecuación Funcional, verificando que el simulador cumpla correctamente con la detección de cruces de horarios, y la Usabilidad, para asegurar que la interfaz sea sencilla y fácil de usar para los estudiantes.
+Métricas de Defectos:
+Se lleva un control de los errores encontrados durante las pruebas entre el sistema y la base de datos PostgreSQL, con el fin de corregirlos antes de la entrega final.
+Administración de Riesgo del proyecto
+Se establece un plan de respuesta ante los posibles problemas o dificultades (riesgos) que podrían afectar el éxito del proyecto, definiendo acciones para evitarlos o solucionarlos:
+Riesgos Tecnológicos:
+Se refiere a posibles fallas al configurar las herramientas de programación o dificultades al pasar los datos de los horarios (que actualmente están en registros manuales) hacia la base de datos PostgreSQL.
+Respuesta:
+Se realizarán pruebas constantes para asegurar que la información se guarde correctamente. Además, se crearán copias de seguridad (respaldos) de manera frecuente para evitar cualquier pérdida de datos académicos.
+Riesgos de Calendario:
+Se contempla el riesgo de no terminar el
+Planificador
+a tiempo para la entrega final en
+junio de 2026
+, debido a la complejidad en la programación.
+Respuesta:
+Se aplicará una priorización estricta de las tareas, enfocando los esfuerzos primero en las funciones críticas, como el detector de choques de
+horarios. Esto garantiza que el núcleo principal del sistema esté totalmente operativo para el estudiante en la fecha establecida.
+Metodologías del Proyecto
+Metodología del marco de trabajo (SCRUM)
+Scrum se define básicamente como una forma de organizar el trabajo en equipo para resolver problemas difíciles y entregar resultados que funcionen poco a poco
+CITATION Sch20 \l 3082
+(Schwaber &amp; Sutherland, 2020)
+.
+En el presente proyecto, se utiliza esta metodología para no perder el orden, trabajando en ciclos cortos llamados "
+Sprints
+" donde cada tres semanas se presenta a la facultad un avance real del simulador, asegurando que el software se adapte a lo que la institución necesita.
+Scrum no se cataloga como una metodología rígida de ingeniería, sino como un marco de trabajo (
+framework
+) adaptativo diseñado para la gestión de proyectos complejos. La base conceptual de este entorno se sostiene sobre el control de procesos empírico, el cual afirma que el conocimiento se deriva de la experiencia y de la toma de decisiones basadas en hechos observados.
+Al respecto,
+CITATION Sch21 \l 16394
+(Schwaber K. &amp;., 2020)
+, creadores oficiales del marco, exponen la siguiente definición en su guía oficial:
+Scrum es un marco de trabajo liviano que ayuda a las personas, equipos y organizaciones a generar valor a través de soluciones adaptables para problemas complejos. Requiere un Scrum Master para fomentar un entorno donde un
+Product
+Owner
+ordena el trabajo de un problema complejo en un
+Product
+Backlog.
+Bajo esta premisa, la estructura no intenta predecir de forma lineal todas las variables de un sistema desde su origen, sino que asume la incertidumbre como una constante en el desarrollo
+de software moderno. Para mitigar los efectos de dicha resolución, el empirismo agrupa prácticas que transforman la gestión tradicional. Según sostiene
+CITATION Lar04 \l 16394
+(Larman, 2004)
+, la adopción de estos entornos requiere aceptar que el aprendizaje continuo durante el ciclo de vida del proyecto es superior a cualquier estimación teórica inicial realizada en los escritorios. Por tanto, los pilares de transparencia, inspección y adaptación se vuelven obligatorios para visibilizar el estado real del sistema.
+Justificación de su Aplicación
+La adopción de Scrum como marco de gestión del proyecto se justifica por la naturaleza dinámica del software de optimización académica requerido por la Facultad Integral de los Valles Cruceños (F.I.V.C.). Los procesos de programación de horarios universitarios involucran una alta densidad de variables concurrentes, tales como la disponibilidad de aulas físicas, la carga horaria docente y la compatibilidad de asignaturas compartidas entre cuatro carreras distintas. Intentar modelar este escenario mediante metodologías tradicionales en cascada generaría un riesgo elevado de rigidez estructural ante los cambios.
+En este sentido, el uso de Scrum permite al equipo desarrollador segmentar el sistema en componentes mínimos viables que se refinan progresivamente. Según afirma
+CITATION Pre10 \l 16394
+(Pressman R. S., 2010)
+al analizar los entornos ágiles: "El desarrollo ágil combina una filosofía con un conjunto de directrices de desarrollo que enfatizan la entrega temprana de incrementos operativos" (p. 67).
+Mientras que la metodología de ingeniería XP (Extreme
+Programming
+) norma las directrices de calidad y escritura del código fuente en Django, Scrum proporciona la estructura de administración del tiempo y del personal. Como bien describe
+CITATION Hig02 \l 16394
+(Highsmith, 2002)
+, la agilidad no busca eliminar la disciplina, sino sustituir la documentación burocrática por una planificación orientada al valor directo del usuario final. Esta combinación híbrida asegura que el producto se
+construya con un ritmo sostenible y una capacidad de respuesta inmediata ante correcciones sugeridas por el tribunal evaluador o los administrativos de la facultad.
+Roles Estructurales del Equipo Scrum
+La conformación del equipo de trabajo bajo las reglas de Scrum elimina las estructuras jerárquicas piramidales y las sustituye por un equipo celular autoorganizado y multidisciplinario. De acuerdo con
+CITATION Cob15 \l 16394
+(Cobb, 2015)
+: "Los equipos de Scrum son multifuncionales, lo que significa que los miembros tienen todas las habilidades necesarias para crear valor en cada Sprint sin depender de personas ajenas al equipo" (p. 84). Los roles específicos que integran esta estructura se detallan a continuación
+Product
+Owner
+(Dueño del Producto):
+Es la entidad responsable de maximizar el valor del software resultante del trabajo del equipo. Su labor principal consiste en la gestión efectiva de los requisitos del usuario. Como explica
+Cohn
+CITATION Coh04 \l 16394
+(Cohn, 2004)
+, este rol debe poseer una visión clara del negocio para decidir de forma autónoma el orden de prioridad de las funcionalidades, equilibrando las demandas técnicas con las necesidades del cliente.
+En este proyecto, al ser este rol asumido por el vicedecano de la institución, la autoridad define de manera directa los reglamentos de inscripción y las reglas académicas vigentes, traduciéndolas en requerimientos claros para el equipo de desarrollo.
+Scrum Master
+(Facilitador):
+Es el responsable de establecer Scrum tal como se define en la Guía de Scrum. Lo logra ayudando a todos a comprender la teoría y la práctica. Según expone
+CITATION Som11 \l 16394
+(Sommerville, 2011)
+sobre este rol: "El Scrum Master protege al equipo de desarrollo de las interferencias externas y actúa como un facilitador que guía el uso correcto del proceso" (p. 75). Su rol se enfoca en el
+liderazgo de servicio, encargándose de remover los impedimentos operativos, tecnológicos o metodológicos que bloqueen el rendimiento de los desarrolladores.
+Developers
+(Equipo de Desarrollo):
+Son las personas del Equipo de Scrum que se comprometen a crear cualquier aspecto de un Incremento útil en cada Sprint.
+CITATION Coc06 \l 16394
+(Cockburn, 2006)
+destaca que la comunicación cooperativa en los equipos de ingeniería es el factor que determina el éxito del diseño lógico, por encima de las herramientas de software empleadas. En el contexto de este simulador, el equipo posee la autonomía técnica para diseñar las consultas relacionales en PostgreSQL, configurar los modelos en Python y validar la usabilidad de las interfaces bajo las normas técnicas.
+Artefactos de Gestión del Software
+Los artefactos representan el trabajo o el valor producido por el equipo de ingeniería. Están diseñados específicamente para maximizar la transparencia de la información clave del sistema. Los tres artefactos estandarizados por el marco de trabajo son:
+Product
+Backlog (Pila del Producto):
+Es una lista ordenada y emergente de lo que se necesita para mejorar el producto. Es la única fuente de requisitos para cualquier cambio que se realice en el simulador, tal como lo reafirman
+Schwaber
+y
+CITATION Sut14 \l 16394
+(Sutherland, 2014)
+en sus especificaciones estructurales (p. 10). Se compone de Historias de Usuario detalladas que describen desde el motor de autenticación hasta el algoritmo de control de materias en "arrastre".
+Sprint Backlog (Pila del Sprint):
+Es un conjunto de elementos del
+Product
+Backlog seleccionados para el Sprint, más un plan ejecutable para entregar el Incremento. Para
+CITATION Rub12 \l 16394
+(Rubin, 2012)
+, este artefacto funciona como un acuerdo de
+compromiso donde los desarrolladores exponen de manera visible el mapa detallado de tareas que ejecutarán de manera autónoma para cumplir con la meta de la iteración.
+Incremento (Software Funcional):
+Es un peldaño concreto hacia el Objetivo del Producto. Cada Incremento se adiciona a todos los Incrementos anteriores y se verifica minuciosamente. Con respecto a la ingeniería de estos entregables,
+CITATION Amb02 \l 16394
+(Ambler, 2002)
+argumenta que la validez del software solo se demuestra mediante código ejecutable y probado, descartando los informes de avance que no muestren funciones operativas en entornos reales.
+Eventos del Flujo de Trabajo
+Los eventos se utilizan en Scrum para crear regularidad y sincronizar las actividades de ingeniería, limitando la necesidad de reuniones que no estén definidas en el marco estructural. Todos los eventos se ejecutan bajo un principio de limitación de tiempo (
+time-
+boxed
+).
+El Sprint:
+Se define como el contenedor de todos los demás eventos. Es un ciclo de duración fija de dos a cuatro semanas donde se ejecuta la codificación real del sistema. Durante el transcurso del Sprint, no se realizan cambios que pongan en peligro la meta del ciclo, manteniendo un ritmo de trabajo constante (
+CITATION Sut14 \l 16394
+(Sutherland, 2014)
+, p. 105).
+Sprint
+Planning
+(Planificación):
+Reunión inicial donde se establece el trabajo que se realizará durante el ciclo.
+CITATION Sch04 \l 16394
+(Schwaber K. (., 2004)
+define este evento como el núcleo del compromiso ágil, donde la colaboración directa entre los programadores y el gestor de requisitos alinea las expectativas técnicas antes de escribir la primera línea de código.
+Daily
+Scrum (Reunión Diaria):
+Evento de 15 minutos para los Desarrolladores del Equipo de Scrum. Su propósito se orienta a la adaptabilidad cotidiana. Con respecto a esta ceremonia,
+CITATION Ste14 \l 16394
+(Stellman, 2014)
+señalan que la sesión de sincronización diaria permite disipar las confusiones técnicas del equipo de forma inmediata, evitando que los pequeños problemas de código se transformen en retrasos estructurales en el cronograma.
+Sprint
+Review
+(Revisión del Sprint):
+Instancia de inspección al concluir el ciclo de trabajo. El equipo presenta los resultados del Incremento a los administrativos y docentes de la facultad para evaluar el software funcional en un entorno de simulación real.
+Sprint Retrospective (Retrospectiva del Sprint):
+Ceremonia interna cuyo propósito es planificar formas de aumentar la calidad y la efectividad del propio equipo de ingeniería, analizando el comportamiento de las herramientas tecnológicas y las relaciones interpersonales durante la iteración.
+Metodología de desarrollo de software (XP)
+La Programación Extrema o XP es una metodología que se enfoca en que el código sea sencillo, que se pruebe muchas veces y que el equipo aprenda rápido de los errores
+CITATION Bec04 \l 3082
+(Beck &amp; Andres, 2004)
+. Se seleccionó XP para construir el simulador ya que permite avanzar por etapas y revisar el código constantemente, garantizando que el sistema sea de calidad y que las reglas de choque de materias funcionen exactamente como los estudiantes de la F.I.V.C. esperan.
+Definición y Fundamentos Teóricos
+La Programación Extrema, conocida en el ámbito de la ingeniería de software como XP, se define como una metodología ágil orientada a la producción de sistemas bajo entornos de alta
+incertidumbre y requisitos cambiantes. Según expone
+CITATION Bec00 \l 16394
+(Beck K. , 2000)
+Beck en el texto fundacional de esta disciplina, este enfoque se basa en llevar al límite las prácticas tradicionales de desarrollo, asumiendo que la adaptabilidad ante las solicitudes del usuario es el factor crítico para el éxito del proyecto.
+A diferencia de los modelos rígidos, esta metodología disminuye el costo del cambio a lo largo del ciclo de vida del software mediante la simplificación técnica y la retroalimentación inmediata. Al respecto,
+CITATION Jef01 \l 16394
+(Jeffries, 2001)
+sostiene que la estructura operativa de XP no se enfoca en la planificación a largo plazo, sino en la ejecución de ciclos iterativos muy cortos que garantizan la entrega continua de componentes de código totalmente operativos. De este modo, los valores de comunicación, simplicidad, retroalimentación, coraje y respeto actúan como los pilares rectores de las actividades de codificación.
+Justificación de su Aplicación en el Proyecto de la F.I.V.C.
+La implementación de la metodología XP para la construcción del simulador de horarios se justifica por la complejidad lógica que representa la sincronización académica de las cuatro carreras de la Facultad Integral de los Valles Cruceños. La validación matemática de choques horarios, el control del arrastre de asignaturas y la asignación eficiente de aulas físicas requieren una constante modificación del código fuente a medida que se descubren nuevas reglas de negocio de la institución.
+Bajo esta premisa, la adopción de un modelo iterativo resguarda la integridad técnica de la aplicación. Como argumenta
+CITATION Sho07 \l 16394
+(Shore, 2007)
+, la agilidad en el desarrollo técnico permite mitigar los riesgos lógicos mediante la validación temprana de los algoritmos fundamentales por parte de los operadores del sistema.
+Mientras que el marco Scrum se encarga de la gestión del tiempo y la sincronización del equipo de trabajo, XP introduce el rigor de ingeniería necesario para que el código en Django sea limpio y la base de datos en PostgreSQL mantenga su consistencia relacional. De acuerdo con
+CITATION Ste03 \l 16394
+(Stephens, 2003)
+la combinación de prácticas de ingeniería de XP con marcos de gestión ágil optimiza la calidad interna del producto, permitiendo que el software responda de forma estable ante las observaciones planteadas por el tribunal calificador.
+Fases del Ciclo de Vida de la Metodología
+El proceso de desarrollo del simulador de la facultad se estructura bajo las cuatro fases cíclicas estandarizadas por la ingeniería ágil:
+Fase de Planificación:
+Se centra en la captura de requisitos mediante las Historias de Usuario, donde se describen las necesidades del estamento estudiantil de forma breve. Según indica
+CITATION Coh041 \l 16394
+(Cohn, Cohn, M., 2004)
+, estas tarjetas actúan como un acuerdo de conversación entre los desarrolladores y los usuarios, permitiendo estimar el esfuerzo técnico en puntos de historia sin requerir extensos documentos de especificaciones.
+Fase de Diseño:
+Se orienta a la creación de estructuras simples que resuelvan únicamente las necesidades actuales del sistema.
+CITATION Amb021 \l 16394
+(Ambler, Ambler, S. W., 2002)
+señala que el diseño ágil debe evitar la
+sobre ingeniería
+, priorizando el uso de herramientas minimalistas como los diagramas de clases y las tarjetas CRC para modelar las relaciones de las tablas antes de escribir el código fuente.
+Fase de Codificación:
+Representa la traducción de la lógica académica al entorno de programación Python utilizando el
+framework
+Django. En esta fase se aplica la
+Programación en Parejas, donde un desarrollador escribe las líneas de código y el segundo inspecciona la sintaxis en tiempo real para evitar fallos lógicos.
+Fase de Pruebas:
+Es el núcleo que garantiza el funcionamiento del simulador. Se ejecutan pruebas unitarias automatizadas y pruebas de aceptación con la facultad. Como establece
+CITATION Mye11 \l 16394
+(Myers, 2011)
+,
+las pruebas continuas en el desarrollo ágil no se realizan al final del proyecto, sino que se integran en el flujo diario para asegurar que las nuevas funciones no destruyan la lógica que ya se encontraba operativa.
+Prácticas de Ingeniería y Recomendaciones Metodológicas
+Para garantizar el correcto despliegue de XP en el entorno universitario, se establecen las siguientes recomendaciones operativas basadas en los estándares de calidad de la ingeniería de software:
+Adoptar el Principio de Diseño Simple:
+Se recomienda programar únicamente la solución técnica más sencilla que resuelva el requisito actual de la facultad. Al respecto,
+CITATION Fow18 \l 16394
+(Fowler, 2018)
+enfatiza que la refactorización constante del código limpia la deuda técnica y permite que los algoritmos de detección de colisiones de horarios sean escalables ante futuras normativas académicas.
+Implementar la Integración Continua:
+Se sugiere subir y unificar las modificaciones de código en el servidor de desarrollo varias veces al día. Esta práctica asegura que los cambios realizados en las vistas de Django se acoplen de inmediato con las restricciones de la base de datos PostgreSQL, evitando conflictos severos durante la fase de ensamblaje final.
+Garantizar la Presencia del Cliente en el Sitio:
+Se recomienda mantener canales de comunicación directos y semanales con los encargados administrativos de la
+F.I.V.C. La disponibilidad inmediata de los usuarios expertos para resolver dudas lógicas evita que el equipo técnico realice suposiciones erróneas sobre la distribución de grupos y cupos.
+Otras metodologías utilizadas (Metodologías usadas para el levantamiento de información)
+Para recolectar datos, se emplean técnicas que permiten entender a fondo un problema mediante la comunicación directa con las personas involucradas
+CITATION Cre17 \l 3082
+(Creswell &amp; Creswell, 2017)
+.
+Se aplicó la Observación Directa aprovechando que los desarrolladores son estudiantes de la facultad y conocen de cerca los problemas con la distribución de horarios.
+Se utilizó la Entrevista Estructurada con la técnica de pirámide
+CITATION Ken11 \l 3082
+(Kendall &amp; Kendall, 2011)
+, comenzando con preguntas sobre códigos de materias y terminando con charlas abiertas con los administrativos para entender sus reglas de negocio.
+Se
+utilizara
+la pirámide normal para este punto, para poder recabar los datos.
+Se realizó una Encuesta digital para cuantificar cuántos alumnos sufren por los horarios y así justificar por qué es necesario el módulo de alertas
+, se
+utilizara
+la pirámide Normal para este análisis de
+requisitos
+.
+Plataformas
+Aplicación web
+Una aplicación web es un programa que vive en un servidor y al que se accede simplemente usando un navegador como Chrome o Safari
+CITATION Pre20 \l 3082
+(Pressman &amp; Maxim, 2020)
+. Se
+decidió que el planificador sea exclusivamente web para garantizar el acceso universal; esto permite que cualquier alumno entre desde su celular o computadora sin instalar nada adicional, facilitando que el equipo actualice los horarios en un solo lugar para que todos vean los cambios al instante.
+Definición y Fundamentos Teóricos
+Una aplicación web se define como un sistema de software embebido en una arquitectura cliente-servidor, donde el usuario interactúa con la interfaz a través de un navegador común conectado a una red informática. Según explica Pressman (2010), estas aplicaciones difieren del software de escritorio tradicional porque no requieren procesos de instalación o configuración individual en los dispositivos locales, centralizando la lógica operativa y facilitando la distribución masiva de los servicios informáticos. El procesamiento de datos complejos se traslada al servidor, mientras que el cliente web se limita a renderizar los componentes visuales recibidos.
+El flujo básico de operación se inicia cuando el navegador realiza una petición HTTP hacia el servidor de aplicaciones. Al respecto,
+Shklar
+(2009) sostiene que la arquitectura web se sostiene sobre protocolos estándar de comunicación que transforman las interacciones del usuario en mensajes estructurados, permitiendo que sistemas heterogéneos intercambien información de manera segura y eficiente. De este modo, la ejecución de funciones no depende de la capacidad de cómputo del dispositivo del estudiante, sino de la infraestructura que aloja el sistema.
+Justificación de su Aplicación en el Proyecto de la F.I.V.C.
+La elección de una plataforma web para el simulador de horarios de la Facultad Integral de los Valles Cruceños responde directamente a la necesidad de garantizar el acceso democrático y multiplataforma para toda la comunidad universitaria. Los estudiantes activos de las cuatro carreras necesitan realizar simulaciones de su carga académica desde diferentes entornos, incluyendo teléfonos móviles, tabletas y computadoras de escritorio de variadas capacidades técnicas.
+La centralización de la lógica en la nube resguarda la veracidad de la planificación. Como argumenta Sommerville (2011), las arquitecturas basadas en web mitigan los problemas de inconsistencia de datos que ocurren cuando la información se distribuye en archivos locales aislados, asegurando que todos los usuarios consulten la misma base de datos en tiempo real.
+Al implementar el sistema bajo el
+framework
+Django
+conectado a la base de datos
+PostgreSQL
+, se garantiza que los algoritmos de detección de colisiones horarias se ejecuten en un entorno controlado. De acuerdo con Garret (2010), la separación de las capas de datos y presentación en sistemas web mejora drásticamente la experiencia de usuario, permitiendo diseñar interfaces dinámicas que guían al estudiante en sus decisiones académicas sin sobrecargar la red interna de la facultad.
+Estructura Técnica y Flujo de Datos
+El funcionamiento técnico del simulador web se organiza en dos secciones operativas claramente diferenciadas que interactúan de forma constante:
+El Entorno Cliente (
+Frontend
+):
+Constituye la capa visual y de interacción con la que se relaciona el alumno. Utiliza tecnologías estándar de la industria como
+HTML, CSS (Bootstrap/
+Tailwind
+) y JavaScript. Según detalla Flanagan (2011), esta capa es la encargada de capturar los eventos del ratón o teclado, validar preliminarmente los formularios en el navegador y enviar las solicitudes estructuradas hacia el
+backend
+de forma asíncrona.
+El Entorno Servidor (
+Backend
+):
+Representa el núcleo lógico donde se procesan las reglas del negocio de la F.I.V.C. Es el espacio donde el
+framework
+Python interpreta las solicitudes, ejecuta las consultas relacionales y verifica la disponibilidad de cupos y aulas. Como puntualiza Lane (2002), el éxito de una aplicación web orientada a bases de datos radica en la eficiencia de su capa de persistencia, la cual debe asegurar que las inserciones y modificaciones de registros se realicen bajo estrictas condiciones de concurrencia y seguridad informática.
+Arquitectura del Software
+MVC o en capas
+El modelo MVC es una forma de organizar el código separando los datos, la lógica y lo que el usuario ve para que el programa sea más ordenado
+CITATION Gam94 \l 3082
+(Gamma, Helm, Johnson, &amp; Vlissides, 1994)
+. Se emplea este estándar mediante Django para dividir el trabajo: el Modelo maneja la base de datos PostgreSQL, el Controlador procesa en Python los choques de materias, y la Vista es la pantalla que el estudiante utilizará para armar su horario.
+Definición y Fundamentos Teóricos
+La organización del código fuente en sistemas de información complejos requiere la adopción de patrones que permitan dividir las responsabilidades operativas. Según expone
+CITATION Som111 \l 16394
+(Sommerville, Sommerville, I., 2011)
+), la arquitectura de software de un sistema influye directamente en el rendimiento, la seguridad y la mantenibilidad del producto, por lo que una separación clara de funciones evita el acoplamiento excesivo y la propagación de errores lógicos durante la fase de codificación.
+Para resolver esta necesidad, el patrón Modelo-Vista-Controlador (MVC) divide la aplicación en tres unidades lógicas interconectadas. Al respecto,
+CITATION Ree79 \l 16394
+(Reenskaug, 1979)
+sostiene que la finalidad primordial de este diseño es cerrar la brecha entre el modelo mental del usuario y el modelo digital almacenado en el computador, permitiendo que las modificaciones en los datos se reflejen de forma independiente a la representación visual. El Modelo administra los datos y las reglas del negocio, la Vista expone la información en la pantalla y el Controlador gestiona las peticiones del usuario, actuando como intermediario.
+Justificación de su Aplicación en el Proyecto de la F.I.V.C.
+La implementación de una estructura dividida para el simulador de horarios de la Facultad Integral de los Valles Cruceños responde a la necesidad de aislar los algoritmos de detección de choques de materias de los componentes de diseño estético. Los reglamentos internos de inscripción de las cuatro carreras representan reglas de negocio complejas que se ejecutan en el servidor, mientras que las interfaces visuales mutan según las necesidades de los alumnos.
+La combinación del patrón estructural con un enfoque de distribución jerárquica resguarda la integridad del sistema. Como argumenta
+CITATION Pre101 \l 16394
+(Pressman R. S., Pressman, R. S., 2010)
+, el diseño arquitectónico debe estructurarse de manera que permita el desarrollo paralelo de componentes, facilitando que las modificaciones técnicas en los módulos lógicos no obliguen a reconstruir las interfaces visuales de usuario.
+Al emplear el
+framework
+Django, la arquitectura se despliega de manera natural bajo una variante del MVC. De acuerdo con
+CITATION Hol09 \l 16394
+(Holovaty, 2009)
+, la separación de archivos en entornos web modernos organiza el código de forma modular, permitiendo que el motor de plantillas visuales trabaje de manera asíncrona con el
+mapeador
+de la base de datos relacional. Esta independencia asegura que el simulador funcione con estabilidad técnica ante las observaciones del tribunal calificador.
+Estructura de la Arquitectura en Capas
+Complementando al patrón de control, el sistema organiza sus responsabilidades operativas en niveles jerárquicos independientes. Según puntualiza
+CITATION Mar17 \l 16394
+(Martin, 2017)
+, una arquitectura limpia se basa en la regla de dependencia, donde las capas internas de lógica pura no deben conocer absolutamente nada sobre los detalles de las capas externas como las bases de datos o los entornos de presentación web. Para el software de la facultad, se definen las siguientes tres capas:
+Capa de Presentación (Interfaz):
+Es el nivel superior con el que interactúa el estudiante. Captura las intenciones del usuario a través del navegador web y renderiza los horarios resultantes mediante Bootstrap o
+Tailwind
+CSS.
+Capa de Lógica de Negocio (Core):
+Constituye el núcleo del simulador. Aquí se procesan matemáticamente las restricciones de las aulas, la disponibilidad de los docentes y la validación de las asignaturas en "arrastre".
+Capa de Acceso a Datos (Persistencia):
+Es la encargada de la comunicación directa con el motor PostgreSQL. Se encarga de traducir las solicitudes lógicas del sistema en consultas estructuradas de base de datos de manera segura.
+Formato de Intercambio de Datos JSON
+JSON es un formato de texto simple que sirve para pasar información de un programa a otro de manera rápida
+CITATION JSO24 \l 3082
+(JSON.org, 2024)
+. Aunque no se usa una API externa, se utiliza JSON internamente porque es muy liviano, lo que hace que el buscador de materias sea veloz y que las alertas rojas de los choques de horarios aparezcan de forma inmediata.
+Herramientas de Implementación
+Lenguajes de Software
+HTML5
+Se define como el lenguaje básico para crear y organizar el contenido de las páginas web
+CITATION Duc11 \l 3082
+(Duckett, 2011)
+. Se utiliza para armar el "esqueleto" del planificador, indicando dónde van las tablas, los botones y los textos para que todo se vea ordenado en cualquier navegador.
+Justificación de su Aplicación en el Proyecto de la F.I.V.C.
+La implementación de HTML5 como base estructural de la interfaz del simulador de horarios de la Facultad Integral de los Valles Cruceños se justifica por tres factores tecnológicos críticos:
+Soporte Semántico Avanzado:
+Al procesar información académica densa (materias, grupos, docentes y aulas), las nuevas etiquetas semánticas permiten estructurar las grillas de horarios de forma limpia, facilitando la accesibilidad del estamento estudiantil.
+Validación en el Cliente:
+Permite realizar controles previos en los formularios de simulación de carga académica. Al respecto,
+Lawson
+(2011) argumenta que las herramientas de validación nativas de HTML5 reducen el tráfico innecesario hacia el servidor
+backend
+, detectando datos nulos o formatos incorrectos de manera inmediata en el propio navegador del alumno.
+Compatibilidad Multiplataforma Absoluta:
+Garantiza que el simulador funcione correctamente sin importar las características del dispositivo desde el cual acceda el estudiante, acoplándose de forma nativa con los
+frameworks
+de diseño visual (Bootstrap o
+Tailwind
+CSS) que utiliza el proyecto.
+C
+SS (
+Tailwind
+CSS / Bootstrap):
+Es el lenguaje que se usa para darle color y estilo a los sitios web
+CITATION Mey23 \l 3082
+(Meyer &amp; Robbins, 2023)
+. Gracias a su aplicación, se logra que el simulador tenga una apariencia profesional, que las alertas de choques resalten en rojo y que la página se acomode automáticamente al tamaño de la pantalla de un celular.
+Importancia de CSS en el desarrollo web
+El uso de CSS es esencial en el desarrollo web actual debido a la necesidad de diseñar interfaces responsivas que se adapten a distintos dispositivos. El diseño responsivo permite que una aplicación funcione correctamente en computadoras,
+tablets
+y teléfonos móviles, ajustando automáticamente los elementos según el tamaño de la pantalla. Esto se logra mediante técnicas
+como media
+queries
+,
+flexbox
+y
+grid
+layout
+, que forman parte de las capacidades modernas de CSS
+CITATION Wor23 \l 16394
+((W3C), 2023)
+.
+Asimismo, CSS permite mejorar la accesibilidad y usabilidad del sistema, facilitando la navegación del usuario y optimizando la presentación de la información. Un buen diseño visual influye directamente en la percepción del usuario sobre la calidad del sistema, lo que hace que CSS sea una herramienta clave dentro del desarrollo de software
+CITATION Wor231 \l 16394
+((W3C), World Wide Web Consortium (W3C), 2023)
+.
+Frameworks
+de CSS
+Debido a la complejidad creciente del diseño web, han surgido
+frameworks
+de CSS que permiten agilizar el desarrollo y estandarizar la apariencia de las aplicaciones. Estos
+frameworks
+ofrecen estilos predefinidos, componentes reutilizables y sistemas de diseño que facilitan la creación de interfaces modernas sin necesidad de comenzar desde cero.
+Entre los
+frameworks
+más utilizados se encuentran
+Bootstrap
+y
+Tailwind
+CSS
+, los cuales presentan
+diferentes enfoques en la construcción de interfaces
+CITATION Boo24 \l 16394
+(Bootstrap, 2024)
+.
+Bootstrap
+Bootstrap
+es un
+framework
+de CSS de código abierto que proporciona una amplia colección de componentes prediseñados como botones, formularios, tablas, menús de navegación y un sistema de rejilla (
+grid
+system
+). Este sistema permite organizar los elementos en columnas adaptables, facilitando el
+desarrollo de interfaces responsivas de manera rápida y eficiente
+CITATION Boo24 \l 16394
+(Bootstrap, 2024)
+.
+Tailwind
+CSS
+Tailwind
+CSS
+es un
+framework
+moderno basado en el enfoque
+utility-first
+, que se caracteriza por utilizar clases pequeñas y específicas directamente en el HTML para construir el diseño. A diferencia de Bootstrap, no ofrece componentes prediseñados, sino que brinda mayor flexibilidad para crear interfaces
+Tipos de CSS
+CSS se puede dividir en tres tipos principales según su forma de implementación:
+CSS en línea (
+Inline
+CSS)
+:
+Se aplica directamente dentro de las etiquetas HTML mediante el atributo
+style
+. Es útil para cambios específicos, pero no es recomendable para proyectos grandes debido a la dificultad de mantenimiento.
+CSS interno (
+Internal
+CSS)
+:
+Se define dentro de la etiqueta &lt;
+style
+&gt; en el encabezado del documento HTML. Permite aplicar estilos a una sola página.
+CSS externo (
+External
+CSS)
+:
+Se almacena en archivos separados con extensión .
+css
+y se enlaza al documento HTML. Es el método más utilizado, ya que permite reutilizar estilos en múltiples páginas y facilita el mantenimiento del sistema (Mozilla
+Foundation
+, s.f.).
+Justificación del uso de CSS en el proyecto
+El uso de CSS en este proyecto se justifica debido a la necesidad de ofrecer una interfaz gráfica amigable, intuitiva y funcional para los usuarios del sistema. Dado que el software está orientado a la simulación de horarios académicos, es imprescindible presentar la información de manera visualmente clara y organizada.
+JavaScript:
+Es un lenguaje que permite que las páginas web realicen acciones interactivas
+CITATION Fla20 \l 3082
+(Flanagan, 2020)
+. Es la herramienta que le da "vida" al sistema, permitiendo que las alertas de colores aparezcan apenas el alumno elige una materia que choca con otra, sin tener que recargar la página.
+Historia de JavaScript
+JavaScript fue creado en 1995 por
+Brendan
+Eich
+mientras trabajaba en la empresa Netscape
+Communications
+. Su desarrollo se realizó en un corto periodo de tiempo con el objetivo de añadir interactividad a las páginas web. Inicialmente, fue conocido como
+LiveScript
+, pero posteriormente fue renombrado como JavaScript por razones de marketing. Con el paso del tiempo, este lenguaje evolucionó significativamente y fue estandarizado bajo el nombre ECMAScript, lo que permitió su adopción global y su constante mejora
+CITATION ECM23 \l 16394
+(International., 2023)
+.
+Importancia de JavaScript en el desarrollo web
+En la actualidad, JavaScript es un componente esencial en el desarrollo de aplicaciones web, ya que permite crear interfaces dinámicas, mejorar la experiencia del usuario y desarrollar funcionalidades avanzadas como
+animaciones, validaciones en tiempo real y comunicación con servidores. Su integración con HTML y CSS permite construir aplicaciones completas del lado del cliente, optimizando el rendimiento y la interacción del usuario con el sistema
+CITATION MDN24 \l 16394
+(Docs., 2024)
+.
+Características de JavaScript
+JavaScript posee diversas características que lo hacen un lenguaje ampliamente utilizado, entre ellas su capacidad de ejecutarse en múltiples plataformas, su compatibilidad con todos los navegadores modernos y su facilidad de aprendizaje. Además, soporta programación orientada a objetos, programación funcional y asincronía mediante el uso de promesas y
+async
+/
+await
+, lo que permite manejar procesos complejos de manera eficiente
+CITATION W3S24 \l 16394
+(W3Schools., 2024)
+.
+Aplicación y justificación en el proyecto
+En el presente proyecto de desarrollo de un sistema de simulación de horarios académicos, JavaScript será utilizado para implementar la lógica interactiva del sistema, permitiendo al usuario seleccionar materias, visualizar horarios en tiempo real y detectar conflictos entre asignaturas. Su uso es fundamental para mejorar la experiencia del usuario, ya que posibilita la actualización dinámica de la interfaz sin necesidad de recargar la página. Además, contribuirá a optimizar la funcionalidad del sistema, garantizando una interacción rápida, eficiente y amigable para los estudiantes
+CITATION Ora24 \l 16394
+(Corporation., 2024)
+.
+Python:
+Es un lenguaje de programación potente y fácil de leer, ideal para manejar cálculos y lógica
+CITATION Van23 \l 3082
+(Van Rossum, 2023)
+. Se emplea como el motor
+principal para procesar todas las reglas de los horarios de las cuatro carreras de la facultad y asegurar que los datos se manejen sin errores.
+SQL (PostgreSQL)
+: Es el lenguaje estándar para guardar y buscar información en bases de datos
+CITATION Bea20 \l 3082
+(Beaulieu, 2020)
+. Se utiliza para que el simulador pueda consultar rápidamente la lista de materias, docentes y aulas, garantizando que la información académica esté siempre segura y organizada.
+Frameworks
+(
+Frontend-backend
+)
+Django (
+Backend
+):
+Django es una herramienta de Python hecha para construir aplicaciones web seguras y rápidas
+CITATION Dja24 \l 3082
+(Django Software Foundation, 2024)
+. Se seleccionó porque es muy robusto y ofrece soluciones integradas para la seguridad y la administración de datos, facilitando la aplicación de las reglas de inscripción de la facultad.
+Django es un
+framework
+de desarrollo web de código abierto escrito en el lenguaje de programación Python, diseñado para facilitar la creación de aplicaciones web robustas, seguras y escalables. Su principal objetivo es simplificar el desarrollo mediante la reutilización de componentes y la implementación de buenas prácticas, permitiendo a los desarrolladores construir aplicaciones de manera rápida y eficiente
+CITATION Dja24 \l 16394
+(Django Software Foundation, 2024)
+.
+Historia de Django
+Django fue desarrollado inicialmente en el año 2003 por los programadores
+Adrian
+Holovaty
+y
+Simon
+Willison
+mientras trabajaban en un periódico digital. Fue liberado oficialmente como software de código abierto en 2005,
+permitiendo su adopción por la comunidad de desarrolladores a nivel mundial. Desde entonces, Django ha evolucionado constantemente, convirtiéndose en uno de los
+frameworks
+más populares para el desarrollo web en Python
+CITATION Dja237 \l 16394
+(Software, 2023)
+Importancia de Django en el desarrollo web
+Django es ampliamente utilizado en el desarrollo de aplicaciones web debido a su capacidad para acelerar el proceso de desarrollo sin comprometer la calidad del software. Proporciona herramientas integradas como autenticación de usuarios, administración automática y manejo de bases de datos, lo que reduce la necesidad de desarrollar funcionalidades desde cero. Esto permite a los desarrolladores enfocarse en la lógica del negocio y en las necesidades del usuario
+CITATION Moz24 \l 16394
+(Foundation. M. , 2024)
+Uso de Django en el desarrollo moderno
+En la actualidad, Django es utilizado para el desarrollo de aplicaciones web complejas, sistemas empresariales y plataformas escalables. Su integración con bases de datos,
+APIs
+REST y tecnologías
+frontend
+modernas lo convierte en una herramienta versátil para proyectos de gran envergadura. Además, su compatibilidad con bibliotecas de Python permite extender sus funcionalidades de manera eficiente
+CITATION Pyt24 \l 16394
+(Python Software Foundation, 2024)
+.
+Bootstrap y
+Tailwind
+CSS (
+Frontend
+):
+Son bibliotecas de diseño que ofrecen plantillas listas para usar en sitios web
+CITATION Spu13 \l 3082
+(Spurlock, 2013)
+. Se emplean para acelerar la construcción de la interfaz y asegurar que el simulador sea fácil de usar para cualquier estudiante, sin importar el dispositivo que utilice.
+Entorno de Ejecución
+Python 3.14:
+Un entorno de ejecución es el conjunto de software y recursos que permiten que una aplicación corra en una computadora
+CITATION Tan21 \l 3082
+(Tanenbaum &amp; Bos, 2021)
+. Se utiliza la versión 3 de Python para que el sistema sea rápido y totalmente compatible con las últimas herramientas de seguridad de Django.
+Python es un lenguaje de programación de alto nivel, interpretado y de propósito general, reconocido por su sintaxis sencilla y legible. Permite desarrollar aplicaciones de manera eficiente, facilitando la comprensión del código y reduciendo la complejidad en el desarrollo de software. Su diseño promueve la productividad del programador, convirtiéndolo en una herramienta ampliamente utilizada en distintos ámbitos tecnológicos
+CITATION Swe19 \l 16394
+(Sweigart, 2019)
+.
+Historia de Python
+Python fue creado por
+Guido van Rossum
+a finales de los años 80 y lanzado oficialmente en 1991. Su desarrollo estuvo influenciado por otros lenguajes como ABC, buscando mejorar la facilidad de uso y la claridad del código. Con el paso del tiempo, Python ha evolucionado mediante distintas versiones, consolidándose como uno de los lenguajes más importantes en el desarrollo de software moderno
+CITATION Dow15 \l 16394
+(Downey, 2015)
+.
+Características de Python
+Entre las principales características de Python se encuentran su tipado dinámico, su soporte para múltiples paradigmas de programación y su amplia
+biblioteca estándar. Además, permite la integración con otros lenguajes y facilita el desarrollo rápido de aplicaciones. Estas características hacen que Python sea una opción ideal tanto para principiantes como para desarrolladores experimentados
+CITATION Bea13 \l 16394
+(Beazley, 2013)
+.
+Python 3.14 y su evolución
+Python 3.14 forma parte de la evolución continua del lenguaje, incorporando mejoras en rendimiento, optimización de memoria y nuevas funcionalidades que facilitan el desarrollo de aplicaciones modernas. Estas versiones recientes buscan mejorar la eficiencia del lenguaje y adaptarse a las nuevas demandas tecnológicas, manteniendo su filosofía de simplicidad y claridad
+CITATION Zel17 \l 16394
+(Zelle, 2017)
+.
+Uso de Python en el desarrollo moderno
+En la actualidad, Python es utilizado en diversas áreas como desarrollo web, inteligencia artificial, automatización y análisis de datos. Su compatibilidad con
+frameworks
+modernos y su amplia comunidad permiten el desarrollo de soluciones tecnológicas eficientes y escalables. Además, su facilidad de integración lo convierte en una herramienta clave en proyectos de software actuales
+CITATION Gri18 \l 16394
+(Grinberg, 2018)
+.
+Gestor de base de datos
+PostgreSQL:
+Es un sistema confiable para guardar datos que asegura que la información no se pierda o se mezcle por error
+CITATION Mom01 \l 3082
+(Momjian, 2001)
+. Se seleccionó para manejar la información de la facultad debido a su excelente capacidad para trabajar con relaciones complejas entre materias y códigos.
+PostgreSQL es un sistema de gestión de bases de datos relacional de código abierto, reconocido por su estabilidad, robustez y cumplimiento de estándares SQL. Permite almacenar, organizar y gestionar grandes volúmenes de información de manera eficiente, garantizando la integridad y consistencia de los datos. Es ampliamente utilizado en aplicaciones empresariales y sistemas web debido a su alto rendimiento y confiabilidad
+CITATION Elm16 \l 16394
+(Elmasri, 2016)
+.
+Historia de PostgreSQL.
+PostgreSQL tiene sus orígenes en el proyecto POSTGRES desarrollado en la Universidad de California en Berkeley durante la década de 1980, liderado por
+Michael
+Stonebraker
+. Posteriormente, el sistema evolucionó incorporando el lenguaje SQL, dando lugar a PostgreSQL como se conoce en la actualidad. A lo largo del tiempo, ha sido mejorado por una comunidad global de desarrolladores, consolidándose como una de las bases de datos más avanzadas
+CITATION Sto86 \l 16394
+(Stonebraker, 1986)
+.
+Características de PostgreSQL
+Entre las principales características de PostgreSQL se destacan su soporte para transacciones ACID, su capacidad de manejar grandes volúmenes de datos y su extensibilidad. Además, permite el uso de funciones definidas por el usuario, tipos de datos personalizados y múltiples índices, lo que mejora la eficiencia en las consultas. Estas características lo convierten en una solución flexible y potente para el manejo de información
+CITATION Kro17 \l 16394
+(Krosing, 2017)
+PostgreSQL en el desarrollo moderno
+En la actualidad, PostgreSQL es utilizado en aplicaciones web, sistemas empresariales y plataformas de análisis de datos. Su compatibilidad con múltiples lenguajes de programación y
+frameworks
+lo hace ideal para integrarse en arquitecturas modernas. Además, su capacidad para trabajar con datos estructurados y no estructurados lo posiciona como una herramienta clave en el desarrollo de software actual
+CITATION Mom20 \l 16394
+(Momjian B. , 2020)
+.
+Ventajas de PostgreSQL
+PostgreSQL ofrece diversas ventajas, como su naturaleza de código abierto, lo que elimina costos de licencias, su alta seguridad y su capacidad de escalabilidad. También permite realizar copias de seguridad, replicación de datos y manejo avanzado de concurrencia. Estas ventajas lo convierten en una opción preferida frente a otros sistemas gestores de bases de datos
+CITATION Rig15 \l 16394
+(Riggs, 2015)
+.
+IDE
+Visual Studio
+Code
+:
+Un Entorno de Desarrollo Integrado (IDE) es una aplicación que facilita la programación de software mediante herramientas de apoyo visual
+CITATION Mic24 \l 3082
+(Microsoft, 2024)
+. Es la herramienta principal utilizada por el equipo de desarrollo para escribir el código, detectar fallos rápidamente y organizar las partes del simulador, ya que el equipo ya está familiarizado con este “IDE”.
+Visual Studio
+Code
+es un editor de código fuente gratuito, ligero y multiplataforma desarrollado por
+Microsoft
+. Está diseñado para facilitar el
+desarrollo de software mediante herramientas integradas como resaltado de sintaxis, autocompletado, depuración y control de versiones. Su interfaz intuitiva y su amplia compatibilidad con lenguajes de programación lo convierten en una herramienta esencial para desarrolladores
+CITATION Micr24 \l 16394
+(Microsoft., 2024)
+.
+Historia de Visual Studio
+Code
+Visual Studio
+Code
+fue lanzado oficialmente en el año 2015 por Microsoft como una alternativa moderna y ligera a otros entornos de desarrollo. Desde su lanzamiento, ha evolucionado constantemente mediante actualizaciones periódicas que incorporan nuevas funcionalidades y mejoras en el rendimiento. Gracias a su naturaleza de código abierto y su comunidad activa, se ha convertido en uno de los editores más utilizados a nivel mundial
+CITATION Mic15 \l 16394
+(S.F., 2015)
+.
+Características de Visual Studio
+Code
+Entre las principales características de Visual Studio
+Code
+se encuentran su soporte para múltiples lenguajes de programación, su sistema de extensiones y su integración con herramientas de desarrollo. Además, incluye funcionalidades como depuración integrada, terminal incorporada y control de versiones mediante Git, lo que permite a los desarrolladores trabajar de manera eficiente dentro de un solo entorno
+CITATION Vis24 \l 16394
+(Docs. V. S., 2024)
+.
+Extensibilidad y personalización
+Una de las principales ventajas de Visual Studio
+Code
+es su capacidad de personalización mediante extensiones. Los usuarios pueden instalar complementos que permiten añadir nuevas funcionalidades, como soporte para
+frameworks
+específicos, herramientas de diseño y configuraciones avanzadas. Esta flexibilidad permite adaptar el entorno de desarrollo según las necesidades del proyecto
+CITATION Vis241 \l 16394
+(Marketplace., 2024)
+.
+Uso de Visual Studio
+Code
+en el desarrollo moderno
+En la actualidad, Visual Studio
+Code
+es ampliamente utilizado en el desarrollo web, móvil y de aplicaciones de escritorio. Su compatibilidad con tecnologías como JavaScript, Python y
+frameworks
+modernos lo convierte en una herramienta versátil para distintos tipos de proyectos. Además, su integración con sistemas de control de versiones facilita el trabajo colaborativo entre desarrolladores
+CITATION Git23 \l 16394
+(GitHub, 2023)
+.
+Herramienta CASE (Modelado y Diseño):
+Lucidchart
+Contexto Histórico y Evolución Tecnológica Las herramientas CASE (
+Computer-Aided
+Software
+Engineering
+) constituyen un pilar metodológico en la ingeniería de sistemas moderna, orientadas a automatizar las fases de análisis, modelado y diseño arquitectónico del software. Dentro de este ámbito evolutivo, la suite de diseño
+Lucidchart
+transformó radicalmente el desarrollo colaborativo al prescindir de las instalaciones locales pesadas y restrictivas que caracterizaban a los utilitarios de modelado tradicionales. Según explica de manera formal la corporación
+CITATION Luc10 \l 3082
+(Inc., 2010)
+esta plataforma fue concebida desde sus fundamentos como una suite integral de colaboración visual basada cien por ciento en la nube. Esta transición hacia entornos virtuales distribuidos permitió que los equipos de ingeniería de software abandonaran los flujos de modelado estáticos y aislados.
+El núcleo operativo de la herramienta destaca por su alto rendimiento y compatibilidad multiplataforma, factores clave para agilizar la abstracción de sistemas complejos. La adopción e integración nativa de tecnologías web estándar como HTML5 permite que el procesamiento y renderizado de gráficos vectoriales complejos se ejecute de forma fluida directamente sobre el navegador web de los analistas
+CITATION Luc10 \l 3082
+(Inc., 2010)
+.
+Mediante el uso del elemento técnico
+Canvas
+, la herramienta proporciona un espacio interactivo de sincronización asíncrona que optimiza la comunicación técnica en proyectos con arquitecturas multicapa. el entorno permite romper las barreras físicas de la distancia, habilitando a múltiples desarrolladores a interactuar, corregir y validar la lógica de un sistema en tiempo real dentro de un mismo espacio de trabajo.
+Aplicación Práctica en el Proyecto
+Modelado de Comportamiento:
+Permitió diagramar los Casos de Uso del sistema para delimitar de manera formal el alcance del software, identificando las fronteras operativas y los permisos jerárquicos de los tres actores clave (Administrador, Operador de Datos y Estudiante).
+Modelado Dinámico:
+Se utilizó para la construcción de los Diagramas de Secuencia, mapeando el flujo temporal de peticiones HTTP y respuestas JSON entre los controladores de Django y las interfaces web, modelando con precisión flujos críticos como el
+login
+por roles y el motor de autocompletado de materias.
+Modelado Estructural de Datos:
+Indispensable para estructurar visualmente el diagrama del modelo conceptual y físico de la base de datos relacional. Esto facilitó el diseño lógico de las tablas Horario, Prerrequisito,
+GrupoMateria
+y
+DetalleSimulacion
+, garantizando el cumplimiento de las restricciones relacionales de
+llaves primarias (
+pk
+) y foráneas (FK) antes de impactar el servidor local de PostgreSQL.
+Herramienta de Recolección de Datos: Google
+Forms
+Contexto Histórico y Fundamentos Funcionales El proceso de ingeniería de requisitos requiere de mecanismos e instrumentos metodológicos con validez científica para justificar empíricamente el planteamiento del problema y la viabilidad del software. En este escenario, Google
+Forms
+representa una de las plataformas web más sólidas para el diseño e implementación de encuestas estructuradas a gran escala. Como se detalla de forma explícita en los registros oficiales de soporte técnico publicados por
+CITATION Goo16 \l 3082
+(LLC, 2016)
+, la herramienta evolucionó de ser un componente embebido dentro de las hojas de cálculo para consolidarse como un entorno de desarrollo de formularios completamente autónomo e independiente. Esta maduración tecnológica proveyó a los investigadores de una infraestructura robusta para la recolección masiva de datos sin las fricciones analíticas del muestreo analógico tradicional en papel.
+La justificación para incorporar esta tecnología radica en su capacidad para optimizar la integridad y agilidad en el tratamiento de variables cuantitativas. Este entorno independiente y unificado de recolección digital mitiga los sesgos de transcripción manual al automatizar el almacenamiento centralizado de los datos de entrada directamente en la nube
+CITATION Goo16 \l 3082
+(LLC, 2016)
+. Al eliminar la necesidad de realizar tabulaciones o conteos físicos propensos a errores humanos, el investigador puede concentrarse estrictamente en el análisis estadístico descriptivo e inferencial de la muestra poblacional evaluada.
+Aplicación Práctica en la Ingeniería de Requisitos Para el presente proyecto
+Evidencia Científica de la Problemática:
+Permitió recopilar de forma masiva los datos estadísticos que demuestran el porcentaje crítico de estudiantes que sufren retrasos académicos debido a los choques de horarios entre asignaturas de arrastre (reprobadas) y materias regulares.
+Justificación del Enfoque del Software:
+Los gráficos resultantes legitimaron ante el tribunal académico la urgencia de programar un algoritmo avanzado en
+DjangoRestFramework
+capaz de procesar simulaciones de escenarios con una política de tolerancia cero ante colisiones de tiempo.
+Métricas para el Factor de Usabilidad (ISO/IEC 25010):
+El análisis del comportamiento de navegación de los estudiantes reflejó que la gran mayoría accede a las plataformas universitarias a través de dispositivos móviles. Este requerimiento técnico forzó a que la grilla horaria interactiva construida en
+React
+y
+Tailwind
+CSS fuera diseñada bajo un estricto enfoque
+Mobile-
+First
+, garantizando la comodidad visual, adaptabilidad de resolución y control ante problemas físicos de pantalla como el "
+ghost
+touch
+".
+CAPITULO III
+INGENIERIA DEL PROYECTO
+Planificación temporal
+La planificación temporal consiste en la organización del tiempo destinado a la realización de las diferentes actividades del proyecto. Esta administración permite estructurar cada etapa de trabajo de manera ordenada, asegurando que se cumplan las metas institucionales dentro de los plazos establecidos.
+Tabla
+SEQ Tabla \* ARABIC
+2
+: Planificación temporal
+Período / Fecha
+Fase del Proyecto
+Actividades Principales
+Semana 1
+(13 abr – 19 abr)
+Fase Inicial y Relevamiento
+Realización de entrevistas institucionales con el vicedecanato y encuestas a estudiantes para definir el alcance del simulador.
+Semana 2
+(20 abr – 26 abr)
+Modelado de Requisitos
+Análisis de los planes de estudio de las 4 carreras de la facultad, redacción de historias de usuario y definición de reglas de prelación.
+Semana 3
+(27 abr – 20
+may
+)
+Diseño y Planificación
+Dibujo del mapa de arquitectura de conexiones del sistema y estructuración del plan de aseguramiento de calidad bajo la norma ISO/IEC 25010.
+Semanas 4 y 5
+(21
+may
+– 03 jun)
+Desarrollo del
+Backend
+Creación del modelo relacional en PostgreSQL y programación del algoritmo en Django para la detección en tiempo real de choques de materias.
+Control
+(30
+may
+– 31
+may
+)
+Prueba Piloto de Datos
+Carga masiva de la oferta académica real de las 4 carreras para verificar la
+estabilidad de la base de datos ante consultas simultáneas.
+Semana 6
+(04 jun – 12 jun)
+Desarrollo de Interfaz
+Diseño visual de la malla de horarios para el alumno e implementación de las alertas automáticas por código de colores (rojo para choques).
+Semana 7
+(13 jun – 18 jun)
+Integración y Ajustes
+Programación de los botones para la edición de horarios, generación de reportes en PDF/Excel y pruebas directas de usabilidad con alumnos.
+Semana 8
+(19 jun – 25 jun)
+Cierre y Entrega
+Redacción de los manuales de usuario, compilación final de la carpeta técnica del proyecto y Presentación Oficial ante el tribunal el 25 de junio.
+Fuente: Elaboración propia.
+Ficha del proyecto
+Tabla
+SEQ Tabla \* ARABIC
+3
+:Ficha de elaboración del proyecto
+Proyecto
+Optimización de la planificación académica mediante el desarrollo de un software planificador de horarios con enfoque ERP y metodología ágil XP.
+Desarrolladores
+José Armando Viscarra
+Daniel Ondarza Flores
+Cristofer Rojas Molina
+Docente guía
+Ing. Gabriela Quiroga Heredia
+Ubicación Geográfica
+El proyecto se localiza y se contextualiza en el municipio de Vallegrande, perteneciente al departamento de Santa Cruz, Bolivia
+.
+M
+etodología aplicada
+Se adopta de manera formal la metodología ágil
+Extreme
+Programming
+(XP)
+. Esta metodología se selecciona debido a su alta flexibilidad frente a los cambios de requerimientos y su enfoque en la creación de software mediante ciclos de desarrollo rápidos e iterativos. A través de la definición de historias de usuario, el trabajo en equipo y las pruebas constantes, se
+garantiza la entrega de módulos completamente estables y funcionales en plazos reducidos.
+Fecha inicio
+13/04/2026
+Fecha fin
+25/06/2026
+Duración
+2 meses y 12 días
+Beneficiarios
+El software está destinado a beneficiar directamente a la comunidad estudiantil de la facultad, facilitando su proceso de organización semestral
+Propósito del Software
+El proyecto consiste en el diseño y desarrollo de una plataforma web interactiva orientada a la
+planificación
+estratégica de la carga horaria semestral. El propósito central del sistema es resolver de raíz la problemática histórica de los "choques" o cruces de materias que sufren los estudiantes durante los periodos de inscripción oficial. El software permite a los usuarios seleccionar de manera anticipada las materias y los grupos que desean cursar, activando un algoritmo de detección en tiempo real que evalúa los días y las horas elegidas. En caso de identificar una coincidencia horaria, la plataforma emite una alerta visual inmediata, permitiendo al estudiante tomar decisiones informadas y organizar un horario completamente viable antes de consolidar su matrícula definitiva en el sistema institucional.
+Fuente: Elaboración propia
+.
+Cronograma general del proyecto
+Tabla
+SEQ Tabla \* ARABIC
+4
+: Cronograma General
+Tareas
+Semana 1
+Semana 2
+Semana 3
+Semana 4
+Semana 5
+Semana
+6
+Semana 7
+Semana 8
+13 abr-19 abr
+20 abr – 26 abr
+27 abr – 20 may
+o
+(extendida)
+21 may
+o
+–
+27 mayo
+28 mayo – 03 jun
+(fin de semana 30 mayo – 31 mayo)
+04 jun – 12 jun
+13 jun – 18 jun
+19 jun – 25 jun
+FASE INICIAL: RELEVAMIENTO Y DISEÑO
+Primeros pasos y Repaso (Entrevistas y encuestas)
+Organización de ideas y Riesgos (Análisis de carreras e historias de usuario)
+Diseño final y Revisión (Plano de conexiones y plan de calidad)
+SPRINT 1: DISEÑO E IMPLEMENTACIÓN DE LA BASE DE DATOS
+Diseño del modelo de base de datos del sistema, considerando las entidades principales: usuarios, roles, carreras, estudiantes, materias, docentes y aulas.
+Implementación de las tablas principales y sus relaciones en PostgreSQL, asegurando la correcta organización de la información académica.
+Registro de las estructuras necesarias para prerrequisitos, grupos de materia, horarios, cupos e historial académico del estudiante.
+Validación inicial de la base de datos para evitar duplicidad de información y errores en las relaciones entre tablas.
+SPRINT 2: CARGA DE DATOS Y VALIDACIÓN DE REGLAS ACADÉMICAS
+Carga inicial de los datos académicos correspondientes a carreras, materias, docentes, aulas, grupos y horarios oficiales de la F.I.V.C.
+Configuración de la oferta académica por gestión, considerando docentes, aulas, días, horas y cupos disponibles.
+Programación de validaciones relacionadas con prerrequisitos, materias aprobadas, materias reprobadas y materias de arrastre.
+Verificación de los datos cargados con las carreras de la F.I.V.C. para comprobar que la información registrada sea correcta y coherente.
+SPRINT 3: DESARROLLO DEL SIMULADOR DE HORARIOS Y DETECCIÓN DE CHOQUES
+Desarrollo del módulo de simulación de horarios para estudiantes, permitiendo la creación de diferentes escenarios de planificación.
+Programación de la selección de materias y grupos disponibles de acuerdo con la carrera y situación académica del estudiante.
+Implementación del algoritmo de detección de choques, comparando día, hora de inicio y hora de finalización de cada grupo seleccionado.
+Aplicación de alertas visuales por colores, identificando en verde las materias sin conflicto y en rojo las materias con choque de horario.
+SPRINT 4: INTERFAZ FINAL, PRUEBAS Y ENTREGA DEL SISTEMA
+Diseño y mejora de las pantallas principales del sistema para Administrador, Operador de Datos y Estudiante
+.
+Implementación de opciones para visualizar, editar y ajustar horarios académicos según los permisos asignados a cada rol.
+Realización de pruebas piloto con datos académicos registrados para comprobar el funcionamiento del planificador de horarios.
+Corrección de errores, elaboración del manual de usuario y preparación de la presentación final del proyecto.
+998220
+343535
+Ya completado
+0
+Ya completado
+left
+434975
+Fuente: Elaboración propi
+a.
+1028700
+348615
+En curso
+0
+En curso
+left
+424815
+0
+1028700
+407035
+Por iniciar
+0
+Por iniciar
+left
+8255
+0
+Descripción del Sprint
+Tabla
+SEQ Tabla \* ARABIC
+5
+:Descripción de todos los sprint
+N°
+de Sprint
+Nombre de la tarea
+Sprint Listo
+Prioridad
+Estado
+Sprint 1
+Diseño e implementación de la base de datos
+NO
+Alta
+En curso
+Sprint 2
+Carga de datos y validación de reglas académicas
+NO
+Alta
+En curso
+Sprint 3
+Desarrollo del simulador de horarios y detección de choques
+NO
+Alta
+Por iniciar
+Sprint 4
+Interfaz final, pruebas y entrega del sistema
+NO
+Media
+Por iniciar
+Fuente: Elaboración propia
+.
+Organización personal
+Para la ejecución ordenada y exitosa del proyecto, es fundamental definir cómo se organiza el equipo de trabajo. Al adoptar el marco de trabajo Scrum, las responsabilidades no se asignan de forma tradicional, sino mediante roles específicos que aseguran una comunicación constante, un control estricto del avance y la correcta construcción del sistema planificador de horarios.
+El equipo encargado de llevar adelante este proyecto está compuesto por 3 personas, quienes cumplen con los siguientes perfiles y funciones asignadas dentro del marco Scrum:
+Un
+Product
+Owner
+(Dueño del Producto):
+Este rol es asumido por el vicedecano de la institución, el
+Dr. Bismark Villarroel
+. Al ser la autoridad encargada de la gestión académica y el contacto constante del grupo, actúa como el representante del cliente dentro del proyecto. Es la persona responsable de proveer toda la información oficial, las mallas curriculares y los
+requisitos necesarios para la correcta elaboración de este documento y el funcionamiento del software. Dentro de sus funciones principales se encuentran:
+Suministrar y validar los datos oficiales de los horarios y planes de estudio de las cuatro carreras de la facultad.
+Definir las necesidades prioritarias de los estudiantes y las reglas académicas obligatorias que el sistema debe controlar.
+Validar y revisar los
+Sprints
+técnicos para asegurar que las funciones entregadas resuelvan verdaderamente los problemas de la institución.
+Dar la aprobación definitiva a los módulos del planificador antes de su puesta en producción final.
+Un
+Scrum Master
+(Facilitador del Proceso):
+Este rol es asumido por el universitario
+Cristofer Rojas Molina
+. Es el encargado de asegurar que el equipo entienda y respete las reglas del marco de trabajo Scrum, eliminando cualquier problema o dificultad que impida el avance de la programación. Dentro de sus funciones principales se encuentran:
+Guiar las reuniones de planificación al inicio de cada ciclo de trabajo o Sprint.
+Asegurar que los tiempos del Diagrama de Gantt y del cronograma actualizado se cumplan de manera estricta y sin retrasos.
+Colaborar directamente en los aspectos técnicos más complejos, sirviendo como puente de comunicación para integrar el trabajo visual con la lógica interna del sistema.
+Un Equipo de Desarrollo (
+Development
+Team
+):
+Este componente operativo está conformado por los universitarios
+José Armando Viscarra Aguilar
+,
+Cristofer Rojas Molina
+y
+Daniel Ondarza Flores
+,
+quienes
+trabajan de manera conjunta para traducir los requisitos en código fuente utilizable. Al ser un equipo ágil, se encargan de la construcción real de la plataforma mediante las siguientes tareas especializadas:
+Desarrollo de la Lógica y Base de Datos (Cristofer Rojas Molina):
+Encargado de diseñar la estructura en PostgreSQL para almacenar la información académica y programar el algoritmo principal en Django que detecta en tiempo real los choques de horarios de los alumnos regulares y de arrastre.
+Análisis de Requisitos y Aseguramiento de Calidad (Daniel Ondarza Flores):
+Encargado de modelar las reglas lógicas de la oferta académica, traducir las necesidades entregadas por el
+Product
+Owner
+en historias de trabajo y diseñar los planes de pruebas bajo la norma ISO 25010 para certificar el correcto funcionamiento del software.
+Desarrollo de la Interfaz Visual (José Armando Viscarra Aguilar):
+Encargado de diseñar y programar la pantalla web que verán los estudiantes, asegurando que las tablas de horarios sean fáciles de usar, atractivas y que muestren las alertas de colores claras (como el color rojo para advertir sobre choques de materias).
+Pruebas e Integración (Todo el Equipo):
+Trabajo conjunto durante los fines de semana para realizar controles de datos, verificar que los botones funcionen de forma correcta y que el cargador de
+datos
+procese el volumen de información de las 4 carreras sin errores.
+Estimación del proyecto
+Cálculo de duración
+El cálculo de duración estimado para el desarrollo del proyecto se determina mediante la siguiente relación:
+Duración = días hábiles de trabajo * horas de dedicación diaria
+Duración = 54 * 8
+Duración = 432 horas
+Duración (días) = 432
+hrs
+* 1 día/8 horas = 54 días
+Duración (mes) = 54 días * 1 mes / 22 días hábiles = 2 meses y 12 días
+Costo de personal del proyecto
+El equipo está conformado por tres desarrolladores universitarios.
+Costo personal = personas * Tarifa laboral
+Costo personal = 3 * 3300 bs
+Costo personal = 9900 Bs
+Costo del software
+El cálculo del costo del software se determina mediante el método de costo basado en esfuerzo (horas de trabajo), el cual toma como base las horas totales de desarrollo y el valor de la tarifa por hora de los desarrolladores.
+Costo del software = Horas totales del proyecto * Tarifa por hora del equipo
+Costo del software = 432 * 56.25 bs
+Costo del software = 24300 Bs
+Análisis y gestión de riesgos
+El análisis y gestión de riesgos consiste en la identificación anticipada de los problemas potenciales que podrían afectar el desarrollo normal del proyecto. Al detectar estas situaciones a tiempo, el equipo de trabajo puede establecer acciones preventivas y planes de contingencia para mitigar los impactos negativos y asegurar que el sistema se entregue en la fecha planificada.
+Riesgo personal
+Este factor contempla las situaciones de fuerza mayor o dificultades técnicas que afecten directamente a los integrantes del equipo de desarrollo (Daniel, Cristofer y Armando).
+Tabla
+SEQ Tabla \* ARABIC
+6
+: Los riesgos que se pueden presentar en la elaboración del software, y su acción preventiva
+Riesgo
+Personal
+Descripción
+Acción preventiva
+Plan de contingencia
+Falta de experiencia avanzada en el
+framework
+Django
+Al ser una herramienta con reglas estrictas, el equipo puede demorar más tiempo en resolver errores de programación, provocando retrasos en las entregas.
+Se asignó un tiempo de capacitación y repaso práctico de las herramientas web durante las primeras semanas del proyecto.
+Se recurre a la programación en
+conjunto
+para solucionar fallas complejas de manera conjunta o se solicita apoyo al auxiliar
+de la materia
+.
+Cruce de horarios personales o problemas de salud.
+La indisposición médica o imprevistos de algún miembro del grupo pueden dejar tareas o
+Sprints
+incompletos.
+El código del sistema se almacena y respalda diariamente en
+un grupo
+interno de WhatsApp
+accesible para todos.
+Los integrantes disponibles reasignan las tareas pendientes del Sprint activo para avanzar con el desarrollo del software.
+Fuente: Elaboración propia
+.
+Riesgo metodológico
+Este aspecto abarca los errores que puedan ocurrir en la aplicación del marco de trabajo Scrum y la metodología XP, afectando la organización interna del proyecto.
+Tabla
+SEQ Tabla \* ARABIC
+7
+:riesgo que se pueden presentar en la aplicación de la metodología de desarrollo y el marco de trabajo
+Riesgo Metodológico
+Descripción
+Acción preventiva
+Plan de contingencia
+Mala estimación del tiempo en los
+Sprints
+.
+Asignar menos horas de las necesarias para la programación de tareas complejas como el algoritmo de cruce de materias.
+Las funciones grandes del planificador se dividen en tareas pequeñas y sencillas para calcular su duración de forma más realista.
+Se cuenta con periodos de colchón o semanas extendidas dentro del cronograma para absorber retrasos sin mover la fecha final.
+Desorganización en la entrega de tareas.
+Que los componentes visuales y la lógica de base de datos no se acoplen de manera correcta debido a fallas de comunicación.
+Se realizan reuniones semanales de control dirigidas por el Scrum Master para evaluar avances y definir los objetivos inmediatos.
+Se programan sesiones extraordinarias de integración los fines de semana para unir y probar las partes del sistema en conjunto.
+Fuente: Elaboración propia
+.
+Riesgo del negocio
+El riesgo del negocio involucra los factores externos relacionados directamente con la Facultad Integral de los Valles Cruceños (F.I.V.C.) y los requisitos del cliente o evaluadores.
+Tabla
+SEQ Tabla \* ARABIC
+8
+:riesgo del negocio y su acción preventiva
+Riesgo Negocio
+Descripción
+Acción preventiva
+Plan de contingencia
+Retraso en la entrega de datos oficiales.
+Que la facultad no entregue a tiempo las mallas curriculares actuales o los horarios de las cuatro carreras para hacer las pruebas.
+El
+Product
+Owner
+gestiona de manera anticipada las solicitudes y mantiene comunicación constante con la dirección académica.
+El equipo genera registros simulados con la misma estructura oficial para continuar con las evaluaciones lógicas del algoritmo.
+Fallas técnicas durante la presentación oficial.
+Que el servidor web sufra caídas o existan problemas de conexión a internet el día de la defensa final del proyecto.
+Se congelan las modificaciones del software días antes de la entrega, prohibiendo realizar cambios de última hora en el código.
+Se configura y prepara un entorno de demostración local ejecutable en la computadora de desarrollo para exponer el sistema sin internet.
+Disponibilidad limitada del
+Product
+Owner
+.
+Que la autoridad académica (vicedecano) presente cruces de agenda institucional que retrasen la validación de los avances del software.
+Establecer canales de comunicación asíncronos y programar sesiones de revisión breves al finalizar cada fase.
+El equipo avanza en el desarrollo basándose en los reglamentos vigentes y posterga la firma de aprobación para una sesión extraordinaria.
+Nivel de dominio en el entorno tecnológico.
+Que el equipo de desarrollo experimente demoras en la programación debido a la curva de aprendizaje
+en Django y PostgreSQL.
+Realizar capacitaciones técnicas tempranas y desarrollar módulos de prueba antes de iniciar la codificación
+del algoritmo principal.
+Consultar documentación oficial avanzada, utilizar librerías de soporte comprobadas o
+recurrir a asesoría técnica externa para corregir fallos en el código.
+Complejidad en el análisis de requisitos.
+Que la estructura y reglas de prelación de las mallas curriculares de las 4 carreras dificulten la correcta definición de las historias de usuario.
+Utilizar matrices de dependencia y diagramas de flujo detallados para desglosar cada regla académica antes de estructurar el sistema.
+Realizar mesas de trabajo internas intensivas para simplificar las reglas lógicas y validar los casos críticos con la documentación oficial de la F.I.V.C.
+Fuente: Elaboración propia
+.
+Gestión de calidad
+La gestión de calidad es la etapa encargada de asegurar que el software planificador de horarios cumpla con las expectativas técnicas y operativas de la Facultad Integral de los Valles Cruceños. Para lograr este objetivo con rigor profesional, el proceso de desarrollo y la elaboración de la documentación se alinean bajo estándares internacionales que guían la medición de la eficiencia del sistema.
+Normas y Estándares
+La adopción de normas y estándares internacionales dentro de la ingeniería de sistemas es un requisito indispensable para garantizar que el producto desarrollado posea un nivel de calidad competitivo y profesional. Para el cumplimiento de este apartado en el software planificador de horarios, se selecciona y aplica de manera estricta la norma internacional
+ISO/IEC 25010
+para evaluar el sistema informático, en conjunto con las
+Normas APA (7ma Edición)
+para la estructura formal del documento académico.
+La justificación de la incorporación de este marco normativo se divide en las diferentes etapas del ciclo de vida del proyecto, tal como se detalla a continuación:
+Justificación en el Proyecto y el Desarrollo del Software (ISO/IEC 25010):
+Durante la fase de construcción del sistema, esta norma funciona como una guía técnica para el equipo de desarrollo (Daniel, Cristofer y Armando). En lugar de programar basándose únicamente en la intuición, este estándar permite establecer metas y reglas claras para medir el comportamiento del software. Por ejemplo, en el caso específico del motor de simulación, la norma exige que la detección de choques de materias tenga un margen de error del cero por ciento (adecuación funcional). Esto evita fallos lógicos ocultos en el código que pudieran confundir a los estudiantes o perjudicar su avance académico real al momento de la inscripción oficial. Asimismo, la norma empuja al equipo a optimizar las consultas en la base de datos PostgreSQL y la lógica en Django para garantizar que el sistema responda de inmediato, logrando que la experiencia del usuario sea fluida y eficiente, incluso si hay múltiples alumnos conectados intentando simular sus horarios al mismo tiempo.
+Justificación en la Elaboración de la Documentación (ISO/IEC 25010):
+La calidad de un proyecto de ingeniería no solo se mide por el software funcionando, sino también por el orden y la claridad de sus respaldos escritos. La aplicación de la norma ISO/IEC 25010 obliga a que toda la documentación técnica, los planos del sistema, las tarjetas de tareas y los manuales de usuario se redacten utilizando una estructura estandarizada y un lenguaje comprensible. Al seguir este estándar, las historias de usuario definidas a partir de los requisitos entregados por el
+Product
+Owner
+adquieren un formato profesional que facilita la comprensión por parte de los evaluadores y revisores académicos de la carrera. De este modo, cualquier ingeniero o docente que revise la carpeta del proyecto podrá entender de forma inmediata bajo qué criterios de calidad se evaluaron las pantallas, la seguridad de las contraseñas y el algoritmo de choques.
+Justificación y Aplicación de las Normas APA (7ma Edición):
+Se seleccionan para regir de forma obligatoria la redacción, el formato visual y la presentación formal de toda la carpeta de investigación académica. Su aplicación garantiza que el documento de tesis mantenga un orden científico unificado, estructurando correctamente los márgenes, títulos, fuentes de las tablas y el listado de referencias bibliográficas según las directrices de la American
+Psychological
+Association
+. Esto dota al proyecto del rigor y la seriedad exigidos por la Universidad Autónoma Gabriel René Moreno, resguardando la propiedad intelectual mediante el citado correcto de autores y evitando errores de formato que afecten la calificación final ante el tribunal.
+Justificación e Impacto para la Institución (F.I.V.C.):
+Para la Facultad Integral de los Valles Cruceños y la Universidad Autónoma Gabriel René Moreno, la aplicación de estos estándares internacionales eleva el valor del software y de la documentación entregada. Al certificar internamente bajo la norma ISO/IEC 25010 que el planificador cumple con los niveles requeridos de seguridad (encriptación de datos) y usabilidad (diseño adaptado a celulares), y bajo APA que el informe técnico es metodológicamente correcto, la facultad recibe un proyecto maduro, confiable y seguro. Esto transforma el proceso de planificación
+de horarios de una tarea manual e incierta a un entorno tecnológico moderno respaldado por la ciencia informática de nivel empresarial.
+Factores que determinan calidad
+Para evaluar la calidad del software planificador de horarios de manera específica, no se aplica la norma ISO/IEC 25010 de forma general, sino que se seleccionan únicamente las características y elementos que impactan directamente en el funcionamiento del sistema y en la experiencia de los estudiantes de la Facultad Integral de los Valles Cruceños.
+A continuación, se detallan cuáles son los componentes de la norma que se introducen en el proyecto y la justificación de por qué se eligieron:
+Adecuación Funcional (Corrección)
+Se selecciona porque es el motor principal del proyecto. Un planificador de horarios no sirve si no calcula bien los cruces de horas. Esta característica de la norma asegura que el programa cumpla de forma exacta con las tareas que el alumno necesita: elegir materias, ver los grupos disponibles y recibir alertas si hay choques.
+Tabla
+SEQ Tabla \* ARABIC
+9
+:Factor de calidad de la norma ISO
+Factor de calidad
+Descripción del concepto
+Aplicación real en el software planificador
+Adecuación Funcional
+Capacidad del sistema para realizar con precisión todas las funciones que el usuario necesita para resolver su problema.
+El algoritmo en Django guarda las materias seleccionadas por el alumno y verifica que no existan cruces de horarios en el mismo día y hora, controlando tanto a alumnos regulares como de arrastre.
+Fuente: Elaboración propia
+.
+Fiabilidad
+Se elige porque el sistema debe ser confiable y fuerte. En las épocas de inscripción, muchos estudiantes entran al mismo tiempo a revisar materias. La fiabilidad garantiza que el software se mantenga en línea y funcionando de forma correcta, sin colgarse ni perder la información de los usuarios.
+Tabla
+SEQ Tabla \* ARABIC
+10
+:Fiabilidad del software
+Factor de calidad
+Descripción del concepto
+Aplicación real en el software planificador
+Fiabilidad
+Capacidad del programa para trabajar de forma correcta y estable bajo condiciones exigentes por un tiempo determinado.
+Se realizan pruebas técnicas cargando toda la oferta de materias de las 4 carreras de la F.I.V.C. en PostgreSQL para comprobar que la base de datos no sufra bloqueos ni pérdida de información.
+Fuente: Elaboración propia
+.
+Eficiencia de Rendimiento
+Se incluye porque el tiempo de respuesta del sistema debe ser casi inmediato. Si el algoritmo tarda varios minutos en revisar si una materia choca con otra, la herramienta deja de ser práctica. Esta característica obliga a que el cruce de datos en la base de datos PostgreSQL sea rápido y eficiente.
+Tabla
+SEQ Tabla \* ARABIC
+11
+:Eficiencia de rendimiento
+Factor de calidad
+Descripción del concepto
+Aplicación real en el software planificador
+Eficiencia de Rendimiento
+Velocidad de respuesta y procesamiento del software ante las solicitudes e interacciones que realiza el usuario.
+El cruce de datos de los horarios elegidos y la aparición de las advertencias en pantalla se ejecutan en tiempo real, respondiendo en pocos segundos sin generar esperas molestas.
+Fuente: Elaboración propia
+.
+Seguridad (Integridad)
+Se introduce para proteger la información de la facultad y de los alumnos. Esta parte de la norma cuida que las contraseñas estén encriptadas y que ningún usuario regular pueda ingresar al panel administrativo a alterar los horarios o las ofertas académicas oficiales.
+Tabla
+SEQ Tabla \* ARABIC
+12
+:seguridad que se aplicara en el software
+Factor de calidad
+Descripción del concepto
+Aplicación real en el software planificador
+Seguridad
+Nivel de protección del sistema para resguardar los datos y garantizar que los usuarios solo accedan a las funciones permitidas.
+Las cuentas de usuario manejan contraseñas encriptadas. Se bloquea el acceso de los estudiantes a las funciones de configuración del panel administrativo, impidiendo la alteración de horarios oficiales.
+Fuente: Elaboración propia
+.
+Usabilidad
+Se selecciona porque la plataforma web está diseñada para ser utilizada directamente por los estudiantes de las cuatro carreras de la facultad, quienes necesitan una herramienta clara y completamente accesible. Esta característica de la norma cuida que el usuario pueda interactuar con el sistema de forma cómoda e intuitiva, permitiéndole buscar materias y simular su horario semestral de manera rápida desde cualquier computadora o teléfono celular, sin necesidad de leer manuales complejos o pasar por capacitaciones confusas.
+Tabla
+SEQ Tabla \* ARABIC
+13
+:usabilidad del software
+Factor de calidad
+Descripción del concepto
+Aplicación real en el software planificador
+Usabilidad
+Facilidad de aprendizaje y nivel de sencillez que ofrece la interfaz visual para que
+cualquier usuario pueda operarla sin complicaciones.
+La interfaz se construye con un formato adaptado a pantallas de celulares
+(responsivo). Se implementa un buscador y alertas de colores muy claras (rojo para choques de materias y verde para libre).
+Fuente: Elaboración propia.
+CAPITULO IV
+INGENIERIA DE SOFWARE(XP)
+FASE DE PLANIFICACIÓN
+Descripción del Modelo de Negocio
+Fase de Consulta y Preparación (Pre-Inscripción)
+Acceso a la Información:
+El estudiante de la F.I.V.C. obtiene la oferta académica a través de un sistema multicanal. Los medios digitales, como las páginas oficiales de Facebook y grupos de WhatsApp, funcionan como la principal fuente de difusión rápida. Por otro lado, la oficina de Vicedecanato y las pizarras informativas físicas dentro de la facultad actúan como los canales oficiales de verificación para garantizar la veracidad de los horarios publicados.
+Análisis de la Oferta:
+La complejidad del análisis varía según la carrera y el nivel del estudiante. En las carreras de Ingeniería Agropecuaria y Contaduría Pública, los alumnos de primer y segundo semestre cuentan con una oferta más amplia, disponiendo de dos opciones de grupos (AV y VA). Para el resto de las carreras (Ingeniería en Sistemas e Ingeniería de Alimentos) y para los semestres superiores de todas las áreas, la oferta suele ser de grupo único y docente designado, lo que reduce el margen de elección y obliga al estudiante a ajustar su planificación a una sola opción horaria.
+Identificación de Materias:
+La selección de asignaturas se realiza bajo los parámetros establecidos en la malla curricular vigente de cada carrera. El estudiante identifica cada materia mediante su nombre oficial
+y su sigla correspondiente, los cuales funcionan como los códigos clave para la búsqueda y organización dentro del proceso de simulación de horarios.
+Reglas de Selección
+Gestión de Correlatividades (Prerrequisitos):
+Esta es la "regla de oro" del sistema académico. La inscripción no es libre, sino que está sujeta a una cadena de materias. El estudiante solo queda habilitado para inscribir una asignatura si ha aprobado previamente su prerrequisito inmediato (por ejemplo, es obligatorio haber aprobado Cálculo I para poder visualizar y seleccionar Cálculo II). Esta restricción técnica asegura que el alumno cuente con la base de conocimientos necesaria para el nivel superior.
+Ubicación Semestral (Nivel Académico):
+La planificación del estudiante se basa en su semestre base definido por la malla curricular. Aunque el sistema permite cierta flexibilidad, el objetivo primordial es que el alumno complete el bloque de materias correspondientes a su semestre actual. El cumplimiento de los requisitos de cada nivel determina la progresión fluida a través de la carrera, evitando el estancamiento académico.
+Priorización de Arrastre vs. Adelanto:
+El modelo de negocio obliga al estudiante a tomar decisiones estratégicas sobre su carga horaria. Se da prioridad absoluta a las materias de arrastre (asignaturas reprobadas o pendientes de semestres anteriores) con el fin de regularizar su situación
+académica lo antes posible. Una vez cubiertas estas materias, y siempre que se cumplan los prerrequisitos y existan cupos, el estudiante puede optar por el adelanto de materias de niveles superiores para acelerar su avance en la malla curricular.
+Restricciones y Limitaciones
+Con el borrador validado visualmente, se inicia el ingreso de datos en el software oficial de la universidad (UAGRM).
+El Conflicto de Horarios (Choques):
+El sistema oficial de la universidad aplica una política de tolerancia cero ante los cruces de horario. Cualquier solapamiento, incluso de un margen mínimo como un minuto, activa un bloqueo automático que impide al estudiante finalizar la inscripción de la materia en conflicto. Esta rigidez técnica convierte la planificación manual en un proceso de alto riesgo, ya que un error de cálculo inhabilita la selección de la asignatura.
+Límite de Créditos / Materias:
+En el modelo de la F.I.V.C. no existe un límite restrictivo de créditos o cantidad de materias a inscribir por semestre. La verdadera restricción logística es la disponibilidad horaria; el estudiante tiene la libertad de cursar tantas materias como su horario le permita, siempre y cuando logre encajar las sesiones sin conflictos de tiempo y cumpla con los prerrequisitos correspondientes.
+Políticas de Cupos y Apertura (Resolución ICU 096-2025):
+La oferta de grupos está sujeta a normativas de cupos mínimo y capacidad máxima para garantizar la viabilidad pedagógica:
+Cupos Mínimos:
+Para la apertura de materias hasta el cuarto semestre, se requiere un mínimo de 20 estudiantes. Del quinto al séptimo semestre, las asignaturas teóricas requieren un mínimo de 15 estudiantes por grupo.
+Capacidad Máxima:
+Aunque el cupo estándar se proyecta para 60 estudiantes, en asignaturas de carácter teórico el límite puede extenderse hasta un máximo de 100 estudiantes, dependiendo de la capacidad de infraestructura y la demanda académica.
+Ejecución de la Inscripción
+Ventanas Temporales de Acceso:
+El proceso de inscripción está sujeto a un cronograma institucional rígido. La facultad habilita periodos específicos, que suelen oscilar entre uno o dos días, para que el estudiante registre sus materias. La puntualidad es crítica; un ingreso tardío al sistema incrementa el riesgo de perder el cupo en los grupos deseados debido a la alta demanda o al cierre definitivo del portal web de la universidad, dejando al estudiante sin posibilidad de ajustes posteriores.
+Orden por PPA (Promedio):
+A diferencia de gestiones pasadas, donde se aplicaba un orden de prelación basado en el PPA (Promedio Ponderado Acumulado) para otorgar prioridad a los promedios más altos, el modelo actual ha transitado hacia un sistema de acceso unificado. En la presente gestión, todos los estudiantes acceden a la plataforma bajo las mismas condiciones temporales. Este cambio aumenta la presión
+competitiva sobre los cupos disponibles, obligando al alumno a tener una planificación previa mucho más sólida para actuar con rapidez.
+Consolidación
+Boleta de Inscripción:
+El proceso culmina con la generación de la Boleta de Inscripción, el documento oficial emitido por el sistema de la universidad. Esta boleta es el único respaldo legal que certifica la condición de "Estudiante Regular" para el semestre en curso, detallando las materias, grupos y horarios que el alumno ha consolidado satisfactoriamente.
+Inalterabilidad de la Carga Horaria:
+Una vez confirmada la boleta, el sistema entra en un estado de invariabilidad. Esto significa que el estudiante no puede realizar modificaciones, cambios de grupo o permutas de manera directa. La planificación se considera definitiva, salvo que el alumno recurra a las instancias de ajuste permitidas por la facultad.
+Instancias de Ajuste (Adiciones y Casos Especiales):
+Existen mecanismos para aquellos estudiantes que necesiten modificar su carga horaria fuera del periodo regular:
+Adiciones:
+Se habilitan como una etapa de inscripción extemporánea, permitiendo al alumno sumar materias a su boleta bajo las mismas reglas de cupos y choques de la inscripción normal.
+Casos Especiales:
+Procedimientos destinados a resolver situaciones académicas particulares que requieren autorización administrativa.
+Costos y Canales de Pago:
+Tanto las adiciones como los casos especiales están sujetos a un arancel administrativo de 10 Bs. El pago de este derecho debe realizarse de manera digital a través de la plataforma web universitaria o mediante entidades bancarias autorizadas (Banco Unión o Cooperativa Jesús Nazareno) antes de proceder con el registro.
+Requisitos Funcionales
+Los requisitos funcionales describen las acciones principales que debe realizar el sistema planificador de horarios académicos de la Facultad Integral de los Valles Cruceños. El sistema estará organizado por roles de acceso, permitiendo que cada usuario cumpla una función específica dentro del proceso de planificación académica.
+Tabla
+SEQ Tabla \* ARABIC
+14
+: Requisitos funcionales del software
+CÓDIGO
+REQUISITOS FUNCIONALES
+RF-01
+El software debe contar con dos formularios de inicio de sesión: uno para usuarios administrativos y otro para estudiantes.
+RF-02
+El software debe permitir que el Administrador y el Operador de Datos ingresen al sistema mediante correo electrónico y contraseña.
+RF-03
+El software debe permitir que el Estudiante ingrese al sistema mediante su número de registro universitario y contraseña.
+RF-04
+El software debe validar el rol del usuario al momento de iniciar sesión para mostrar únicamente las funciones que le correspondan.
+RF-05
+El software debe permitir que el Administrador tenga acceso completo a todas las funciones del sistema.
+RF-06
+El software debe permitir que el Administrador cree usuarios internos y les asigne el rol de Administrador u Operador de Datos.
+RF-07
+El software debe permitir que el Administrador registre, edite y elimine los datos principales del sistema, como carreras, materias, docentes, aulas, prerrequisitos y estudiantes.
+RF-08
+El software debe permitir que el Operador de Datos planifique, visualice y edite los horarios académicos de cada gestión.
+RF-09
+El software debe permitir registrar grupos de materia con docente, aula, día de la semana, hora de inicio, hora de finalización y cupo límite.
+RF-10
+El software debe permitir almacenar los datos académicos del estudiante, como nombre, registro universitario, carnet, carrera, avance académico e historial académico.
+RF-11
+El software debe permitir que el Estudiante consulte las materias disponibles según su carrera, semestre, grupo y oferta académica registrada.
+RF-12
+El software debe permitir que el Estudiante cree simulaciones de horarios académicos, como Plan A, Plan B u Horario Ideal.
+RF-13
+El software debe detectar automáticamente choques de horario entre las materias seleccionadas por el Estudiante.
+RF-14
+El software debe mostrar alertas visuales por colores, indicando en verde las materias sin conflicto y en rojo las materias con choque de horario.
+RF-15
+El software debe guardar las simulaciones creadas por el Estudiante para que puedan ser revisadas o modificadas posteriormente.
+RF-16
+El software debe considerar el historial académico del Estudiante para identificar materias aprobadas, reprobadas o de arrastre.
+Fuente: Elaboración propia
+.
+Requisitos no Funcionales
+Los requisitos no funcionales establecen las condiciones de calidad que debe cumplir el sistema. Estos requisitos no representan funciones directas, sino características necesarias para
+que el software sea confiable, fácil de usar y disponible para los usuarios de la Facultad Integral de los Valles Cruceños.
+Tabla
+SEQ Tabla \* ARABIC
+15
+:
+Requisitos
+no
+funcionales
+de
+l software
+CÓDIGO
+REQUISITOS NO FUNCIONALES
+RNF-01
+Los datos principales del sistema solo podrán ser registrados, modificados o eliminados por usuarios autorizados.
+RNF-02
+El acceso administrativo deberá estar restringido únicamente al Administrador y al Operador de Datos mediante correo electrónico y contraseña.
+RNF-03
+El acceso del Estudiante deberá realizarse mediante número de registro universitario y contraseña, evitando que ingrese a funciones administrativas.
+RNF-04
+El sistema deberá separar claramente las funciones de los usuarios según su rol: Administrador, Operador de Datos y Estudiante.
+RNF-05
+La lógica del sistema deberá validar correctamente los permisos, prerrequisitos, cupos, aulas, grupos y horarios registrados.
+RNF-06
+La detección de choques de horario deberá realizarse con precisión, comparando día, hora de inicio y hora de finalización de cada grupo seleccionado.
+RNF-07
+La interfaz del sistema deberá ser clara, ordenada e intuitiva para que cada usuario encuentre fácilmente las funciones que le corresponden.
+RNF-08
+El formulario de inicio de sesión administrativo deberá estar diferenciado del formulario de inicio de sesión estudiantil para evitar confusiones.
+RNF-09
+El sistema deberá mostrar mensajes y alertas visuales comprensibles, especialmente mediante colores que indiquen si existe o no conflicto de horario.
+RNF-10
+La aplicación web deberá funcionar correctamente desde computadoras y dispositivos móviles mediante un navegador web.
+RNF-11
+La base de datos deberá mantener la información organizada y relacionada correctamente entre usuarios, estudiantes, carreras, materias, docentes, aulas, grupos, horarios y simulaciones.
+RNF-12
+El sistema deberá estar disponible durante los periodos de planificación e inscripción académica, cuando los estudiantes requieren consultar y organizar sus materias.
+RNF-13
+Las actualizaciones realizadas por el Administrador o el Operador de Datos deberán reflejarse en el sistema para que los estudiantes trabajen con información vigente.
+RNF-14
+El sistema deberá proteger los datos de acceso de los usuarios, evitando que personas no autorizadas ingresen a funciones administrativas.
+RNF-15
+El sistema deberá responder de manera rápida al buscar materias, cargar horarios y detectar choques, brindando una experiencia fluida al usuario.
+Fuente: Elaboración propia
+.
+Lógica
+El sistema deberá validar correctamente los roles de usuario, separando el acceso del Administrador, Operador de Datos y Estudiante.
+El sistema deberá detectar choques de horario comparando día, hora de inicio y hora de finalización.
+El sistema deberá verificar prerrequisitos, cupos, aulas, grupos y materias antes de guardar una planificación.
+Usabilidad
+El sistema deberá contar con dos formularios de inicio de sesión claramente diferenciados: uno para Administrador y Operador de Datos, y otro para Estudiante.
+La interfaz deberá ser clara, ordenada e intuitiva para que cada usuario encuentre fácilmente las funciones que le correspondan.
+El sistema deberá mostrar alertas visuales por colores para indicar materias sin conflicto o con choque de horario.
+Disponibilidad
+El sistema deberá estar disponible durante los periodos de planificación e inscripción académica.
+Las actualizaciones realizadas por el Administrador o el Operador de Datos deberán reflejarse en el sistema para que los estudiantes trabajen con información vigente.
+La aplicación web deberá funcionar desde computadoras y dispositivos móviles mediante un navegador web.
+Tabla de las Historias de Usuario
+La siguiente tabla muestra los resultados de prioridad, riesgo y esfuerzo correspondiente a cada iteración del sistema planificador de horarios académicos de la F.I.V.C. Esta información permitirá organizar el desarrollo del software, dando prioridad a las historias de usuario más importantes y de mayor riesgo técnico, especialmente aquellas relacionadas con la autenticación, la carga de datos académicos, la planificación de horarios y la detección automática de choques.
+Tabla
+SEQ Tabla \* ARABIC
+16
+: historias de los Usuarios
+Nro
+H.U.
+Nombre de H. U.
+Tareas
+Prioridad
+Riesgo
+Esfuerzo
+Iteración
+HU-01
+Acceso administrativo al sistema
+Diseñar
+login
+para Administrador y Operador de Datos; validar correo y contraseña; redirigir según rol asignado; mostrar menú administrativo correspondiente.
+Alta
+Alta
+5
+1
+HU-02
+Acceso del estudiante al sistema
+Diseñar
+login
+para estudiante; validar número de registro y contraseña; verificar existencia del estudiante en la base de datos;
+permitir acceso al panel estudiantil.
+Alta
+Alta
+5
+1
+HU-03
+Gestión de usuarios administrativos
+Crear formulario de registro de usuarios internos; permitir asignar rol Administrador u Operador de Datos; editar datos de usuario; controlar permisos de acceso.
+Alta
+Media
+3
+1
+HU-04
+Registro de datos principales del sistema
+Registrar carreras, materias, docentes, aulas y prerrequisitos; validar datos obligatorios; evitar registros duplicados; guardar información base para la planificación.
+Alta
+Alta
+8
+1
+HU-05
+Gestión de estudiantes
+Registrar datos del estudiante; asociar estudiante con usuario y carrera; almacenar registro universitario, carnet y avance académico; permitir actualización de datos.
+Alta
+Media
+5
+1
+HU-06
+Gestión de historial académico
+Registrar materias cursadas por el estudiante; almacenar nota, gestión y estado de la materia; identificar materias aprobadas, reprobadas o de arrastre.
+Media
+Alta
+5
+1
+HU-07
+Planificación de grupos de materia
+Crear grupos por materia; asignar docente, gestión y cupo límite; editar información del grupo; visualizar grupos registrados por carrera o materia.
+Alta
+Alta
+8
+1
+HU-08
+Asignación de horarios y aulas
+Asignar día, hora de inicio, hora de finalización y aula a cada
+grupo; validar disponibilidad de aula; evitar cruces en la planificación oficial.
+Alta
+Alta
+8
+1
+HU-09
+Consulta de materias disponibles
+Mostrar materias disponibles al estudiante según su carrera; permitir búsqueda por nombre, sigla, semestre o grupo; visualizar docente, horario, aula y cupo.
+Alta
+Media
+5
+2
+HU-10
+Creación de simulaciones de horario
+Permitir al estudiante crear escenarios de planificación; guardar nombre del escenario; seleccionar grupos de materias; almacenar la simulación en la base de datos.
+Alta
+Alta
+8
+2
+HU-11
+Detección automática de choques
+Comparar día, hora de inicio y hora de finalización de los grupos seleccionados; identificar cruces de horario; generar alerta cuando exista conflicto.
+Alta
+Alta
+8
+2
+HU-12
+Alertas visuales por colores
+Mostrar estado de cada materia seleccionada; marcar en verde las materias sin conflicto; marcar en rojo las materias con choque; facilitar la interpretación del horario.
+Alta
+Media
+5
+2
+HU-13
+Validación de prerrequisitos y materias de arrastre
+Comparar materias seleccionadas con el historial académico; verificar prerrequisitos aprobados; advertir al estudiante sobre materias no habilitadas o de arrastre.
+Media
+Alta
+5
+2
+HU-14
+Edición de simulaciones guardadas
+Permitir modificar una simulación existente; agregar o quitar grupos de materia; actualizar alertas de choque; guardar los cambios realizados por el estudiante.
+Media
+Media
+3
+2
+HU-15
+Visualización del horario final
+Mostrar el horario planificado organizado por días y horas; incluir materia, grupo, docente y aula; presentar el resultado de manera clara para el estudiante.
+Alta
+Media
+5
+2
+Fuente: Elaboración propia
+.
+Historias de
+U
+suarios
+Historia de Usuario HU-01: Acceso administrativo al sistema
+Tabla
+SEQ Tabla \* ARABIC
+17
+:
+Historia de Usuario HU-01:
+HISTORIA DE USUARIO
+Número Historia: HU-01
+Usuario: Administrador / Operador de Datos
+Nombre historia de usuario:
+Acceso administrativo al sistema
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Alta
+Puntos estimados: 5
+Iteración asignada: 1
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El Administrador y el Operador de Datos podrán ingresar al sistema mediante correo electrónico y contraseña. El sistema validará sus credenciales y mostrará las funciones correspondientes según el rol asignado.
+Observación:
+Este acceso estará separado del ingreso de estudiantes para proteger las funciones administrativas del sistema.
+Fuente:
+E
+laboración propia
+Esta historia de usuario describe el ingreso de los usuarios administrativos al sistema, es decir, del Administrador y del Operador de Datos. Su finalidad es controlar el acceso a las
+funciones internas mediante correo electrónico y contraseña, garantizando que cada usuario visualice solo las opciones correspondientes a su rol.
+Historia de Usuario HU-02: Acceso del estudiante al sistema
+Tabla
+SEQ Tabla \* ARABIC
+18
+: Hi
+storia de Usuario HU-02:
+HISTORIA DE USUARIO
+Número Historia: HU-02
+Usuario: Estudiante
+Nombre historia de usuario:
+Acceso del estudiante al sistema
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Alta
+Puntos estimados: 5
+Iteración asignada: 1
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El estudiante podrá ingresar a la plataforma mediante su número de registro universitario y contraseña. El sistema verificará que sus datos existan en la base de datos antes de permitir el acceso.
+Observación:
+El estudiante solo tendrá acceso a funciones de consulta y simulación de horarios, sin modificar datos oficiales.
+Fuente: Elaboración propia.
+Esta historia de usuario describe el ingreso del estudiante a la plataforma web mediante su número de registro universitario y contraseña. Su finalidad es permitir que el estudiante acceda a su espacio personal para realizar su planificación de horarios.
+Historia de Usuario HU-03: Gestión de usuarios administrativos
+Tabla
+SEQ Tabla \* ARABIC
+19
+: Hi
+storia de Usuario HU-03:
+HISTORIA DE USUARIO
+Número Historia: HU-03
+Usuario: Administrador
+Nombre historia de usuario:
+Gestión de usuarios administrativos
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Media
+Puntos estimados: 3
+Iteración asignada: 1
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El Administrador podrá crear usuarios internos y asignarles el rol de Administrador u Operador de Datos. También podrá editar información básica de los usuarios cuando sea necesario.
+Observación:
+Solo el Administrador podrá crear usuarios administrativos para mantener el control de acceso al sistema.
+Fuente: Elaboración Propia
+Esta historia de usuario describe la administración de usuarios internos del sistema. Su finalidad es permitir que el Administrador cree y gestione cuentas con rol de Administrador u Operador de Datos, manteniendo el control de acceso a la información académica.
+Historia de Usuario HU-04: Registro de datos principales del sistema
+Tabla
+SEQ Tabla \* ARABIC
+20
+:
+Historia de Usuario HU-04:
+HISTORIA DE USUARIO
+Número Historia: HU-04
+Usuario: Administrador
+Nombre historia de usuario:
+Registro de datos principales del sistema
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Alta
+Puntos estimados: 8
+Iteración asignada: 1
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El Administrador podrá registrar y administrar carreras, materias, docentes, aulas, prerrequisitos y estudiantes. Estos datos servirán como base para la planificación académica.
+Observación:
+Estos registros son datos principales del sistema y deben cargarse correctamente para evitar errores en la planificación de horarios.
+Fuente: Elaboración propia
+Esta historia de usuario describe el registro de la información base que necesita el sistema para funcionar correctamente. Incluye carreras, materias, docentes, aulas, prerrequisitos y estudiantes, datos fundamentales para la planificación académica.
+Historia de Usuario HU-05: Planificación de grupos y horarios académicos
+Tabla
+SEQ Tabla \* ARABIC
+21
+:
+Historia de Usuario HU-0
+5:
+HISTORIA DE USUARIO
+Número Historia: HU-05
+Usuario: Operador de Datos
+Nombre historia de usuario:
+Planificación de grupos y horarios académicos
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Alta
+Puntos estimados: 8
+Iteración asignada: 1
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El Operador de Datos podrá crear grupos de materia, asignar docente, aula, gestión, cupo límite, día, hora de inicio y hora de finalización.
+Observación:
+Esta historia es fundamental porque permite construir la oferta académica que luego será consultada por los estudiantes.
+Fuente: Elaboración propia.
+Esta historia de usuario describe la función del Operador de Datos dentro del sistema. Su finalidad es permitir la creación y edición de grupos de materia, asignando docentes, aulas, cupos, días y horarios para organizar la oferta académica de cada gestión.
+Historia de Usuario HU-06: Consulta de materias disponibles
+Tabla
+SEQ Tabla \* ARABIC
+22
+: Historia de Usuario HU-0
+6:
+HISTORIA DE USUARIO
+Número Historia: HU-06
+Usuario: Estudiante
+Nombre historia de usuario:
+Consulta de materias disponibles
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Media
+Puntos estimados: 5
+Iteración asignada: 2
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El estudiante podrá visualizar las materias disponibles según su carrera, semestre, grupo y oferta académica registrada. También podrá revisar docente, aula, día y horario.
+Observación:
+Esta función ayuda al estudiante a tomar decisiones antes de crear su simulación de horario.
+Fuente: Elaboración propia.
+Esta historia de usuario describe la consulta de materias por parte del estudiante. Su finalidad es permitir que el estudiante visualice las asignaturas disponibles según su carrera, semestre y oferta académica registrada antes de crear una simulación.
+Historia de Usuario HU-07: Creación de simulaciones de horario
+Tabla
+SEQ Tabla \* ARABIC
+23
+: Historia de Usuario HU-0
+7
+:
+HISTORIA DE USUARIO
+Número Historia: HU-07
+Usuario: Estudiante
+Nombre historia de usuario:
+Creación de simulaciones de horario
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Alta
+Puntos estimados: 8
+Iteración asignada: 2
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El estudiante podrá crear escenarios de planificación como Plan A, Plan B u Horario Ideal, seleccionando materias y grupos disponibles.
+Observación:
+La simulación permitirá al estudiante organizar su inscripción antes de ingresar al sistema oficial de la universidad.
+Fuente: Elaboración propia
+.
+Esta historia de usuario describe la creación de escenarios de planificación académica por parte del estudiante. Su finalidad es permitir la comparación de diferentes opciones de horario, como Plan A, Plan B u Horario Ideal.
+Historia de Usuario HU-08: Detección automática de choques de horario
+Tabla
+SEQ Tabla \* ARABIC
+24
+: Historia de Usuario HU-0
+8
+:
+HISTORIA DE USUARIO
+Número Historia: HU-08
+Usuario: Estudiante
+Nombre historia de usuario:
+Detección automática de choques de horario
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Alta
+Puntos estimados: 8
+Iteración asignada: 2
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El sistema comparará el día, hora de inicio y hora de finalización de los grupos seleccionados por el estudiante para detectar cruces de horario.
+Observación:
+Esta es una de las funciones principales del software, ya que evita errores en la planificación académica.
+Fuente: Elaboración Propia
+.
+Esta historia de usuario describe la función principal del sistema planificador. Su finalidad es detectar automáticamente cruces de horario entre las materias seleccionadas por el estudiante, comparando día, hora de inicio y hora de finalización.
+Historia de Usuario HU-09: Alertas visuales por colores
+Tabla
+SEQ Tabla \* ARABIC
+25
+:
+H
+istoria de los
+U
+suarios HU-09:
+HISTORIA DE USUARIO
+Número Historia: HU-09
+Usuario: Estudiante
+Nombre historia de usuario:
+Alertas visuales por colores
+Prioridad en negocio: Alta
+Riesgo en desarrollo: Media
+Puntos estimados: 5
+Iteración asignada: 2
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El sistema mostrará alertas visuales para indicar el estado de cada materia seleccionada, utilizando color verde para materias sin conflicto y color rojo para materias con choque.
+Observación:
+Las alertas facilitarán la comprensión rápida del resultado de la simulación.
+Fuente: Elaboración Propia.
+Esta historia de usuario describe la representación visual del resultado de la simulación. Su finalidad es mostrar al estudiante, mediante colores, si las materias seleccionadas están libres de conflicto o presentan choque de horario.
+Historia de Usuario HU-10: Validación de prerrequisitos y materias de arrastre
+Tabla
+SEQ Tabla \* ARABIC
+26
+: Historia de Usuario HU-
+1
+0:
+HISTORIA DE USUARIO
+Número Historia: HU-10
+Usuario: Estudiante
+Nombre historia de usuario:
+Validación de prerrequisitos y materias de arrastre
+Prioridad en negocio: Media
+Riesgo en desarrollo: Alta
+Puntos estimados: 5
+Iteración asignada: 2
+Programador responsable:
+Equipo de desarrollo
+Descripción:
+El sistema comparará las materias seleccionadas con el historial académico del estudiante para verificar prerrequisitos, materias aprobadas, reprobadas o de arrastre.
+Observación:
+Esta validación permite que la planificación sea coherente con la situación académica real del estudiante.
+Fuente: Elaboración Propia
+Esta historia de usuario describe la validación académica de las materias seleccionadas. Su finalidad es comparar la simulación con el historial académico del estudiante, verificando prerrequisitos, materias aprobadas, reprobadas o de arrastre.
+Cronograma por Iteración
+Tabla
+SEQ Tabla \* ARABIC
+27
+: Cronograma de iteraciones
+ACTIVIDADES
+MESES
+MAYO
+JUNIO
+SEMANAS
+1
+2
+3
+4
+5
+Primera iteración
+HU-01 Acceso administrativo al sistema
+HU-02 Acceso del estudiante al sistema
+HU-03 Gestión de usuarios administrativos
+Segunda iteración
+HU-04 Registro de datos principales del sistema
+HU-05 Planificación de grupos y horarios académicos
+Tercera iteración
+HU-06 Consulta de materias disponibles
+HU-07 Creación de simulaciones de horario
+HU-08 Detección automática de choques de horario
+HU-09 Alertas visuales por colores
+Cuarta iteración
+HU-10 Validación de prerrequisitos y materias de arrastre
+HU-11 Visualización, ajustes finales y pruebas del sistema
+318052
+288898
+Fuente: Elaboración propia
+318190
+600710
+318991
+291355
+PRIMERA ITERACIÓN
+PRIMERA ITERACIÓN
+PRIMERA ITERACIÓN
+300631
+8890
+PRIMERA ITERACIÓN
+Criterios de Aceptación
+Tabla
+SEQ Tabla \* ARABIC
+28
+: Criterios de aceptación del software
+Historia de Usuario
+Criterio de Aceptación
+HU-01: Acceso administrativo al sistema**
+El formulario de inicio de sesión administrativo debe validar el correo electrónico y la contraseña del Administrador y Operador de Datos, permitiendo el ingreso y redireccionando al panel correspondiente según su rol, bloqueando los accesos no autorizados.
+HU-02: Acceso del estudiante al sistema**
+El formulario de inicio de sesión estudiantil debe permitir el acceso seguro mediante el número de registro universitario y la contraseña establecida, verificando previamente la existencia del alumno en la base de datos de la facultad.
+HU-03: Gestión de usuarios administrativos**
+La interfaz debe permitir al Administrador crear, editar y deshabilitar cuentas de usuarios internos, restringiendo la asignación de permisos exclusivamente a los roles de Administrador u Operador de Datos sin duplicar correos electrónicos.
+HU-04: Registro de datos principales del sistema**
+El módulo debe permitir al Administrador registrar, actualizar y mantener las tablas base de carreras, materias, docentes, aulas y prerrequisitos académicos, asegurando que no se guarden campos obligatorios vacíos o siglas duplicadas.
+HU-05: Planificación de grupos y horarios académicos**
+El sistema debe permitir al Operador de Datos registrar y configure los grupos de cada materia, asignando de forma asistida el docente, aula, día, hora de inicio, hora de finalización y cupo límite, validando que no existan cruces en la oferta oficial.
+HU-06: Consulta de materias disponibles**
+El panel debe permitir al estudiante visualizar las materias habilitadas según su carrera y semestre, incluyendo un motor de búsqueda por nombre o sigla que muestre en tiempo real el docente, horario, aula y los cupos disponibles por grupo.
+HU-07: Creación de simulaciones de horario**
+La plataforma debe permitir al estudiante seleccionar materias y grupos disponibles para estructurar, guardar y gestionar múltiples escenarios de planificación académica personalizada, tales como Plan A, Plan B u Horario Ideal.
+HU-08: Detección automática de choques de horario**
+El algoritmo del sistema debe comparar automáticamente el día de la semana, la hora de inicio y la hora de finalización de cada grupo seleccionado por el alumno, identificando de forma inmediata cualquier solapamiento temporal dentro de la simulación.
+HU-09: Alertas visuales por colores**
+La interfaz gráfica de la grilla horaria debe actualizarse dinámicamente, mostrando las casillas en color verde cuando las materias seleccionadas estén libres de conflicto y cambiando automáticamente a color rojo cuando se detecte un choque de horario.
+HU-10: Validación de prerrequisitos y materias de arrastre**
+El motor lógico debe contrastar la simulación con el historial académico del estudiante, emitiendo una advertencia si no cumple con las materias aprobadas obligatorias (prerrequisitos) o identificando visualmente las asignaturas de arrastre.
+HU-11: Visualización, ajustes finales y pruebas del sistema**
+La pantalla debe desplegar el horario final simulado de manera ordenada por días y horas, permitiendo al usuario realizar modificaciones, eliminar grupos, recalcular los conflictos al instante y guardar el escenario definitivo de forma exitosa.
+Fuente: Elaboración propia
+.
+Tarjetas de Tarea
+Estas tarjetas también se denominan tarjetas de ingeniería y en ellas especificaremos las tareas que serán necesarias implementar en el desarrollo para que los objetivos por historia de usuario se cumplan satisfactoriamente por cada programador
+.
+Tarea
+N°
+01: Interfaz del
+Login
+Administrativo
+Esta tarjeta de ingeniería detalla los requisitos visuales para construir el formulario web de ingreso destinado al personal de control de la facultad.
+Tabla
+SEQ Tabla \* ARABIC
+29
+:
+Interfaz del
+Login
+Administrativo
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+01
+Número de Historia
+HU-01
+Nombre de la Tarea
+Diseño de interfaz para el acceso administrativo al sistema
+Programador Responsable
+José Armando Viscarra Aguilar
+Tipo de Tarea
+Desarrollo (Diseño
+Frontend
+)
+Puntos Estimados
+2
+Descripción
+Diseñar una interfaz web responsiva utilizando HTML5 y componentes adaptados de Bootstrap o
+Tailwind
+CSS para capturar de forma ordenada el correo electrónico y contraseña del personal autorizado. La pantalla incluirá estilos CSS personalizados para renderizar de manera óptima en computadoras y teléfonos móviles, añadiendo validaciones en el cliente que impidan el envío de datos vacíos.
+Fuente: Elaboración propia
+Tarea
+N°
+02: Lógica del
+Login
+Administrativo
+Esta tarjeta comprende la programación del motor de seguridad y control de accesos basados en perfiles de usuario en el servidor.
+Tabla
+SEQ Tabla \* ARABIC
+30
+:
+Lógica del
+Login
+Administrativo
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+02
+Número de Historia
+HU-01
+Nombre de la Tarea
+Programación de la lógica de autenticación y control de roles
+Programador Responsable
+Cristofer Rojas Molina
+Tipo de Tarea
+Desarrollo (
+Backend
+y Persistencia)
+Puntos Estimados
+3
+Descripción
+Desarrollar en lenguaje Python el algoritmo de verificación de credenciales dentro del
+framework
+Django. El
+backend
+recibirá el correo y la contraseña enviados por el
+frontend
+, ejecutará una consulta segura sobre la tabla Usuario en PostgreSQL para comprobar que el hash de la contraseña sea idéntico y evaluará que el campo de rol corresponda estrictamente a Administrador u Operador antes de conceder la redirección.
+Fuente: Elaboración propia
+Tarea
+N°
+03: Interfaz del
+Login
+de Estudiantes
+Esta tarjeta abarca el desarrollo del entorno visual adaptado a la comodidad de acceso de los alumnos regulares de la F.I.V.C
+.
+Tabla
+SEQ Tabla \* ARABIC
+31
+:
+Interfaz del
+Login
+de Estudiantes
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+03
+Número de Historia
+HU-02
+Nombre de la Tarea
+Diseño de interfaz para el acceso de estudiantes
+Programador Responsable
+José Armando Viscarra Aguilar
+Tipo de Tarea
+Desarrollo (Diseño
+Frontend
+)
+Puntos Estimados
+2
+Descripción
+Construir un formulario de inicio de sesión independiente para el estamento estudiantil, enfocado en una usabilidad limpia y directa. La pantalla se estructurará semánticamente para solicitar de forma obligatoria el ingreso del número de registro universitario y la contraseña asignada, utilizando estilos visuales corporativos de la UAGRM que diferencien con claridad este acceso del panel de los administradores.
+Fuente: Elaboración propia
+Tarea
+N°
+04: Control de Sesión del Estudiante
+Esta tarjeta especifica la validación lógica para aislar las consultas del estudiante según su carrera de origen.
+Tabla
+SEQ Tabla \* ARABIC
+32
+:
+Control de Sesión del Estudiante
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+04
+Número de Historia
+HU-02
+Nombre de la Tarea
+Control de sesión e integridad relacional del estudiante
+Programador Responsable
+Cristofer Rojas Molina
+Tipo de Tarea
+Desarrollo (
+Backend
+y Persistencia)
+Puntos Estimados
+3
+Descripción
+Programar la vista de inicio de sesión en Django para validar que los datos enviados por el alumno existan en la tabla Estudiante de PostgreSQL mediante una consulta relacional cruzada (JOIN). Al comprobar la veracidad de la cuenta, el sistema iniciará la sesión activa y cargará en memoria el código de la carrera del estudiante, bloqueando de forma nativa que pueda consultar o simular ofertas de otras facultades.
+Fuente: Elaboración propia
+Tarea
+N°
+05: Implementación de Tablas Maestras
+Esta tarjeta detalla la creación e inicialización física de los catálogos relacionales donde se guardan los datos de las materias y aulas.
+Tabla
+SEQ Tabla \* ARABIC
+33
+:
+Implementación de Tablas Maestras
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+05
+Número de Historia
+HU-04
+Nombre de la Tarea
+Estructuración física de tablas maestras y catálogos académicos
+Programador Responsable
+Cristofer Rojas Molina
+Tipo de Tarea
+Desarrollo (Base de Datos)
+Puntos Estimados
+5
+Descripción
+Crear y ejecutar las migraciones estructuradas en PostgreSQL utilizando el ORM de Django para inicializar físicamente las tablas Carrera, Materia, Docente, Aula y Prerrequisito. Se configurarán de forma estricta las claves primarias
+independientes, las llaves foráneas de relación y las restricciones de unicidad para evitar registros duplicados en siglas de asignaturas y códigos docentes.
+Fuente: Elaboración propia
+Tarea
+N°
+06: Algoritmo de Carga Horaria y Aulas
+Esta tarjeta norma la construcción de la lógica administrativa para organizar la oferta académica oficial impidiendo cruces de infraestructura.
+Tabla
+SEQ Tabla \* ARABIC
+34
+:
+Algoritmo de Carga Horaria y Aulas
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+06
+Número de Historia
+HU-05
+Nombre de la Tarea
+Desarrollo del motor de asignación de horarios y control de aulas
+Programador Responsable
+Cristofer Rojas Molina
+Tipo de Tarea
+Desarrollo (Core
+Backend
+)
+Puntos Estimados
+5
+Descripción
+Programar los controladores lógicos en Python para poblar las tablas
+GrupoMateria
+y Horario. El sistema comprobará de forma automatizada que el aula asignada y el docente encargado no presenten choques de tiempo (mismo día de la semana e intersección horaria) en la oferta oficial,
+rechazando la inserción y alertando al operador si el cupo límite sobrepasa la capacidad máxima física del aula.
+Fuente: Elaboración propia
+Tarea
+N°
+07: Interfaz del Buscador de Materias
+Esta tarjeta detalla la creación del panel de búsqueda interactivo y rápido que utilizarán los estudiantes para localizar sus asignaturas.
+Tabla
+SEQ Tabla \* ARABIC
+35
+:
+Interfaz del Buscador de Materias
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+07
+Número de Historia
+HU-06
+Nombre de la Tarea
+Diseño de interfaz del buscador dinámico de materias
+Programador Responsable
+José Armando Viscarra Aguilar
+Tipo de Tarea
+Desarrollo (Diseño
+Frontend
+)
+Puntos Estimados
+3
+Descripción
+Diseñar el panel interactivo de selección de asignaturas para el estudiante. Utilizando JavaScript asíncrono, se construirá un buscador en tiempo real que permita filtrar la oferta académica por los campos de nombre, sigla o semestre, desplegando los resultados en tarjetas visuales claras que muestren al instante la información del docente, el aula, los días y el conteo de cupos disponibles.
+Fuente: Elaboración propia
+Tarea
+N°
+08: Interfaz de la Grilla de
+l Planificador
+Esta tarjeta detalla la construcción gráfica de la matriz de horarios interactiva adaptada a las necesidades del estudiante.
+Tabla
+SEQ Tabla \* ARABIC
+36
+:
+Interfaz de la Grilla de
+Planificador
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+08
+Número de Historia
+HU-07
+Nombre de la Tarea
+Diseño visual de la grilla horaria interactiva para simulaciones
+Programador Responsable
+José Armando Viscarra Aguilar
+Tipo de Tarea
+Desarrollo (Diseño
+Frontend
+)
+Puntos Estimados
+4
+Descripción
+Construir la interfaz matricial organizada por columnas de días y filas de horas para representar el horario del alumno. Se programarán componentes interactivos con CSS
+Grid
+y
+Flexbox
+que reaccionen dinámicamente cuando el estudiante añada o remueva un grupo, preparando las casillas correspondientes para cambiar sus propiedades visuales basándose en el estado de conflicto del escenario.
+Fuente: Elaboración propia
+Tarea
+N°
+09: Algoritmo de Detección de Choques
+Esta tarjeta abarca el núcleo lógico matemático del proyecto encargado de evaluar las colisiones de tiempo en la simulación.
+Tabla
+SEQ Tabla \* ARABIC
+37
+:
+Algoritmo de Detección de Choques
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+09
+Número de Historia
+HU-08
+Nombre de la Tarea
+Programación del algoritmo para la detección automática de choques
+Programador Responsable
+Cristofer Rojas Molina
+Tipo de Tarea
+Desarrollo (Core Lógico
+Backend
+)
+Puntos Estimados
+5
+Descripción
+Desarrollar la lógica matemática en Python que controle la tolerancia cero ante cruces
+horariarios
+. Al incluir un grupo en la simulación, el algoritmo cruzará los rangos de hora inicio y hora fin de la sesión contra los registros ya seleccionados en el mismo día de la semana. Si se detecta un solapamiento de un minuto o más, el
+backend
+registrará el conflicto de forma inmediata.
+Fuente: Elaboración propia
+Tarea
+N°
+10: Controlador de Alertas por Colores
+Esta tarjeta une el motor de choques con la interfaz gráfica mediante códigos visuales en tiempo real.
+Tabla
+SEQ Tabla \* ARABIC
+38
+:
+Controlador de Alertas por Colores
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+10
+Número de Historia
+HU-09
+Nombre de la Tarea
+Implementación de alertas dinámicas por código de colores
+Programador Responsable
+José Armando Viscarra Aguilar
+Tipo de Tarea
+Desarrollo (Integración
+Frontend-Backend
+)
+Puntos Estimados
+3
+Descripción
+Programar los scripts de JavaScript encargados de actualizar la interfaz según la respuesta del
+backend
+. Si el grupo seleccionado está libre de conflictos, se guardará el estado Verde y la casilla se iluminará en color verde de forma fluida. Si el algoritmo reporta colisión, se inyectará el estado Rojo, forzando a la grilla a cambiar la casilla a color rojo para advertir al alumno al instante.
+Fuente: Elaboración propia
+Tarea
+N°
+11: Control de Calidad bajo Norma ISO 25010
+Esta tarjeta norma el proceso de revisión científica y pruebas de caja blanca para garantizar el correcto funcionamiento de todo el simulador.
+Tabla
+SEQ Tabla \* ARABIC
+39
+:
+Control de Calidad bajo Norma ISO 25010
+Componente de Ingeniería
+Especificación Técnica
+Tarea de Ingeniería
+Tarea
+N°
+11
+Número de Historia
+HU-11
+Nombre de la Tarea
+Ejecución de pruebas unitarias y aseguramiento de calidad del sistema
+Programador Responsable
+Daniel Ondarza Flores
+Tipo de Tarea
+Control de Calidad (Pruebas Automatizadas)
+Puntos Estimados
+4
+Descripción
+Estructurar y ejecutar los planes de prueba técnicos basados en la característica de Adecuación Funcional de la norma ISO/IEC 25010. Utilizando el
+framework
+de pruebas automatizadas de Django, se inyectarán ofertas simuladas y cargas críticas de materias de arrastre para certificar de manera asistida que el sistema posea un margen de error de cero por ciento en el cálculo de colisiones.
+Fuente: Elaboración propia
+FASE DE DISEÑO
+Modelo Conceptual
+right
+437515
+0
+0
+Modelo Lógico
+Modelo Físico
+Diagrama de Navegabilidad
+Diagrama de Despliegue
+Diagrama de Actividades
+Flujo de Autenticación de Usuarios
+1143981
+2389909
+0
+0
+C
+reacion del
+C
+uadro de
+H
+orario
+right
+137603
+0
+0
+Caso de uso N 1
+right
+559435
+0
+0
+Tarjetas
+CRC(
+Clase, Responsabilidad y Colaboración)
+Tarjeta CRC
+Nº
+1: Clase Usuario
+Tabla
+SEQ Tabla \* ARABIC
+40
+:
+Clase Usuario
+Tarjeta CRC
+Nº
+1
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Usuario
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar los datos generales de acceso al sistema.
+Administrador, Operador de Datos, Estudiante
+registrarUsuario
+(
+)
+Validar correo, número de registro o credenciales según el tipo de usuario.
+Sesión, Estudiante
+validarCredenciales
+(
+)
+Controlar el rol de acceso para mostrar únicamente las funciones permitidas.
+Administrador, Operador de Datos
+asignarRol
+(
+)
+Permitir el inicio y cierre de sesión dentro de la plataforma web.
+Sistema de Autenticación
+iniciarSesion
+(
+),
+cerrarSesion
+()
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+2: Clase Estudiante
+Tabla
+SEQ Tabla \* ARABIC
+41
+:
+Clase Estudiante
+Tarjeta CRC
+Nº
+2
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Estudiante
+Responsabilidades
+Colaboradores
+Métodos principales
+Almacenar los datos académicos del estudiante.
+Carrera, Usuario
+registrarEstudiante
+(
+)
+Consultar las materias disponibles según su carrera y semestre.
+Materia,
+GrupoMateria
+consultarMateriasDisponibles
+(
+)
+Crear escenarios de planificación como Plan A, Plan B u Horario Ideal.
+SimulacionHorario
+crearSimulacion
+(
+)
+Seleccionar materias y grupos para formar una propuesta de horario.
+GrupoMateria
+, Horario
+seleccionarGrupo
+(
+)
+Consultar el resultado de la simulación para verificar choques o restricciones.
+ConflictoHorario
+,
+AlertaVisual
+verResultadoSimulacion
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+3: Clase Carrera
+Tabla
+SEQ Tabla \* ARABIC
+42
+:
+Clase Carrera
+Tarjeta CRC
+Nº
+3
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Carrera
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar la información básica de cada carrera de la facultad.
+Administrador
+registrarCarrera
+(
+)
+Relacionar materias con la carrera correspondiente.
+Materia
+asignarMateria
+(
+)
+Permitir que el sistema filtre la oferta académica por carrera.
+Estudiante,
+GrupoMateria
+obtenerMateriasPorCarrera
+(
+)
+Servir como referencia para validar que el estudiante consulte materias de su área.
+Estudiante
+validarCarreraEstudiante
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+4: Clase Materia
+Tabla
+SEQ Tabla \* ARABIC
+43
+:
+Clase Materia
+Tarjeta CRC
+Nº
+4
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Materia
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar nombre, sigla, semestre y datos principales de la asignatura.
+Administrador, Carrera
+registrarMateria
+(
+)
+Relacionar la materia con su carrera y nivel académico.
+Carrera
+asignarCarrera
+(
+)
+Permitir la consulta de materias habilitadas para el estudiante.
+Estudiante,
+GrupoMateria
+consultarMateria
+(
+)
+Participar en la validación de prerrequisitos y materias de arrastre.
+Prerrequisito,
+HistorialAcademico
+validarDisponibilidad
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+5: Clase Docente
+Tabla
+SEQ Tabla \* ARABIC
+44
+:
+Clase Docente
+Tarjeta CRC
+Nº
+5
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Docente
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar los datos del docente asignado a una materia o grupo.
+Operador de Datos
+registrarDocente
+(
+)
+Asociar docentes a los grupos de materia disponibles.
+GrupoMateria
+asignarDocente
+(
+)
+Evitar asignaciones duplicadas o inconsistentes en una misma franja horaria.
+Horario,
+GrupoMateria
+validarDisponibilidadDocente
+(
+)
+Mostrar información del docente en la consulta de materias disponibles.
+Estudiante, Materia
+obtenerDocente
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+6: Clase Aula
+Tabla
+SEQ Tabla \* ARABIC
+45
+:
+Clase Aula
+Tarjeta CRC
+Nº
+6
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Aula
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar aula, capacidad y datos de infraestructura académica.
+Operador de Datos
+registrarAula
+(
+)
+Asignar aulas a los grupos de materia planificados.
+GrupoMateria
+asignarAula
+(
+)
+Validar que el aula no sea utilizada en horarios cruzados.
+Horario,
+GrupoMateria
+validarDisponibilidadAula
+(
+)
+Controlar que la capacidad del aula sea coherente con el cupo definido.
+GrupoMateria
+validarCapacidad
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+7: Clase
+GrupoMateria
+Tabla
+SEQ Tabla \* ARABIC
+46
+:
+Clase
+GrupoMateria
+Tarjeta CRC
+Nº
+7
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+GrupoMateria
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar grupos académicos para cada materia ofertada.
+Materia, Docente, Aula
+registrarGrupo
+(
+)
+Asignar docente, aula, día, hora de inicio, hora de finalización y cupo.
+Horario, Docente, Aula
+configurarGrupo
+(
+)
+Organizar la oferta académica disponible para la gestión.
+Operador de Datos
+publicarGrupo
+(
+)
+Permitir que el estudiante seleccione un grupo dentro de su simulación.
+Estudiante,
+SimulacionHorario
+seleccionarGrupo
+(
+)
+Validar que el grupo no presente conflictos de aula o docente.
+Horario,
+ConflictoHorario
+validarGrupo
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+8: Clase Horario
+Tabla
+SEQ Tabla \* ARABIC
+47
+:
+Clase Horario
+Tarjeta CRC
+Nº
+8
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Horario
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar día, hora de inicio y hora de finalización de cada grupo.
+GrupoMateria
+registrarHorario
+(
+)
+Representar la distribución temporal de una materia en la grilla horaria.
+SimulacionHorario
+mostrarEnGrilla
+(
+)
+Comparar rangos de tiempo para identificar posibles solapamientos.
+ConflictoHorario
+compararHorario
+(
+)
+Servir como base para detectar choques entre materias seleccionadas.
+GrupoMateria
+,
+SimulacionHorario
+obtenerRangoHorario
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+9: Clase Prerrequisito
+Tabla
+SEQ Tabla \* ARABIC
+48
+:
+Clase Prerrequisito
+Tarjeta CRC
+Nº
+9
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+Prerrequisito
+Responsabilidades
+Colaboradores
+Métodos principales
+Registrar la relación entre una materia y su prerrequisito académico.
+Materia
+registrarPrerrequisito
+(
+)
+Verificar si el estudiante cumple las condiciones para seleccionar una materia.
+Estudiante,
+HistorialAcademico
+validarPrerrequisito
+(
+)
+Identificar materias aprobadas, reprobadas o de arrastre.
+Estudiante
+obtenerEstadoMateria
+(
+)
+Evitar que el estudiante planifique materias que no correspondan a su avance académico.
+Materia,
+SimulacionHorario
+bloquearMateriaNoHabilitada
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+10: Clase
+SimulacionHorario
+Tabla
+SEQ Tabla \* ARABIC
+49
+:
+Clase
+SimulacionHorario
+Tarjeta CRC
+Nº
+10
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+SimulacionHorario
+Responsabilidades
+Colaboradores
+Métodos principales
+Crear escenarios de planificación académica para el estudiante.
+Estudiante
+crearSimulacion
+(
+)
+Guardar materias y grupos seleccionados dentro de un plan de horario.
+GrupoMateria
+, Horario
+agregarGrupo
+(
+)
+Permitir comparar diferentes alternativas como Plan A, Plan B u Horario Ideal.
+Estudiante
+compararSimulaciones
+(
+)
+Solicitar la validación de choques de horario entre los grupos seleccionados.
+ConflictoHorario
+validarChoques
+(
+)
+Solicitar la validación de prerrequisitos y materias de arrastre.
+Prerrequisito
+validarRestriccionesAcademicas
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+11: Clase
+ConflictoHorario
+Tabla
+SEQ Tabla \* ARABIC
+50
+:
+Clase
+ConflictoHorario
+Tarjeta CRC
+Nº
+11
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+ConflictoHorario
+Responsabilidades
+Colaboradores
+Métodos principales
+Detectar choques entre materias seleccionadas por el estudiante.
+Horario,
+GrupoMateria
+detectarChoque
+(
+)
+Comparar día, hora de inicio y hora de finalización de cada grupo.
+Horario
+compararRangos
+(
+)
+Registrar el detalle del conflicto encontrado en la simulación.
+SimulacionHorario
+registrarConflicto
+(
+)
+Informar si una combinación de materias es válida o presenta cruce de horario.
+AlertaVisual
+obtenerResultado
+(
+)
+Fuente: Elaboración propia
+Tarjeta CRC
+Nº
+12: Clase
+AlertaVisual
+Tabla
+SEQ Tabla \* ARABIC
+51
+:
+Clase
+AlertaVisual
+Tarjeta CRC
+Nº
+12
+Nombre del proyecto
+Sistema planificador de horarios académicos de la F.I.V.C.
+Nombre de la clase
+AlertaVisual
+Responsabilidades
+Colaboradores
+Métodos principales
+Mostrar el estado de la simulación mediante colores.
+SimulacionHorario
+mostrarAlerta
+(
+)
+Representar en color verde las materias sin conflicto.
+ConflictoHorario
+mostrarEstadoValido
+(
+)
+Representar en color rojo las materias con choque de horario.
+ConflictoHorario
+mostrarEstadoConflicto
+(
+)
+Ayudar al estudiante a interpretar rápidamente el resultado de su planificación.
+Estudiante
+actualizarGrilla
+(
+)
+Fuente: Elaboración propia
+Interfaz de Usuario
+Acceso al software del planificador
+-107950
+198120
+FASE CODIFICACION(ITERACIONES)
+De acuerdo con las valoraciones y estimaciones de las historias de usuario, a
+continuación,
+se presenta el plan de iteraciones definido para la fase de codificación. En este plan se organizan las funcionalidades por módulo, relacionando cada historia de usuario con la iteración y la entrega correspondiente, lo que permite comprender de manera ordenada el avance del desarrollo del software planificador de horarios.
+Tabla
+SEQ Tabla \* ARABIC
+52
+:
+Módulos e iteraciones
+MÓDULO
+HISTORIA DE USUARIO
+I
+TERACIÓN ASIGNADA
+ENTREGA ASIGNADA
+1    2     3     4
+1    2     3     4
+Acceso y Seguridad
+HU-01: Acceso administrativo al sistema
+X
+X
+HU-02: Acceso del estudiante al sistema
+X
+X
+HU-03: Gestión de usuarios administrativos
+X
+X
+Gestión de Datos Maestros
+HU-04: Registro de datos principales del sistema
+X
+X
+HU-05: Planificación de grupos y horarios
+X
+X
+Planificación de Horarios
+HU-06: Consulta de materias disponibles
+X
+X
+HU-08: Detección automática de choques
+X
+X
+Simulación Estudiantil
+HU-07: Creación de simulaciones de horario
+X
+X
+HU-09: Alertas visuales por colores
+X
+X
+HU-10: Validación de prerrequisitos y arrastre
+X
+X
+Fuente: Elaboración propia.
+La siguiente tabla organiza las historias de usuario según el módulo al que pertenecen.
+También muestra la iteración en la que será desarrollada cada funcionalidad y la entrega correspondiente.
+Esto permite visualizar de forma clara el avance planificado para la fase de codificación del sistema.
+Sprint 1
+Sprint
+Planning
+La primera reunión del Sprint 1 se llevó a cabo al inicio de la fase de codificación, con el objetivo de definir las funcionalidades básicas del sistema planificador de horarios. En esta planificación se seleccionaron las historias de usuario relacionadas con el módulo de Acceso y Seguridad, por ser la base inicial para el ingreso y control de usuarios dentro del software.
+Durante esta reunión se estableció trabajar en las historias HU-01: Acceso administrativo al sistema, HU-02: Acceso del estudiante al sistema y HU-03: Gestión de usuarios administrativos. Estas funcionalidades fueron priorizadas porque permiten habilitar el acceso seguro al sistema y preparar la estructura necesaria para continuar con los demás módulos en los siguientes
+sprints
+.
+Sprint Backlog
+Tabla
+SEQ Tabla \* ARABIC
+53
+:Funcionalidades Iniciales del
+modulo
+de acceso de seguridad
+ID
+HISTORIA DE USUARIO
+TAREA
+RESPONSABLE
+ESTADO
+HORAS ESTIMADAS
+HU-01
+Acceso administrativo al sistema
+Diseñar la interfaz de inicio de sesión para el administrador
+Equipo de desarrollo
+Pendiente
+4
+HU-01
+Acceso administrativo al sistema
+Implementar la validación de credenciales del administrador
+Equipo de desarrollo
+Pendiente
+5
+HU-02
+Acceso del estudiante al sistema
+Diseñar la interfaz de inicio de sesión para estudiantes
+Equipo de desarrollo
+Pendiente
+4
+HU-02
+Acceso del estudiante al sistema
+Implementar el acceso del estudiante mediante sus datos registrados
+Equipo de desarrollo
+Pendiente
+5
+HU-03
+Gestión de usuarios administrativos
+Crear el registro, edición y eliminación de usuarios administrativos
+Equipo de desarrollo
+Pendiente
+6
+HU-03
+Gestión de usuarios administrativos
+Validar permisos básicos para usuarios administrativos
+Equipo de desarrollo
+Pendiente
+4
+Fuente: Elaboración propia.
+El Sprint Backlog del Sprint 1 está conformado por las tareas necesarias para desarrollar las funcionalidades iniciales del módulo de
+Acceso y Seguridad
+. Estas tareas permiten organizar el trabajo del equipo, asignar responsabilidades y controlar el avance de las historias de usuario seleccionadas para esta primera iteración.
+Historias de Usuarios
+En este apartado se describen las historias de usuario correspondientes al Sprint 1, relacionadas con el módulo de
+Acceso y Seguridad
+. Estas historias permiten definir las funcionalidades iniciales necesarias para el ingreso y administración de usuarios dentro del sistema.
+HU-01:
+Acceso administrativo al sistema
+Tabla
+SEQ Tabla \* ARABIC
+54
+:
+Historia de Usuario HU-01
+Historia de Usuario
+Número
+HU-01
+Usuario
+Administrador
+Nombre de historia
+Acceso administrativo al sistema
+Prioridad en negocio
+Alta
+Riesgo en desarrollo
+Medio
+Puntos estimados
+3
+Iteración asignada
+1
+Programador responsable
+Equipo de desarrollo
+Descripción
+Como administrador, necesito ingresar al sistema mediante usuario y contraseña para acceder a las funciones administrativas del software.
+Validación
+El administrador podrá iniciar sesión correctamente cuando ingrese credenciales válidas; si los datos son incorrectos, el sistema mostrará un mensaje de error.
+Fuente: Elaboración propia.
+HU-02:
+Acceso del estudiante al sistema
+Tabla
+SEQ Tabla \* ARABIC
+55
+:
+Historia de Usuario HU-02
+Historia de Usuario
+Número
+HU-02
+Usuario
+Estudiante
+Nombre de historia
+Acceso del estudiante al sistema
+Prioridad en negocio
+Alta
+Riesgo en desarrollo
+Medio
+Puntos estimados
+3
+Iteración asignada
+1
+Programador responsable
+Equipo de desarrollo
+Descripción
+Como estudiante, necesito ingresar al sistema para consultar materias disponibles y realizar simulaciones de horario.
+Validación
+El estudiante podrá acceder al sistema con sus credenciales registradas y visualizar las opciones correspondientes a su perfil.
+Fuente: Elaboración propia.
+HU-03:
+Gestión de usuarios administrativos
+Tabla
+SEQ Tabla \* ARABIC
+56
+:
+Historia de Usuario HU-03
+Historia de Usuario
+Número
+HU-03
+Usuario
+Administrador
+Nombre de historia
+Gestión de usuarios administrativos
+Prioridad en negocio
+Alta
+Riesgo en desarrollo
+Medio
+Puntos estimados
+4
+Iteración asignada
+1
+Programador responsable
+Equipo de desarrollo
+Descripción
+Como administrador, necesito registrar, editar y eliminar usuarios administrativos para controlar el acceso al sistema.
+Validación
+El sistema permitirá gestionar usuarios administrativos y guardará correctamente los cambios realizados.
+Fuente: Elaboración propia.
+Las siguientes tablas describen las historias de usuario correspondientes al Sprint 1 del sistema. Cada una detalla el usuario involucrado, la prioridad, la iteración asignada, la descripción de la funcionalidad y el criterio de validación para su desarrollo.
+Sprint
+Review
+Tabla
+SEQ Tabla \* ARABIC
+57
+:
+Sprint
+Review
+del Sprint 1
+Fecha
+Historia de Usuario
+Duración
+Estado
+Criterio Terminado
+Revisor
+19/06/2026
+HU-01: Acceso administrativo al sistema
+1 semana
+Terminado
+El administrador inicia sesión con credenciales válidas
+Equipo de desarrollo
+19/06/2026
+HU-02: Acceso del estudiante al sistema
+1 semana
+Terminado
+El estudiante accede al sistema con sus datos registrados
+Equipo de desarrollo
+19/06/2026
+HU-03: Gestión de usuarios administrativos
+1 semana
+Terminado
+El sistema permite registrar, editar y eliminar usuarios administrativos
+Equipo de desarrollo
+Fuente: Elaboración propia.
+En la revisión del Sprint 1 se verifican las historias de usuario desarrolladas durante la primera iteración.
+Capturas de pruebas de este sprint
+center
+8206
+0
+0
+12700
+268605
+0
+0
+2
+3
+457200
+-1172
+A continuación, se muestran las evidencias visuales correspondientes al Sprint 1, donde se observa la implementación de las funcionalidades de acceso y gestión de usuarios. Estas
+imágenes permiten verificar que las tareas planificadas fueron desarrolladas y probadas dentro del sistema.
+Tablero Sprint 1
+Tabla
+SEQ Tabla \* ARABIC
+58
+:
+Tablero del Sprint 1
+TAREA
+PENDIENTE
+EN CURSO
+HECHO
+Diseñar la interfaz de inicio de sesión administrativo
+x
+Implementar validación de credenciales del administrador
+x
+Diseñar la interfaz de inicio de sesión para estudiantes
+x
+Implementar acceso del estudiante al sistema
+x
+Crear gestión de usuarios administrativos
+x
+Validar permisos básicos de usuarios administrativos
+x
+Fuente: Elaboración propia.
+El tablero del Sprint 1 permite visualizar el estado de las tareas desarrolladas durante la primera iteración. En este tablero se clasifican las actividades según su avance: pendientes, en curso y finalizadas.
+Sprint
+Report
+Historia de Usuario
+Tareas planificadas
+Tareas completadas
+Estado
+Resultado
+HU-01: Acceso administrativo al sistema
+2
+2
+Completado
+Login
+administrativo implementado y validado
+HU-02: Acceso del estudiante al sistema
+2
+2
+Completado
+Acceso de estudiantes implementado correctamente
+HU-03: Gestión de usuarios administrativos
+2
+2
+Completado
+Gestión básica de usuarios administrativos completada
+Fuente: Elaboración propia.
+El reporte del Sprint 1 resume el cumplimiento de las tareas planificadas para la primera iteración. En este sprint se completaron las funcionalidades relacionadas con el acceso al sistema y la gestión inicial de usuarios administrativos.
+Reporte de que funciona este sprint
+right
+970280
+A continuación, se presentan las capturas del sistema correspondientes al Sprint 1, donde se evidencia la implementación de las funcionalidades de acceso administrativo, acceso estudiantil y gestión de usuarios administrativos.
+Sprint 2
