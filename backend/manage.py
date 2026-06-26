@@ -16,7 +16,10 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     if len(sys.argv) > 1 and sys.argv[1] == 'migrate':
-        print("Skipping automatic migrations to prevent already exists errors.")
+        try:
+            execute_from_command_line(sys.argv)
+        except Exception as e:
+            print("Migration failed, likely tables already exist. Continuing...", e)
         return
     execute_from_command_line(sys.argv)
 
